@@ -1,3 +1,12 @@
-hello world
+shell script
 
-welcome to universe
+topics of shell script
+
+1.she-bang & comments
+2.printing
+3.variables
+4.inputs
+5.redirteries & exit status
+6.functions
+7.conditions
+8.loops
