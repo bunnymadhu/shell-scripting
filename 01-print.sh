@@ -12,7 +12,7 @@ echo hai im madhu
 
 echo -e "\nhai,\n\nwelcome to the world"
 
-echo -e "A phrase is a group of words that express a concept and
+echo -e "/tA phrase is a group of words that express a concept and
              is used as a unit within a sentence. Eight common types of
              phrases are: noun, verb, gerund, infinitive, appositive,
              participial,prepositional, and absolute. Take a look at our
