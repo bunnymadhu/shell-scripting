@@ -12,12 +12,23 @@ echo hai im madhu
 
 echo -e "\nhai,\n\nwelcome to the world"
 
-#print a paragraph
-# \t is in print a tab space
+# print a paragraph
+#  syntax : echo -e "\tsome paragraph" is in print a tab space
 echo -e "\t A phrase is a group of words that express a concept and
              is used as a unit within a sentence. Eight common types of
              phrases are: noun, verb, gerund, infinitive, appositive,
              participial,prepositional, and absolute. Take a look at our
              selection of phrase examples below."
 
+# print text in colours
+# syntax : echo -e "\e[COLOURCODEmmessage"
 
+# colors  code
+# red       31
+#green     32
+#yellow     33
+#blue         34
+#magenta   35
+#cyan          36
+
+echo -e "\e[36Goodmorning"
