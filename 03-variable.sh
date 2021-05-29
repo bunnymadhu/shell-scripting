@@ -4,5 +4,6 @@
  Course = DevOps
 
 # access a variable
-echo course name = $ course
+echo course name = ${course}
+
 
