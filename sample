@@ -11,4 +11,6 @@ topics of shell script
 7.conditions
 8.loops
 
-###
+# Unix - SH,KSH(K shell),CSH(C shell)
+# Linux-BASH (Bourne Again Shell) [SH+KSH+CSH]
+# Bash is default in all linux OS.
