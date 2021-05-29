@@ -32,3 +32,4 @@ echo -e "\t A phrase is a group of words that express a concept and
 #cyan          36
 
 echo -e "\e[36mGoodmorning"
+echo -e "\e[35mhai to evryone[33mhello evryone"
