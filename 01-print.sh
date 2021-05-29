@@ -33,4 +33,4 @@ echo -e "\t A phrase is a group of words that express a concept and
 
 echo -e "\e[36mGoodmorning"
 echo -e "\e[33mhai to evryone\e[31mhello"
-
+echo -e "\e[32mthis is madhu\e[35mbtch complted"
