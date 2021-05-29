@@ -38,6 +38,6 @@ echo -e "\e[32mthis is madhu\e[35mbtch complted"
 #echo text in normol colour
 # syntax : echo -e "\e[31mGoodmorning\e[0m"
 
-echo -e "\e[33mhai to evryone\e[31mhello"
-echo-e "\e[31msathya is cool\e[0m"
-echo -e "\e[32mthis is madhu\e[35mbtch complted"
+echo -e "\e[33mhai to evryone\e[0msathya raju"
+echo good boy
+echo -e "\e[32mthis is madhu\e[0mbtch complted"

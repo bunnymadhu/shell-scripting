@@ -225,7 +225,21 @@
       <option name="project" value="LOCAL" />
       <updated>1622253587319</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="added a comment to 01.print.sh file">
+      <created>1622254154650</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1622254154650</updated>
+    </task>
+    <task id="LOCAL-00028" summary="added a comment to 01.print.sh file">
+      <created>1622254262807</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1622254262807</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
