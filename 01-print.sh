@@ -10,4 +10,4 @@ echo hai im madhu
 # echo to print multiple lines (/n is new line sequence)
 # syntax : echo -e "line1\nline2"
 
-echo -e "/nhai,\nwelcome to the world"
+echo -e "\nhai,\n\nwelcome to the world"
