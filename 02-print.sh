@@ -40,3 +40,5 @@ echo -e "\e[32mthis is madhu\e[35mbtch complted"
 
 echo -e "\e[33mhai to evryone\e[0msathya raju"
 echo -e "\e[32mthis is madhu\e[0mbtch complted"
+
+# More details on Colours : https://misc.flogisoft.com/bash/tip_colors_and_formatting
