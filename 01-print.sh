@@ -31,4 +31,4 @@ echo -e "\t A phrase is a group of words that express a concept and
 #magenta   35
 #cyan          36
 
-echo -e "\e[36Goodmorning"
+echo -e "\e[36mGoodmorning"
