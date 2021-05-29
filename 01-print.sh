@@ -12,8 +12,8 @@ echo hai im madhu
 
 echo -e "\nhai,\n\nwelcome to the world"
 
+#print a paragraph
 # \t is in print a tab space
-
 echo -e "\t A phrase is a group of words that express a concept and
              is used as a unit within a sentence. Eight common types of
              phrases are: noun, verb, gerund, infinitive, appositive,
