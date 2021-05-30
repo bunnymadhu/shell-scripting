@@ -7,3 +7,6 @@ echo $0
 #to print second line  $2
 #...$n
 
+echo $1
+
+echo $2
