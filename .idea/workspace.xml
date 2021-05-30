@@ -41,27 +41,6 @@
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
     </task>
-    <task id="LOCAL-00006" summary="added a comment to 01.sample.sh file">
-      <created>1622247775890</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1622247775890</updated>
-    </task>
-    <task id="LOCAL-00007" summary="added a comment to 01.sample.sh file">
-      <created>1622248070631</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1622248070631</updated>
-    </task>
-    <task id="LOCAL-00008" summary="added a comment to 01.sample.sh file">
-      <created>1622248725859</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1622248725859</updated>
-    </task>
     <task id="LOCAL-00009" summary="added a comment to 01.print.sh file">
       <created>1622250907871</created>
       <option name="number" value="00009" />
@@ -384,7 +363,28 @@
       <option name="project" value="LOCAL" />
       <updated>1622369390499</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="removed spaces in 03.varible.sh file">
+      <created>1622369515675</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1622369515675</updated>
+    </task>
+    <task id="LOCAL-00056" summary="removed spaces in 03.varible.sh file">
+      <created>1622369545120</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1622369545120</updated>
+    </task>
+    <task id="LOCAL-00057" summary="removed spaces in 03.varible.sh file">
+      <created>1622369592982</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1622369592983</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
