@@ -10,18 +10,18 @@ echo Course Name = $COURSE
 echo branch name = $BRANCH
 echo sachin = $SACHIN
 
-DATE =30-05-2021
-DATE = $(date +%F)
+DATE=30-05-2021
+DATE=$(date +%F)
 echo Good Morning, Today date is $DATE
 
-NO_OF_USERS = $(who | wc -1)
+NO_OF_USERS=$(who | wc -l)
 echo number of users logged in system = $NO_OF_USERS
 
 NO_OF_LINES IN etc/passwd = $(wc /etc/passwd)
 echo number of lines in etc/passwd = $NO_OF_LINES
 
-ADD = $((1+2+3))
-BIG = $((4+5+3))
+ADD =$((1+2+3))
+BIG=$((4+5+3))
 echo BIG = $BIG
 
 #types of variables
