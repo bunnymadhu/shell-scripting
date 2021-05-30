@@ -41,20 +41,6 @@
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
     </task>
-    <task id="LOCAL-00009" summary="added a comment to 01.print.sh file">
-      <created>1622250907871</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1622250907871</updated>
-    </task>
-    <task id="LOCAL-00010" summary="added a comment to 01.print.sh file">
-      <created>1622251298126</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1622251298126</updated>
-    </task>
     <task id="LOCAL-00011" summary="added a comment to 01.print.sh file">
       <created>1622251564410</created>
       <option name="number" value="00011" />
@@ -384,7 +370,21 @@
       <option name="project" value="LOCAL" />
       <updated>1622369592983</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="removed spaces in 03.varible.sh file">
+      <created>1622389639376</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1622389639377</updated>
+    </task>
+    <task id="LOCAL-00059" summary="add command in 04.input.sh file">
+      <created>1622389765601</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1622389765601</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -410,6 +410,7 @@
     <MESSAGE value="added a comment to 03.varible.sh file" />
     <MESSAGE value="removed spacesin 03.varible.sh file" />
     <MESSAGE value="removed spaces in 03.varible.sh file" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed spaces in 03.varible.sh file" />
+    <MESSAGE value="add command in 04.input.sh file" />
+    <option name="LAST_COMMIT_MESSAGE" value="add command in 04.input.sh file" />
   </component>
 </project>
