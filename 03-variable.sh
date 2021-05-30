@@ -17,7 +17,8 @@ echo Good Morning, Today date is $DATE
 NO_OF_USERS=$(who | wc -l)
 echo number of users logged in system = $NO_OF_USERS
 
-NO_OF_LINES IN etc/passwd = $(wc /etc/passwd)
+
+NO_OF_LINES=$(wc /etc/passwd)
 echo number of lines in etc/passwd = $NO_OF_LINES
 
 ADD =$((1+2+3))
