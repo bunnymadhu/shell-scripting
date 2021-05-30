@@ -2,4 +2,4 @@
 
 read -p ENTER YOUR NAME: madhu
 
-echo "YOUR NAME= $name"
+echo "YOUR NAME=$name"
