@@ -6,5 +6,5 @@
 # access a variable
 echo Course Name = $COURSE
 
-DATE = 2021-05-30
+DATE =2021-05-30
 echo Good Morning, Today date is $DATE
