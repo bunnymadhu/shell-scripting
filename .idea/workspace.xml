@@ -328,7 +328,21 @@
       <option name="project" value="LOCAL" />
       <updated>1622337512281</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="added a comment to 03.varible.sh file">
+      <created>1622337729622</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1622337729622</updated>
+    </task>
+    <task id="LOCAL-00043" summary="added a comment to 03.varible.sh file">
+      <created>1622337874615</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1622337874615</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
