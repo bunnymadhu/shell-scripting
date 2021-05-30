@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # declare a variable
- COURSE =DEVOPS
- BRANCH = MECHANICAL
- SACHIN = CRICKET
+ COURSE=DEVOPS
+ BRANCH=MECHANICAL
+ SACHIN=CRICKET
 
 # access a variable
 echo Course Name = $COURSE

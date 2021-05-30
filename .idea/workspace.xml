@@ -41,13 +41,6 @@
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
     </task>
-    <task id="LOCAL-00002" summary="added a comment to sample.txt file">
-      <created>1622048023817</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1622048023817</updated>
-    </task>
     <task id="LOCAL-00003" summary="topics are shell scripting">
       <created>1622048740019</created>
       <option name="number" value="00003" />
@@ -384,7 +377,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622350732053</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="added a comment to 03.varible.sh file">
+      <created>1622350798269</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1622350798269</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
