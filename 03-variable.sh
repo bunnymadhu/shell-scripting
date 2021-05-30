@@ -6,8 +6,6 @@
 # access a variable
 echo Course Name = $COURSE
 
-good boy = madhu
+GOODBOY = madhu
 
-echo good boy = $goodboy
-
-
+echo here good boy is = $goodboy
