@@ -2,11 +2,15 @@
 
 # declare a variable
  COURSE =DEVOPS
+ BRANCH = MECHANICAL
+ SACHIN = CRICKET
 
 # access a variable
 echo Course Name = $COURSE
+echo branch name = $BRANCH
+echo sachin = $SACHIN
 
-DATE =2021-05-30
+DATE =30-05-2021
 DATE = $(date +%F)
 echo Good Morning, Today date is $DATE
 
