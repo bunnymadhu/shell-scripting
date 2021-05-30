@@ -10,3 +10,9 @@ echo $0
 echo $1
 
 echo $2
+
+#to print all arguments $* or $@
+
+echo $*
+
+echo $@
