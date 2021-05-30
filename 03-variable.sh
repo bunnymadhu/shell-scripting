@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # declare a variable
- COURSE =DevOps
+ COURSE =DEVOPS
 
 # access a variable
 echo Course Name = $COURSE
