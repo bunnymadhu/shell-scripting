@@ -19,3 +19,6 @@ echo number of lines in etc/passwd = $NO_OF_LINES
 ADD = $((1+2+3))
 BIG = $((4+5+3))
 echo BIG = $BIG
+
+echo variable from command line x=$x
+
