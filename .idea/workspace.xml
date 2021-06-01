@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample" beforeDir="false" afterPath="$PROJECT_DIR$/sample" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,13 +42,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
-    </task>
-    <task id="LOCAL-00021" summary="added a comment to 01.print.sh file">
-      <created>1622252632358</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1622252632358</updated>
     </task>
     <task id="LOCAL-00022" summary="added a comment to 01.print.sh file">
       <created>1622253051582</created>
@@ -387,7 +379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622554677639</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="edit changes in sample file">
+      <created>1622555911199</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1622555911199</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -414,6 +413,7 @@
     <MESSAGE value="removed spacesin 03.varible.sh file" />
     <MESSAGE value="removed spaces in 03.varible.sh file" />
     <MESSAGE value="add command in 04.input.sh file" />
-    <option name="LAST_COMMIT_MESSAGE" value="add command in 04.input.sh file" />
+    <MESSAGE value="edit changes in sample file" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit changes in sample file" />
   </component>
 </project>
