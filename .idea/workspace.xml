@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-inputs.sh" beforeDir="false" afterPath="$PROJECT_DIR$/05-inputs.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample" beforeDir="false" afterPath="$PROJECT_DIR$/sample" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,20 +43,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
-    </task>
-    <task id="LOCAL-00019" summary="added a comment to 01.print.sh file">
-      <created>1622252434201</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1622252434201</updated>
-    </task>
-    <task id="LOCAL-00020" summary="added a comment to 01.print.sh file">
-      <created>1622252542958</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1622252542958</updated>
     </task>
     <task id="LOCAL-00021" summary="added a comment to 01.print.sh file">
       <created>1622252632358</created>
@@ -387,7 +373,21 @@
       <option name="project" value="LOCAL" />
       <updated>1622391120216</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="add command in 04.input.sh file">
+      <created>1622554443815</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1622554443816</updated>
+    </task>
+    <task id="LOCAL-00069" summary="add command in 04.input.sh file">
+      <created>1622554677639</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1622554677639</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
