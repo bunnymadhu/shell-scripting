@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07-functions.sh" beforeDir="false" afterPath="$PROJECT_DIR$/07-functions.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,27 +42,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
-    </task>
-    <task id="LOCAL-00049" summary="added a comment to 03.varible.sh file">
-      <created>1622343689277</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1622343689277</updated>
-    </task>
-    <task id="LOCAL-00050" summary="added a comment to 03.varible.sh file">
-      <created>1622350732052</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1622350732053</updated>
-    </task>
-    <task id="LOCAL-00051" summary="added a comment to 03.varible.sh file">
-      <created>1622350798269</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1622350798269</updated>
     </task>
     <task id="LOCAL-00052" summary="removed spacesin 03.varible.sh file">
       <created>1622368644234</created>
@@ -387,7 +365,28 @@
       <option name="project" value="LOCAL" />
       <updated>1622613809124</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="create a file called makefile">
+      <created>1622615187174</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1622615187174</updated>
+    </task>
+    <task id="LOCAL-00099" summary="create a file called makefile">
+      <created>1622615325212</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1622615325212</updated>
+    </task>
+    <task id="LOCAL-00100" summary="create a file called makefile">
+      <created>1622615402893</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1622615402893</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -419,6 +418,7 @@
     <MESSAGE value="create new file in 06-Quotes &amp; Redirectors &amp; exit status.sh" />
     <MESSAGE value="create new file in 07-functions.sh" />
     <MESSAGE value="some editing done in the  file 07-functions.sh" />
-    <option name="LAST_COMMIT_MESSAGE" value="some editing done in the  file 07-functions.sh" />
+    <MESSAGE value="create a file called makefile" />
+    <option name="LAST_COMMIT_MESSAGE" value="create a file called makefile" />
   </component>
 </project>
