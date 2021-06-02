@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo installing Manogodb
+echo installing manogodb
