@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roboshop/makefile" beforeDir="false" afterPath="$PROJECT_DIR$/roboshop/makefile" afterDir="false" />
-    </list>
+    <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,13 +40,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
-    </task>
-    <task id="LOCAL-00072" summary="create new file in 06-Quotes &amp; Redirectors &amp; exit status">
-      <created>1622567173343</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1622567173343</updated>
     </task>
     <task id="LOCAL-00073" summary="create new file in 06-Quotes &amp; Redirectors &amp; exit status">
       <created>1622607130349</created>
@@ -387,7 +377,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622618916759</updated>
     </task>
-    <option name="localTasksCounter" value="121" />
+    <task id="LOCAL-00121" summary="some changes done in the  makefile for roboshop">
+      <created>1622637762924</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1622637762925</updated>
+    </task>
+    <option name="localTasksCounter" value="122" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -422,6 +419,7 @@
     <MESSAGE value="create a file called makefile" />
     <MESSAGE value="some changes done in the  makefile" />
     <MESSAGE value="some changes done in the  frontend" />
-    <option name="LAST_COMMIT_MESSAGE" value="some changes done in the  frontend" />
+    <MESSAGE value="some changes done in the  makefile for roboshop" />
+    <option name="LAST_COMMIT_MESSAGE" value="some changes done in the  makefile for roboshop" />
   </component>
 </project>
