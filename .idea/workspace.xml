@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/roboshop/Components/Frontend.sh" beforeDir="false" afterPath="$PROJECT_DIR$/roboshop/Components/Frontend.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,27 +42,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
-    </task>
-    <task id="LOCAL-00060" summary="add command in 04.input.sh file">
-      <created>1622389825622</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1622389825623</updated>
-    </task>
-    <task id="LOCAL-00061" summary="add command in 04.input.sh file">
-      <created>1622389885331</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1622389885331</updated>
-    </task>
-    <task id="LOCAL-00062" summary="add command in 04.input.sh file">
-      <created>1622389998518</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1622389998518</updated>
     </task>
     <task id="LOCAL-00063" summary="add command in 04.input.sh file">
       <created>1622390229010</created>
@@ -386,7 +365,28 @@
       <option name="project" value="LOCAL" />
       <updated>1622617373380</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="some changes done in the  makefile">
+      <created>1622617758606</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1622617758606</updated>
+    </task>
+    <task id="LOCAL-00110" summary="some changes done in the  makefile">
+      <created>1622617830176</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1622617830176</updated>
+    </task>
+    <task id="LOCAL-00111" summary="some changes done in the  makefile">
+      <created>1622617851663</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1622617851663</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
