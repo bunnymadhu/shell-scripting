@@ -1,5 +1,5 @@
 help:
-	@echo
+	@fgrep -h "##" $(MAKEFILE_LIST) | fgrep -v fgrep | sed -e '$/\\$$//' | sed -e '$/##//'
 
 frontend:
 	@sh Components/frontend.sh
