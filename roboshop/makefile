@@ -1,12 +1,12 @@
 all: frontend
 help:
-    @echo
+	@echo
 
 frontend:
-       @sh Components/Frontend.sh
+	@sh components/frontend.sh
 
 mongodb:
-     @sh components/mongodb.sh
+	@sh components/mongodb.sh
 
 catalogue :
      @sh components/catalogue.sh
