@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roboshop/Components/Frontend.sh" beforeDir="false" afterPath="$PROJECT_DIR$/roboshop/Components/frontend.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roboshop/makefile" beforeDir="false" afterPath="$PROJECT_DIR$/roboshop/makefile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,34 +43,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
-    </task>
-    <task id="LOCAL-00063" summary="add command in 04.input.sh file">
-      <created>1622390229010</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1622390229010</updated>
-    </task>
-    <task id="LOCAL-00064" summary="add command in 04.input.sh file">
-      <created>1622390342861</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1622390342861</updated>
-    </task>
-    <task id="LOCAL-00065" summary="add command in 04.input.sh file">
-      <created>1622390953790</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1622390953790</updated>
-    </task>
-    <task id="LOCAL-00066" summary="add command in 04.input.sh file">
-      <created>1622391026651</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1622391026651</updated>
     </task>
     <task id="LOCAL-00067" summary="add command in 04.input.sh file">
       <created>1622391120216</created>
@@ -386,7 +359,35 @@
       <option name="project" value="LOCAL" />
       <updated>1622617851663</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="some changes done in the  makefile">
+      <created>1622617946172</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1622617946172</updated>
+    </task>
+    <task id="LOCAL-00113" summary="some changes done in the  frontend">
+      <created>1622618101787</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1622618101787</updated>
+    </task>
+    <task id="LOCAL-00114" summary="some changes done in the  frontend">
+      <created>1622618148959</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1622618148959</updated>
+    </task>
+    <task id="LOCAL-00115" summary="some changes done in the  frontend">
+      <created>1622618203045</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1622618203045</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -420,6 +421,7 @@
     <MESSAGE value="some editing done in the  file 07-functions.sh" />
     <MESSAGE value="create a file called makefile" />
     <MESSAGE value="some changes done in the  makefile" />
-    <option name="LAST_COMMIT_MESSAGE" value="some changes done in the  makefile" />
+    <MESSAGE value="some changes done in the  frontend" />
+    <option name="LAST_COMMIT_MESSAGE" value="some changes done in the  frontend" />
   </component>
 </project>

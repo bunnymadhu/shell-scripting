@@ -1,3 +1,4 @@
+all: frontend
 help:
     @echo
 
