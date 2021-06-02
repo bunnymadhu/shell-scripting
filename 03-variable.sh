@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#if you assign a name to set of date that is a  variable.
+
 # declare a variable
  COURSE=DEVOPS
  BRANCH=MECHANICAL

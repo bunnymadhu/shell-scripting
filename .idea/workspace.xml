@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/06-Quotes &amp; Redirectors &amp; exit status" beforeDir="false" afterPath="$PROJECT_DIR$/06-Quotes &amp; Redirectors &amp; exit status" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-variable.sh" beforeDir="false" afterPath="$PROJECT_DIR$/03-variable.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-functions.sh" beforeDir="false" afterPath="$PROJECT_DIR$/07-functions.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,13 +43,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
-    </task>
-    <task id="LOCAL-00026" summary="added a comment to 01.print.sh file">
-      <created>1622253587319</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1622253587319</updated>
     </task>
     <task id="LOCAL-00027" summary="added a comment to 01.print.sh file">
       <created>1622254154650</created>
@@ -386,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622607916738</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="create new file in 06-Quotes &amp; Redirectors &amp; exit status.sh">
+      <created>1622608495842</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1622608495842</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -415,6 +416,7 @@
     <MESSAGE value="add command in 04.input.sh file" />
     <MESSAGE value="edit changes in sample file" />
     <MESSAGE value="create new file in 06-Quotes &amp; Redirectors &amp; exit status" />
-    <option name="LAST_COMMIT_MESSAGE" value="create new file in 06-Quotes &amp; Redirectors &amp; exit status" />
+    <MESSAGE value="create new file in 06-Quotes &amp; Redirectors &amp; exit status.sh" />
+    <option name="LAST_COMMIT_MESSAGE" value="create new file in 06-Quotes &amp; Redirectors &amp; exit status.sh" />
   </component>
 </project>
