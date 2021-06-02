@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/07-functions.sh" beforeDir="false" afterPath="$PROJECT_DIR$/07-functions.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,27 +43,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
-    </task>
-    <task id="LOCAL-00046" summary="added a comment to 03.varible.sh file">
-      <created>1622339186865</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1622339186865</updated>
-    </task>
-    <task id="LOCAL-00047" summary="added a comment to 03.varible.sh file">
-      <created>1622339241684</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1622339241684</updated>
-    </task>
-    <task id="LOCAL-00048" summary="added a comment to 03.varible.sh file">
-      <created>1622342140524</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1622342140524</updated>
     </task>
     <task id="LOCAL-00049" summary="added a comment to 03.varible.sh file">
       <created>1622343689277</created>
@@ -386,7 +366,28 @@
       <option name="project" value="LOCAL" />
       <updated>1622612896161</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="some editing done in the  file 07-functions.sh">
+      <created>1622613756400</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1622613756400</updated>
+    </task>
+    <task id="LOCAL-00096" summary="some editing done in the  file 07-functions.sh">
+      <created>1622613777082</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1622613777082</updated>
+    </task>
+    <task id="LOCAL-00097" summary="some editing done in the  file 07-functions.sh">
+      <created>1622613809124</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1622613809124</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
