@@ -2,7 +2,7 @@ help:
     @echo
 
 frontend:
-       @sh components/frontend.sh
+       @sh Components/Frontend.sh
 
 mongodb:
      @sh components/mongodb.sh
