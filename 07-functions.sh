@@ -5,7 +5,7 @@
 
 #declare a function
 MADHU () {
-  hai elcome to MADHU function
+  welcome to MADHU function
 }
 
 # access a function
