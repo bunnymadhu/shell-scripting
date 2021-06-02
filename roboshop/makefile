@@ -25,7 +25,7 @@ user:	## Install User Component
 shipping:	## Install Shipping Component
 	@sh Components/shipping.sh
 
-rabbitmq:	## Install Rabbitmq Component
+rabbitmq:	## Install RabbitMQ Component
 	@sh Components/rabbitmq.sh
 
 payment:	## Install Payment Component
