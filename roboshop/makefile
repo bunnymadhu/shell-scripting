@@ -1,2 +1,2 @@
 frontend:
-	@sh components/frontend.sh
+	@sh Components/frontend.sh
