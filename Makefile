@@ -1,5 +1,5 @@
 coffee :
-    @echo making coffee
+    @echo Making coffee
 
 tea :
-    @echo making tea
+    @echo Making tea
