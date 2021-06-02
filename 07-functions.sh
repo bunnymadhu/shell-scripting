@@ -15,6 +15,7 @@ SATHYA () {
 # access a function
 a=150
 SATHYA xyz
+SATHYA $1
 echo exit status of SATHYA function = $?
 echo value of b = $b
 
