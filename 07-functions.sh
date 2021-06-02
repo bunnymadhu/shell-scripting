@@ -14,6 +14,7 @@ SATHYA () {
 # access a function
 a=150
 SATHYA
+SATHYA xyz
+SATHYA $1
 echo value of b = $b
-XYZ
 

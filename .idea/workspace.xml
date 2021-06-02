@@ -43,27 +43,6 @@
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
     </task>
-    <task id="LOCAL-00033" summary="added a comment to 03.varible.sh file">
-      <created>1622301367072</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1622301367072</updated>
-    </task>
-    <task id="LOCAL-00034" summary="added a comment to 03.varible.sh file">
-      <created>1622301530493</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1622301530493</updated>
-    </task>
-    <task id="LOCAL-00035" summary="added a comment to 03.varible.sh file">
-      <created>1622301631861</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1622301631861</updated>
-    </task>
     <task id="LOCAL-00036" summary="added a comment to 03.varible.sh file">
       <created>1622302900298</created>
       <option name="number" value="00036" />
@@ -386,7 +365,28 @@
       <option name="project" value="LOCAL" />
       <updated>1622609855882</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="some editing done in the  file 07-functions.sh">
+      <created>1622610194447</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1622610194447</updated>
+    </task>
+    <task id="LOCAL-00083" summary="some editing done in the  file 07-functions.sh">
+      <created>1622610289521</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1622610289521</updated>
+    </task>
+    <task id="LOCAL-00084" summary="some editing done in the  file 07-functions.sh">
+      <created>1622610327821</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1622610327821</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
