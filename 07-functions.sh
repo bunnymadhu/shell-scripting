@@ -4,9 +4,9 @@
 #functions that are used to be keep the code DRY (reusability).
 
 #declare a function
-MADHU () {
- echo hai, welcome to MADHU function
+SATHYA () {
+ echo hai, welcome to SATHYA function
 }
 
 # access a function
-MADHU
+SATHYA
