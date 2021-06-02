@@ -1,7 +1,4 @@
 all: frontend
-help:
-	@echo
-
 frontend:
 	@sh components/frontend.sh
 

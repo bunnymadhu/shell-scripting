@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/roboshop/Components/Frontend.sh" beforeDir="false" afterPath="$PROJECT_DIR$/roboshop/Components/frontend.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/roboshop/makefile" beforeDir="false" afterPath="$PROJECT_DIR$/roboshop/makefile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,20 +42,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
-    </task>
-    <task id="LOCAL-00067" summary="add command in 04.input.sh file">
-      <created>1622391120216</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1622391120216</updated>
-    </task>
-    <task id="LOCAL-00068" summary="add command in 04.input.sh file">
-      <created>1622554443815</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1622554443816</updated>
     </task>
     <task id="LOCAL-00069" summary="add command in 04.input.sh file">
       <created>1622554677639</created>
@@ -387,7 +372,21 @@
       <option name="project" value="LOCAL" />
       <updated>1622618203045</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="some changes done in the  frontend">
+      <created>1622618304422</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1622618304422</updated>
+    </task>
+    <task id="LOCAL-00117" summary="some changes done in the  frontend">
+      <created>1622618433083</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1622618433083</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
