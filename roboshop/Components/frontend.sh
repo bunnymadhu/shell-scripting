@@ -1,4 +1,7 @@
 #!/bin/bash
 
-echo "installing Nginx"
-yum install nginx -y &>>/tmp/roboshop.log
+echo -e  "/e[1m---------------------------------------------------------------------"
+echo  -e "installing Nginx"
+echo "---------------------------------------------------------------------/e[0m"
+
+#yum install nginx -y &>>/tmp/roboshop.log
