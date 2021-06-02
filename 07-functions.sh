@@ -6,7 +6,7 @@
 #declare a function
 SATHYA () {
  echo hai, welcome to SATHYA function
- return 243
+ return 5
  echo value of a = $a
  b=200
  echo First argument = $1
@@ -15,7 +15,6 @@ SATHYA () {
 # access a function
 a=150
 SATHYA xyz
-SATHYA $1
 echo exit status of SATHYA function = $?
 echo value of b = $b
 
