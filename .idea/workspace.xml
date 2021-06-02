@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/roboshop/Components/Frontend.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roboshop/Components/cart.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roboshop/Components/catalogue.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roboshop/Components/mangodb.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roboshop/Components/mysql.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roboshop/Components/payment.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roboshop/Components/rabbitmq.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roboshop/Components/redis.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roboshop/Components/shipping.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roboshop/Components/user.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roboshop/makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roboshop/Components/Frontend.sh" beforeDir="false" afterPath="$PROJECT_DIR$/roboshop/Components/Frontend.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,13 +42,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
-    </task>
-    <task id="LOCAL-00059" summary="add command in 04.input.sh file">
-      <created>1622389765601</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1622389765601</updated>
     </task>
     <task id="LOCAL-00060" summary="add command in 04.input.sh file">
       <created>1622389825622</created>
@@ -397,7 +379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622616176268</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="some changes done in the  makefile">
+      <created>1622617373380</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1622617373380</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

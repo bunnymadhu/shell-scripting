@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo installing Frontend
+echo "installing Frontend
