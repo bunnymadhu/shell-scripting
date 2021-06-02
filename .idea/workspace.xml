@@ -43,20 +43,6 @@
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
     </task>
-    <task id="LOCAL-00031" summary="added a comment to 01.varible.sh file">
-      <created>1622300963071</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1622300963071</updated>
-    </task>
-    <task id="LOCAL-00032" summary="added a comment to 01.varible.sh file">
-      <created>1622301195050</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1622301195050</updated>
-    </task>
     <task id="LOCAL-00033" summary="added a comment to 03.varible.sh file">
       <created>1622301367072</created>
       <option name="number" value="00033" />
@@ -386,7 +372,21 @@
       <option name="project" value="LOCAL" />
       <updated>1622609606227</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="some editing done in the  file 07-functions.sh">
+      <created>1622609815799</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1622609815799</updated>
+    </task>
+    <task id="LOCAL-00081" summary="some editing done in the  file 07-functions.sh">
+      <created>1622609855882</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1622609855882</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -417,6 +417,7 @@
     <MESSAGE value="create new file in 06-Quotes &amp; Redirectors &amp; exit status" />
     <MESSAGE value="create new file in 06-Quotes &amp; Redirectors &amp; exit status.sh" />
     <MESSAGE value="create new file in 07-functions.sh" />
-    <option name="LAST_COMMIT_MESSAGE" value="create new file in 07-functions.sh" />
+    <MESSAGE value="some editing done in the  file 07-functions.sh" />
+    <option name="LAST_COMMIT_MESSAGE" value="some editing done in the  file 07-functions.sh" />
   </component>
 </project>

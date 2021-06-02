@@ -8,9 +8,11 @@ SATHYA () {
  echo hai, welcome to SATHYA function
  echo value of a = $a
  b=200
+ echo First argument = $1
 }
 
 # access a function
 a=150
 SATHYA
 echo value of b = $b
+xyz
