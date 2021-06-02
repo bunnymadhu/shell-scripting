@@ -4,7 +4,7 @@ help:
 frontend:
 	@sh Components/frontend.sh
 
-mangodb:
+mongodb:
 	@sh Components/mongodb.sh
 
 catalogue:
