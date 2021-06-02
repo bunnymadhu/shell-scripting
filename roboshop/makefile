@@ -1,10 +1,10 @@
-help :
+help:
     @echo
 
-frontend :
+frontend:
        @sh components/frontend.sh
 
-mongodb :
+mongodb:
      @sh components/mongodb.sh
 
 catalogue :
