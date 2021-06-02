@@ -6,7 +6,7 @@
 #declare a function
 SATHYA () {
  echo hai, welcome to SATHYA function
- return 5
+ return 240
  echo value of a = $a
  b=200
  echo First argument = $1
