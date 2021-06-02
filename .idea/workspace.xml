@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/03-variable.sh" beforeDir="false" afterPath="$PROJECT_DIR$/03-variable.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/07-functions.sh" beforeDir="false" afterPath="$PROJECT_DIR$/07-functions.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,34 +42,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
-    </task>
-    <task id="LOCAL-00027" summary="added a comment to 01.print.sh file">
-      <created>1622254154650</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1622254154650</updated>
-    </task>
-    <task id="LOCAL-00028" summary="added a comment to 01.print.sh file">
-      <created>1622254262807</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1622254262807</updated>
-    </task>
-    <task id="LOCAL-00029" summary="added a comment to 01.print.sh file">
-      <created>1622299337722</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1622299337722</updated>
-    </task>
-    <task id="LOCAL-00030" summary="added a comment to 01.print.sh file">
-      <created>1622299361954</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1622299361954</updated>
     </task>
     <task id="LOCAL-00031" summary="added a comment to 01.varible.sh file">
       <created>1622300963071</created>
@@ -387,7 +358,35 @@
       <option name="project" value="LOCAL" />
       <updated>1622608495842</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="create new file in 07-functions.sh">
+      <created>1622609384572</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1622609384572</updated>
+    </task>
+    <task id="LOCAL-00077" summary="create new file in 07-functions.sh">
+      <created>1622609508476</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1622609508476</updated>
+    </task>
+    <task id="LOCAL-00078" summary="create new file in 07-functions.sh">
+      <created>1622609548963</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1622609548964</updated>
+    </task>
+    <task id="LOCAL-00079" summary="create new file in 07-functions.sh">
+      <created>1622609606227</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1622609606227</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -417,6 +416,7 @@
     <MESSAGE value="edit changes in sample file" />
     <MESSAGE value="create new file in 06-Quotes &amp; Redirectors &amp; exit status" />
     <MESSAGE value="create new file in 06-Quotes &amp; Redirectors &amp; exit status.sh" />
-    <option name="LAST_COMMIT_MESSAGE" value="create new file in 06-Quotes &amp; Redirectors &amp; exit status.sh" />
+    <MESSAGE value="create new file in 07-functions.sh" />
+    <option name="LAST_COMMIT_MESSAGE" value="create new file in 07-functions.sh" />
   </component>
 </project>

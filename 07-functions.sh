@@ -6,7 +6,10 @@
 #declare a function
 SATHYA () {
  echo hai, welcome to SATHYA function
+ echo value of a = $a
+ b=200
 }
 
 # access a function
 SATHYA
+echo value of b = $b
