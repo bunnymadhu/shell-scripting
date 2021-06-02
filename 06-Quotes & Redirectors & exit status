@@ -21,5 +21,6 @@ a=100
 #exit $?
 
 echo hello
-exit
+exit 10
 echo bye
+#echo $?
