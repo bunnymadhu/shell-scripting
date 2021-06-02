@@ -1,3 +1,6 @@
+help:
+	@echo
+
 frontend:		## Install Frontend Component
 	@sh Components/frontend.sh
 
