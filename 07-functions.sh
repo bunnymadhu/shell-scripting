@@ -5,7 +5,7 @@
 
 #declare a function
 MADHU () {
-  welcome to MADHU function
+ echo hai, welcome to MADHU function
 }
 
 # access a function
