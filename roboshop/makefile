@@ -5,7 +5,7 @@ frontend:
 	@sh Components/frontend.sh
 
 mongodb:
-	@sh Components/mongodb.sh
+	@sh Components/Mongodb.sh
 
 catalogue:
 	@sh Components/catalogue.sh
