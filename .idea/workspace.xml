@@ -41,27 +41,6 @@
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
     </task>
-    <task id="LOCAL-00084" summary="some editing done in the  file 07-functions.sh">
-      <created>1622610327821</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1622610327821</updated>
-    </task>
-    <task id="LOCAL-00085" summary="some editing done in the  file 07-functions.sh">
-      <created>1622610710734</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1622610710734</updated>
-    </task>
-    <task id="LOCAL-00086" summary="some editing done in the  file 07-functions.sh">
-      <created>1622610796750</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1622610796750</updated>
-    </task>
     <task id="LOCAL-00087" summary="some editing done in the  file 07-functions.sh">
       <created>1622611491246</created>
       <option name="number" value="00087" />
@@ -384,7 +363,28 @@
       <option name="project" value="LOCAL" />
       <updated>1622641550447</updated>
     </task>
-    <option name="localTasksCounter" value="133" />
+    <task id="LOCAL-00133" summary="some changes done in the  makefile for roboshop">
+      <created>1622641626133</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1622641626133</updated>
+    </task>
+    <task id="LOCAL-00134" summary="some changes done in the  makefile for roboshop">
+      <created>1622641783065</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1622641783066</updated>
+    </task>
+    <task id="LOCAL-00135" summary="some changes done in the  makefile for roboshop">
+      <created>1622641852394</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1622641852394</updated>
+    </task>
+    <option name="localTasksCounter" value="136" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
