@@ -1,3 +1,5 @@
+all:frontend mongodb
+
 frontend:	## Install Frontend Component
 	@sh Components/frontend.sh
 
