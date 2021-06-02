@@ -23,4 +23,4 @@ a=100
 echo hello
 exit 10
 echo bye
-#echo $?
+#get exit status echo $?
