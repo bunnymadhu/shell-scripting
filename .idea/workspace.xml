@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="" />
+    <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/roboshop/makefile" beforeDir="false" afterPath="$PROJECT_DIR$/roboshop/makefile" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,13 +42,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
-    </task>
-    <task id="LOCAL-00161" summary="some changes done in the  makefile for roboshop">
-      <created>1622654143074</created>
-      <option name="number" value="00161" />
-      <option name="presentableId" value="LOCAL-00161" />
-      <option name="project" value="LOCAL" />
-      <updated>1622654143074</updated>
     </task>
     <task id="LOCAL-00162" summary="make some changes  in common.sh file">
       <created>1622693469602</created>
@@ -384,7 +379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622706600985</updated>
     </task>
-    <option name="localTasksCounter" value="210" />
+    <task id="LOCAL-00210" summary="make some changes  in makefile">
+      <created>1622718065861</created>
+      <option name="number" value="00210" />
+      <option name="presentableId" value="LOCAL-00210" />
+      <option name="project" value="LOCAL" />
+      <updated>1622718065862</updated>
+    </task>
+    <option name="localTasksCounter" value="211" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -424,6 +426,7 @@
     <MESSAGE value="make some changes  in common.sh file" />
     <MESSAGE value="make some changes  in if_condition.sh file" />
     <MESSAGE value="make some changes  in frontend.sh file" />
-    <option name="LAST_COMMIT_MESSAGE" value="make some changes  in frontend.sh file" />
+    <MESSAGE value="make some changes  in makefile" />
+    <option name="LAST_COMMIT_MESSAGE" value="make some changes  in makefile" />
   </component>
 </project>
