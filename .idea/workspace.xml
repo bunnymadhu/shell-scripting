@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Maven/maven format" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roboshop/Components/common.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/roboshop/Components/frontend.sh" beforeDir="false" afterPath="$PROJECT_DIR$/roboshop/Components/frontend.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,20 +45,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
-    </task>
-    <task id="LOCAL-00111" summary="some changes done in the  makefile">
-      <created>1622617851663</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1622617851663</updated>
-    </task>
-    <task id="LOCAL-00112" summary="some changes done in the  makefile">
-      <created>1622617946172</created>
-      <option name="number" value="00112" />
-      <option name="presentableId" value="LOCAL-00112" />
-      <option name="project" value="LOCAL" />
-      <updated>1622617946172</updated>
     </task>
     <task id="LOCAL-00113" summary="some changes done in the  frontend">
       <created>1622618101787</created>
@@ -386,7 +375,21 @@
       <option name="project" value="LOCAL" />
       <updated>1622653589804</updated>
     </task>
-    <option name="localTasksCounter" value="160" />
+    <task id="LOCAL-00160" summary="some changes done in the  makefile for roboshop">
+      <created>1622654004343</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1622654004343</updated>
+    </task>
+    <task id="LOCAL-00161" summary="some changes done in the  makefile for roboshop">
+      <created>1622654143074</created>
+      <option name="number" value="00161" />
+      <option name="presentableId" value="LOCAL-00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1622654143074</updated>
+    </task>
+    <option name="localTasksCounter" value="162" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
