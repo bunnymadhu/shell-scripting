@@ -12,6 +12,14 @@ fi
 LAUNCHTEMPLATEID=lt-0132406f31a96f585
 LAUNCHTEMPLATEVERSION=1
 
+##  validate if instance is running r not
+
+INSTANCE_STATE=$(aws ec2 describe-instances --filters "Name=tag:name,Values=frontend" | jq .Reservations[].Instances[].State.Name | xargs -n1)
+if [ "${INSTANCE_STATE}" = "running" ]; then
+  echo "Instances already exists,not createing any !!"
+  exit 0
+fi
+
 aws ec2 run-instances --launch-template LaunchTemplateId=${LAUNCHTEMPLATEID},Version=${LAUNCHTEMPLATEVERSION} --tag-specifications "ResourceType=instance ,Tags=[{Key=name,Value=${COMPONENT}}]" | jq
 
 ## | jq: to avoid that everytime instead press= q
