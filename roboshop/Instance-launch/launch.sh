@@ -12,4 +12,4 @@ fi
 LAUNCHTEMPLATEID=lt-0132406f31a96f585
 LAUNCHTEMPLATEVERSION=1
 
-aws ec2 run-instances --launch-template LaunchTemplateId=${LAUNCHTEMPLATEID},Version=${LAUNCHTEMPLATEVERSION} --tag-specifications "ResourceType=instance ,Tags=[{Key=name,Value=${COMPONENT}]"
+aws ec2 run-instances --launch-template LaunchTemplateId=${LAUNCHTEMPLATEID},Version=${LAUNCHTEMPLATEVERSION} --tag-specifications "ResourceType=instance ,Tags=[{Key=name,Value=${COMPONENT}}]"
