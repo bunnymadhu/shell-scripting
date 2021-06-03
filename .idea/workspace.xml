@@ -43,27 +43,6 @@
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
     </task>
-    <task id="LOCAL-00114" summary="some changes done in the  frontend">
-      <created>1622618148959</created>
-      <option name="number" value="00114" />
-      <option name="presentableId" value="LOCAL-00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1622618148959</updated>
-    </task>
-    <task id="LOCAL-00115" summary="some changes done in the  frontend">
-      <created>1622618203045</created>
-      <option name="number" value="00115" />
-      <option name="presentableId" value="LOCAL-00115" />
-      <option name="project" value="LOCAL" />
-      <updated>1622618203045</updated>
-    </task>
-    <task id="LOCAL-00116" summary="some changes done in the  frontend">
-      <created>1622618304422</created>
-      <option name="number" value="00116" />
-      <option name="presentableId" value="LOCAL-00116" />
-      <option name="project" value="LOCAL" />
-      <updated>1622618304422</updated>
-    </task>
     <task id="LOCAL-00117" summary="some changes done in the  frontend">
       <created>1622618433083</created>
       <option name="number" value="00117" />
@@ -386,7 +365,28 @@
       <option name="project" value="LOCAL" />
       <updated>1622693469603</updated>
     </task>
-    <option name="localTasksCounter" value="163" />
+    <task id="LOCAL-00163" summary="make some changes  in common.sh file">
+      <created>1622694421939</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1622694421939</updated>
+    </task>
+    <task id="LOCAL-00164" summary="make some changes  in common.sh file">
+      <created>1622694512842</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1622694512842</updated>
+    </task>
+    <task id="LOCAL-00165" summary="make some changes  in frontend.sh file">
+      <created>1622694634244</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1622694634244</updated>
+    </task>
+    <option name="localTasksCounter" value="166" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -423,6 +423,7 @@
     <MESSAGE value="some changes done in the  frontend" />
     <MESSAGE value="some changes done in the  makefile for roboshop" />
     <MESSAGE value="make some changes  in common.sh file" />
-    <option name="LAST_COMMIT_MESSAGE" value="make some changes  in common.sh file" />
+    <MESSAGE value="make some changes  in frontend.sh file" />
+    <option name="LAST_COMMIT_MESSAGE" value="make some changes  in frontend.sh file" />
   </component>
 </project>
