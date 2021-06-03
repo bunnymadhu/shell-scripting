@@ -1,7 +1,7 @@
 #!/bin/bash
 
-SOURCE components/common.sh
+SOURCE Components/common.sh
 
-HEAD -n "installing Nginx"
+HEAD "Installing Nginx"
 yum install nginx -y &>>/tmp/roboshop.log
 echo -e "\e[32mdone\e[0m"
