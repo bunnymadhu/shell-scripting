@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/roboshop/Instance-launch/launch.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roboshop/Instance-launch/launch.sh" beforeDir="false" afterPath="$PROJECT_DIR$/roboshop/Instance-launch/launch.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,13 +42,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
-    </task>
-    <task id="LOCAL-00163" summary="make some changes  in common.sh file">
-      <created>1622694421939</created>
-      <option name="number" value="00163" />
-      <option name="presentableId" value="LOCAL-00163" />
-      <option name="project" value="LOCAL" />
-      <updated>1622694421939</updated>
     </task>
     <task id="LOCAL-00164" summary="make some changes  in common.sh file">
       <created>1622694512842</created>
@@ -387,7 +379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622718431448</updated>
     </task>
-    <option name="localTasksCounter" value="212" />
+    <task id="LOCAL-00212" summary="make some changes  in instance_launch">
+      <created>1622726787732</created>
+      <option name="number" value="00212" />
+      <option name="presentableId" value="LOCAL-00212" />
+      <option name="project" value="LOCAL" />
+      <updated>1622726787733</updated>
+    </task>
+    <option name="localTasksCounter" value="213" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -403,7 +402,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ad some files sample.txt demonistration for sample" />
     <MESSAGE value="added a comment to sample.txt file" />
     <MESSAGE value="topics are shell scripting" />
     <MESSAGE value="add 3 words in shell scripting" />
@@ -428,6 +426,7 @@
     <MESSAGE value="make some changes  in if_condition.sh file" />
     <MESSAGE value="make some changes  in frontend.sh file" />
     <MESSAGE value="make some changes  in makefile" />
-    <option name="LAST_COMMIT_MESSAGE" value="make some changes  in makefile" />
+    <MESSAGE value="make some changes  in instance_launch" />
+    <option name="LAST_COMMIT_MESSAGE" value="make some changes  in instance_launch" />
   </component>
 </project>
