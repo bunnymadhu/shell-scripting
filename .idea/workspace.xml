@@ -43,13 +43,6 @@
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
     </task>
-    <task id="LOCAL-00148" summary="some changes done in the  makefile for roboshop">
-      <created>1622650370168</created>
-      <option name="number" value="00148" />
-      <option name="presentableId" value="LOCAL-00148" />
-      <option name="project" value="LOCAL" />
-      <updated>1622650370168</updated>
-    </task>
     <task id="LOCAL-00149" summary="some changes done in the  makefile for roboshop">
       <created>1622650485905</created>
       <option name="number" value="00149" />
@@ -386,7 +379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622700234649</updated>
     </task>
-    <option name="localTasksCounter" value="197" />
+    <task id="LOCAL-00197" summary="make some changes  in if_condition.sh file">
+      <created>1622700483401</created>
+      <option name="number" value="00197" />
+      <option name="presentableId" value="LOCAL-00197" />
+      <option name="project" value="LOCAL" />
+      <updated>1622700483401</updated>
+    </task>
+    <option name="localTasksCounter" value="198" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

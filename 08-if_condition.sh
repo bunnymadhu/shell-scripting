@@ -17,3 +17,5 @@ if [ -f "$filename" ]; then
 else
   echo "File Not Found"
 fi
+
+## Note : always try to use variable inside quotes in expressions
