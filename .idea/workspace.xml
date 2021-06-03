@@ -43,20 +43,6 @@
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
     </task>
-    <task id="LOCAL-00153" summary="some changes done in the  makefile for roboshop">
-      <created>1622651012095</created>
-      <option name="number" value="00153" />
-      <option name="presentableId" value="LOCAL-00153" />
-      <option name="project" value="LOCAL" />
-      <updated>1622651012096</updated>
-    </task>
-    <task id="LOCAL-00154" summary="some changes done in the  makefile for roboshop">
-      <created>1622653065843</created>
-      <option name="number" value="00154" />
-      <option name="presentableId" value="LOCAL-00154" />
-      <option name="project" value="LOCAL" />
-      <updated>1622653065844</updated>
-    </task>
     <task id="LOCAL-00155" summary="some changes done in the  makefile for roboshop">
       <created>1622653169423</created>
       <option name="number" value="00155" />
@@ -386,7 +372,21 @@
       <option name="project" value="LOCAL" />
       <updated>1622704916484</updated>
     </task>
-    <option name="localTasksCounter" value="202" />
+    <task id="LOCAL-00202" summary="make some changes  in frontend.sh file">
+      <created>1622704958763</created>
+      <option name="number" value="00202" />
+      <option name="presentableId" value="LOCAL-00202" />
+      <option name="project" value="LOCAL" />
+      <updated>1622704958763</updated>
+    </task>
+    <task id="LOCAL-00203" summary="make some changes  in frontend.sh file">
+      <created>1622705014846</created>
+      <option name="number" value="00203" />
+      <option name="presentableId" value="LOCAL-00203" />
+      <option name="project" value="LOCAL" />
+      <updated>1622705014846</updated>
+    </task>
+    <option name="localTasksCounter" value="204" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
