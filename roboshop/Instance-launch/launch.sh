@@ -1,6 +1,6 @@
 #!/bin/bash
 
-COMPONENT = $1
+COMPONENT=$1
 
 ##  -z validates the variable empty, true if it is empty.
 
