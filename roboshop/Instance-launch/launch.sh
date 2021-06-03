@@ -3,9 +3,8 @@
 COMPONENT=$1
 
 ##  -z validates the variable empty, true if it is empty.
-
 if [ -z "${COMPONENT}"  ]; then
- echo "Component input  is needed"
+ echo "Component Input  is Needed"
  exit 1
 fi
 
@@ -16,12 +15,12 @@ LAUNCHTEMPLATEVERSION=1
 
 INSTANCE_STATE=$(aws ec2 describe-instances --filters "Name=tag:name,Values=${COMPONENT}"  | jq .Reservations[].Instances[].State.Name | xargs -n1)
 if [ "${INSTANCE_STATE}" = "running" ]; then
-  echo "Instances already exists,not createing any !!"
+  echo "Instances already exists,not creating any !!"
   exit 0
 fi
 
 if [ "${INSTANCE_STATE}" = "stopped" ]; then
-  echo "Instances already exists,not createing any !!"
+  echo "Instances already exists,not creating any !!"
   exit 0
 fi
 
