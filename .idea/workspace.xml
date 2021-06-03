@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/08-if_condition.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roboshop/Components/common.sh" beforeDir="false" afterPath="$PROJECT_DIR$/roboshop/Components/common.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-if_condition.sh" beforeDir="false" afterPath="$PROJECT_DIR$/08-if_condition.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,27 +42,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
-    </task>
-    <task id="LOCAL-00144" summary="some changes done in the  makefile for roboshop">
-      <created>1622643882397</created>
-      <option name="number" value="00144" />
-      <option name="presentableId" value="LOCAL-00144" />
-      <option name="project" value="LOCAL" />
-      <updated>1622643882397</updated>
-    </task>
-    <task id="LOCAL-00145" summary="some changes done in the  makefile for roboshop">
-      <created>1622644224356</created>
-      <option name="number" value="00145" />
-      <option name="presentableId" value="LOCAL-00145" />
-      <option name="project" value="LOCAL" />
-      <updated>1622644224356</updated>
-    </task>
-    <task id="LOCAL-00146" summary="some changes done in the  makefile for roboshop">
-      <created>1622650126195</created>
-      <option name="number" value="00146" />
-      <option name="presentableId" value="LOCAL-00146" />
-      <option name="project" value="LOCAL" />
-      <updated>1622650126195</updated>
     </task>
     <task id="LOCAL-00147" summary="some changes done in the  makefile for roboshop">
       <created>1622650276885</created>
@@ -388,7 +365,28 @@
       <option name="project" value="LOCAL" />
       <updated>1622698075134</updated>
     </task>
-    <option name="localTasksCounter" value="193" />
+    <task id="LOCAL-00193" summary="make some changes  in if_condition.sh file">
+      <created>1622699832110</created>
+      <option name="number" value="00193" />
+      <option name="presentableId" value="LOCAL-00193" />
+      <option name="project" value="LOCAL" />
+      <updated>1622699832110</updated>
+    </task>
+    <task id="LOCAL-00194" summary="make some changes  in if_condition.sh file">
+      <created>1622699926261</created>
+      <option name="number" value="00194" />
+      <option name="presentableId" value="LOCAL-00194" />
+      <option name="project" value="LOCAL" />
+      <updated>1622699926261</updated>
+    </task>
+    <task id="LOCAL-00195" summary="make some changes  in if_condition.sh file">
+      <created>1622699955810</created>
+      <option name="number" value="00195" />
+      <option name="presentableId" value="LOCAL-00195" />
+      <option name="project" value="LOCAL" />
+      <updated>1622699955810</updated>
+    </task>
+    <option name="localTasksCounter" value="196" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -427,6 +425,7 @@
     <MESSAGE value="make some changes  in frontend.sh file" />
     <MESSAGE value="make some changes  in makefile file" />
     <MESSAGE value="make some changes  in common.sh file" />
-    <option name="LAST_COMMIT_MESSAGE" value="make some changes  in common.sh file" />
+    <MESSAGE value="make some changes  in if_condition.sh file" />
+    <option name="LAST_COMMIT_MESSAGE" value="make some changes  in if_condition.sh file" />
   </component>
 </project>
