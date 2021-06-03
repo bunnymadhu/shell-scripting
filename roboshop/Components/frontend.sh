@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SOURCE common.sh
+SOURCE components/common.sh
 
 HEAD -n "installing Nginx"
 yum install nginx -y &>>/tmp/roboshop.log
