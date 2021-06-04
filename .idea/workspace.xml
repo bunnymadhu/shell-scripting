@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/roboshop/Components/mongodb.sh" beforeDir="false" afterPath="$PROJECT_DIR$/roboshop/Components/mongodb.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,34 +43,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
-    </task>
-    <task id="LOCAL-00180" summary="make some changes  in common.sh file">
-      <created>1622696750085</created>
-      <option name="number" value="00180" />
-      <option name="presentableId" value="LOCAL-00180" />
-      <option name="project" value="LOCAL" />
-      <updated>1622696750085</updated>
-    </task>
-    <task id="LOCAL-00181" summary="make some changes  in common.sh file">
-      <created>1622696778310</created>
-      <option name="number" value="00181" />
-      <option name="presentableId" value="LOCAL-00181" />
-      <option name="project" value="LOCAL" />
-      <updated>1622696778311</updated>
-    </task>
-    <task id="LOCAL-00182" summary="make some changes  in common.sh file">
-      <created>1622696811329</created>
-      <option name="number" value="00182" />
-      <option name="presentableId" value="LOCAL-00182" />
-      <option name="project" value="LOCAL" />
-      <updated>1622696811329</updated>
-    </task>
-    <task id="LOCAL-00183" summary="make some changes  in common.sh file">
-      <created>1622696900896</created>
-      <option name="number" value="00183" />
-      <option name="presentableId" value="LOCAL-00183" />
-      <option name="project" value="LOCAL" />
-      <updated>1622696900896</updated>
     </task>
     <task id="LOCAL-00184" summary="make some changes  in common.sh file">
       <created>1622696935339</created>
@@ -388,7 +359,35 @@
       <option name="project" value="LOCAL" />
       <updated>1622810425983</updated>
     </task>
-    <option name="localTasksCounter" value="229" />
+    <task id="LOCAL-00229" summary="make some changes  in mongodb.sh">
+      <created>1622816255251</created>
+      <option name="number" value="00229" />
+      <option name="presentableId" value="LOCAL-00229" />
+      <option name="project" value="LOCAL" />
+      <updated>1622816255251</updated>
+    </task>
+    <task id="LOCAL-00230" summary="make some changes  in mongodb.sh">
+      <created>1622816355171</created>
+      <option name="number" value="00230" />
+      <option name="presentableId" value="LOCAL-00230" />
+      <option name="project" value="LOCAL" />
+      <updated>1622816355171</updated>
+    </task>
+    <task id="LOCAL-00231" summary="make some changes  in mongodb.sh">
+      <created>1622816430190</created>
+      <option name="number" value="00231" />
+      <option name="presentableId" value="LOCAL-00231" />
+      <option name="project" value="LOCAL" />
+      <updated>1622816430190</updated>
+    </task>
+    <task id="LOCAL-00232" summary="make some changes  in mongodb.sh">
+      <created>1622816500186</created>
+      <option name="number" value="00232" />
+      <option name="presentableId" value="LOCAL-00232" />
+      <option name="project" value="LOCAL" />
+      <updated>1622816500186</updated>
+    </task>
+    <option name="localTasksCounter" value="233" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
