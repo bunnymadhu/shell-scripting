@@ -17,8 +17,26 @@ HEAD "Install MongoDB\t"
 yum install -y mongodb-org &>>/tmp/roboshop.log
 STAT $?
 
+HEAD "Update IP Adress in MongoDB config file"
+sed  -i -e 's/127.0.0.1/0.0.0.0/' /etc/mongod.conf
+STAT $?
+
 HEAD "Start MongoDB service"
 systemctl enable mongod &>>/tmp/roboshop.log
-systemctl start mongod &>>/tmp/roboshop.log
+systemctl restart mongod &>>/tmp/roboshop.log
+STAT $?
+
+HEAD "Download Schema from Github"
+curl -s -L -o /tmp/mongodb.zip "https://github.com/roboshop-devops-project/mongodb/archive/main.zip" &>>/tmp/roboshop.log
+STAT $?
+
+HEAD "Extract Downloaded Schema "
+cd /tmp
+unzip mongodb.zip &>>/tmp/roboshop.log
+STAT $?
+
+HEAD "Load Schema"
+cd mongodb-main
+mongo < catalogue.js &>>/tmp/roboshop.log && mongo < users.js &>>/tmp/roboshop.log
 STAT $?
 
