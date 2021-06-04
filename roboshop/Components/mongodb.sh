@@ -21,3 +21,4 @@ HEAD "Start MongoDB service"
 systemctl enable mongod &>>/tmp/roboshop.log
 systemctl start mongod &>>/tmp/roboshop.log
 STAT $?
+
