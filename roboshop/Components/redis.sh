@@ -1,3 +1,5 @@
 #!/bin/bash
 
-echo installing Redis
+source Components/common.sh
+rm -f /tmp/roboshop.log
+disable-auto-shutdown
