@@ -4,7 +4,7 @@ source Components/common.sh
 rm -f /tmp/roboshop.log
 disable-auto-shutdown
 
-HEAD "Setup MongoDB Yum repo file\t\t\t"
+HEAD "Setup MongoDB Yum repo file\t\t"
 echo '[mongodb-org-4.2]
 name=MongoDB Repository
 baseurl=https://repo.mongodb.org/yum/redhat/$releasever/mongodb-org/4.2/x86_64/
@@ -21,7 +21,7 @@ HEAD "Update IP Adress in MongoDB config file"
 sed  -i -e 's/127.0.0.1/0.0.0.0/' /etc/mongod.conf
 STAT $?
 
-HEAD "Start MongoDB service\t\t"
+HEAD "Start MongoDB service\t\t\t"
 systemctl enable mongod &>>/tmp/roboshop.log
 systemctl restart mongod &>>/tmp/roboshop.log
 STAT $?
