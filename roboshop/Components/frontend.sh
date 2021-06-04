@@ -2,7 +2,7 @@
 
 source Components/common.sh
 rm -f /tmp/roboshop.log
-system-disable shutdown
+disable-auto-shutdown
 
 HEAD "Installing Nginx\t\t"
 yum install nginx -y &>>/tmp/roboshop.log
