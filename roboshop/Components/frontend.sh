@@ -28,9 +28,3 @@ STAT $?
 HEAD "Start Nginx\t\t\t"
 systemctl restart nginx &>>/tmp/roboshop.log
 systemctl enable nginx &>>/tmp/roboshop.log
-STAT $?
-
-
-
-
-
