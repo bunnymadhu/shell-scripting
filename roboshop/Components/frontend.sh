@@ -2,6 +2,7 @@
 
 source Components/common.sh
 rm -f /tmp/roboshop.log
+system-disable shutdown
 
 HEAD "Installing Nginx\t\t"
 yum install nginx -y &>>/tmp/roboshop.log
@@ -28,3 +29,4 @@ STAT $?
 HEAD "Start Nginx\t\t\t"
 systemctl restart nginx &>>/tmp/roboshop.log
 systemctl enable nginx &>>/tmp/roboshop.log
+STAT $?
