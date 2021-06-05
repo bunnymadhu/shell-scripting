@@ -34,6 +34,4 @@ HEAD "Install Nodejs Dependencies\t"
 cd /home/roboshop/catalogue &&  npm install --unsafe-perm &>>/tmp/roboshop.log
 STAT $?
 
-## --unsafe-perm = to perform the normal user to set permissions to npm install
-
 
