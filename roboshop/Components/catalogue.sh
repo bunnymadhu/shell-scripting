@@ -4,7 +4,7 @@ source Components/common.sh
 rm -f /tmp/roboshop.log
 disable-auto-shutdown
 
-HEAD "Insatlling Nodejs\t\t\t"
+HEAD "Installing Nodejs\t\t\t"
 yum install nodejs make gcc-c++ -y &>>/tmp/roboshop.log
 STAT $?
 
@@ -42,4 +42,5 @@ HEAD "Fix the permissions to the App Content"
 chown roboshop:roboshop /home/roboshop -R
 STAT $?
 
+## --unsafe-perm -- switching to users in shell-scripting a bit complexm,so thats why,to use root user to normal user give permissions..
 ## -R(recursively) -- because its a directory so all the content in the web  should be change in this file..
