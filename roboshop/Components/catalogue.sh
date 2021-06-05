@@ -11,7 +11,8 @@ STAT $?
 HEAD "Add Roboshop  APP  User"
 id roboshop &>>/tmp/roboshop.log
 if [ $? -eq 0 ]; then
-  echo User is already there,so avoid the User creation &>>/tmp/roboshop.log
+  echo User is already there, so avoid the User creation &>>/tmp/roboshop.log
+  STAT $?
 else
   useradd roboshop &>>/tmp/roboshop.log
   STAT $?
@@ -29,6 +30,6 @@ HEAD "Install Nodejs Dependencies\t"
 cd /home/roboshop/catalogue &&  npm install --unsafe-perm &>>/tmp/roboshop.log
 STAT $?
 
-## --unsafe-perm = to perform the normol user to set permissions to npm install
+## --unsafe-perm = to perform the normal user to set permissions to npm install
 
 
