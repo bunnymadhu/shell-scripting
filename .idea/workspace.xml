@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/roboshop/Components/catalogue.sh" beforeDir="false" afterPath="$PROJECT_DIR$/roboshop/Components/catalogue.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,13 +43,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
-    </task>
-    <task id="LOCAL-00194" summary="make some changes  in if_condition.sh file">
-      <created>1622699926261</created>
-      <option name="number" value="00194" />
-      <option name="presentableId" value="LOCAL-00194" />
-      <option name="project" value="LOCAL" />
-      <updated>1622699926261</updated>
     </task>
     <task id="LOCAL-00195" summary="make some changes  in if_condition.sh file">
       <created>1622699955810</created>
@@ -388,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622871403909</updated>
     </task>
-    <option name="localTasksCounter" value="243" />
+    <task id="LOCAL-00243" summary="make some changes  in catalogue.sh">
+      <created>1622872849515</created>
+      <option name="number" value="00243" />
+      <option name="presentableId" value="LOCAL-00243" />
+      <option name="project" value="LOCAL" />
+      <updated>1622872849516</updated>
+    </task>
+    <option name="localTasksCounter" value="244" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -404,7 +403,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added a comment to 01.print.sh file" />
     <MESSAGE value="added a comment to 01.varible.sh file" />
     <MESSAGE value="added a comment to 03.varible.sh file" />
     <MESSAGE value="removed spacesin 03.varible.sh file" />
@@ -429,6 +427,7 @@
     <MESSAGE value="make some changes  in Makefile" />
     <MESSAGE value="make some changes  in launch.sh" />
     <MESSAGE value="make some changes  in makefile" />
-    <option name="LAST_COMMIT_MESSAGE" value="make some changes  in makefile" />
+    <MESSAGE value="make some changes  in catalogue.sh" />
+    <option name="LAST_COMMIT_MESSAGE" value="make some changes  in catalogue.sh" />
   </component>
 </project>
