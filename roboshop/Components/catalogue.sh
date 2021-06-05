@@ -46,7 +46,7 @@ HEAD "Update DNS Records in systemD file\t"
 sed -i -e 's/MONGO_DNSNAME/mongodb.roboshop.internal/' /home/roboshop/catalogue/systemd.service
 STAT $?
 
-HEAD "Setup SystemD service\t\t"
+HEAD "Setup SystemD service\t\t\t"
 mv /home/roboshop/catalogue/systemd.service /etc/systemd/system/catalogue.service &>>/tmp/roboshop.log
 STAT $?
 
