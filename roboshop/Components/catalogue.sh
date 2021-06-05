@@ -8,7 +8,7 @@ HEAD "Insatlling Nodejs\t\t"
 yum install nodejs make gcc-c++ -y &>>/tmp/roboshop.log
 STAT $?
 
-HEAD "Add Roboshop  APP  User\t"
+HEAD "Add Roboshop  APP  User"
 id roboshop &>>/tmp/roboshop.log
 if [ $? -eq 0 ]; then
   echo User is already there,so avoid the User creation &>>/tmp/roboshop.log
