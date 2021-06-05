@@ -22,8 +22,8 @@ HEAD "Download from Github\t\t"
 curl -s -L -o /tmp/catalogue.zip "https://github.com/roboshop-devops-project/catalogue/archive/main.zip" &>>/tmp/roboshop.log
 STAT $?
 
-HEAD "Extract Downloaded Content\t"
-cd /home/roboshop && unzip /tmp/catalogue.zip &>>/tmp/roboshop.log && mv catalogue-main catalogue
+HEAD "Extract Downloaded Content"
+cd  /home/roboshop && unzip /tmp/catalogue.zip &>>/tmp/roboshop.log && mv catalogue-main catalogue
 STAT $?
 
 HEAD "Install Nodejs Dependencies\t"

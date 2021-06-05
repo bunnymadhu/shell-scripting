@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/roboshop/Components/catalogue.sh" beforeDir="false" afterPath="$PROJECT_DIR$/roboshop/Components/catalogue.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,27 +44,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
-    </task>
-    <task id="LOCAL-00198" summary="make some changes  in if_condition.sh file">
-      <created>1622700880416</created>
-      <option name="number" value="00198" />
-      <option name="presentableId" value="LOCAL-00198" />
-      <option name="project" value="LOCAL" />
-      <updated>1622700880416</updated>
-    </task>
-    <task id="LOCAL-00199" summary="make some changes  in if_condition.sh file">
-      <created>1622704693326</created>
-      <option name="number" value="00199" />
-      <option name="presentableId" value="LOCAL-00199" />
-      <option name="project" value="LOCAL" />
-      <updated>1622704693326</updated>
-    </task>
-    <task id="LOCAL-00200" summary="make some changes  in if_condition.sh file">
-      <created>1622704835561</created>
-      <option name="number" value="00200" />
-      <option name="presentableId" value="LOCAL-00200" />
-      <option name="project" value="LOCAL" />
-      <updated>1622704835561</updated>
     </task>
     <task id="LOCAL-00201" summary="make some changes  in frontend.sh file">
       <created>1622704916484</created>
@@ -387,7 +367,28 @@
       <option name="project" value="LOCAL" />
       <updated>1622874538935</updated>
     </task>
-    <option name="localTasksCounter" value="247" />
+    <task id="LOCAL-00247" summary="make some changes  in catalogue.sh">
+      <created>1622874658310</created>
+      <option name="number" value="00247" />
+      <option name="presentableId" value="LOCAL-00247" />
+      <option name="project" value="LOCAL" />
+      <updated>1622874658310</updated>
+    </task>
+    <task id="LOCAL-00248" summary="make some changes  in catalogue.sh">
+      <created>1622874790206</created>
+      <option name="number" value="00248" />
+      <option name="presentableId" value="LOCAL-00248" />
+      <option name="project" value="LOCAL" />
+      <updated>1622874790208</updated>
+    </task>
+    <task id="LOCAL-00249" summary="make some changes  in catalogue.sh">
+      <created>1622874957467</created>
+      <option name="number" value="00249" />
+      <option name="presentableId" value="LOCAL-00249" />
+      <option name="project" value="LOCAL" />
+      <updated>1622874957467</updated>
+    </task>
+    <option name="localTasksCounter" value="250" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
