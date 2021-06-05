@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roboshop/makefile" beforeDir="false" afterPath="$PROJECT_DIR$/roboshop/makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roboshop/Components/catalogue.sh" beforeDir="false" afterPath="$PROJECT_DIR$/roboshop/Components/catalogue.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,20 +44,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
-    </task>
-    <task id="LOCAL-00192" summary="make some changes  in common.sh file">
-      <created>1622698075134</created>
-      <option name="number" value="00192" />
-      <option name="presentableId" value="LOCAL-00192" />
-      <option name="project" value="LOCAL" />
-      <updated>1622698075134</updated>
-    </task>
-    <task id="LOCAL-00193" summary="make some changes  in if_condition.sh file">
-      <created>1622699832110</created>
-      <option name="number" value="00193" />
-      <option name="presentableId" value="LOCAL-00193" />
-      <option name="project" value="LOCAL" />
-      <updated>1622699832110</updated>
     </task>
     <task id="LOCAL-00194" summary="make some changes  in if_condition.sh file">
       <created>1622699926261</created>
@@ -388,7 +374,21 @@
       <option name="project" value="LOCAL" />
       <updated>1622827336226</updated>
     </task>
-    <option name="localTasksCounter" value="241" />
+    <task id="LOCAL-00241" summary="make some changes  in makefile">
+      <created>1622871124965</created>
+      <option name="number" value="00241" />
+      <option name="presentableId" value="LOCAL-00241" />
+      <option name="project" value="LOCAL" />
+      <updated>1622871124967</updated>
+    </task>
+    <task id="LOCAL-00242" summary="make some changes  in makefile">
+      <created>1622871403909</created>
+      <option name="number" value="00242" />
+      <option name="presentableId" value="LOCAL-00242" />
+      <option name="project" value="LOCAL" />
+      <updated>1622871403909</updated>
+    </task>
+    <option name="localTasksCounter" value="243" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -423,12 +423,12 @@
     <MESSAGE value="make some changes  in common.sh file" />
     <MESSAGE value="make some changes  in if_condition.sh file" />
     <MESSAGE value="make some changes  in frontend.sh file" />
-    <MESSAGE value="make some changes  in makefile" />
     <MESSAGE value="make some changes  in instance_launch" />
     <MESSAGE value="make some changes  in frontend.sh" />
     <MESSAGE value="make some changes  in mongodb.sh" />
     <MESSAGE value="make some changes  in Makefile" />
     <MESSAGE value="make some changes  in launch.sh" />
-    <option name="LAST_COMMIT_MESSAGE" value="make some changes  in launch.sh" />
+    <MESSAGE value="make some changes  in makefile" />
+    <option name="LAST_COMMIT_MESSAGE" value="make some changes  in makefile" />
   </component>
 </project>
