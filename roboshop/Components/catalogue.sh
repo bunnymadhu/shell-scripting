@@ -26,7 +26,7 @@ HEAD "Extract Downloaded Content\t"
 cd /home/roboshop && rm -rf catalogue &>>/tmp/roboshop.log
 STAT $?
 
-HEAD "unzip the file\t\t"
+HEAD "unzip the file\t\t\t"
 unzip /tmp/catalogue.zip &>>/tmp/roboshop.log && mv catalogue-main catalogue
 STAT $?
 
