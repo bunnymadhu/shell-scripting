@@ -17,7 +17,6 @@ else
   STAT $?
 fi
 
-
 HEAD "Download from Github\t\t"
 curl -s -L -o /tmp/catalogue.zip "https://github.com/roboshop-devops-project/catalogue/archive/main.zip" &>>/tmp/roboshop.log
 STAT $?
@@ -30,5 +29,6 @@ HEAD "Install Nodejs Dependencies\t"
 cd /home/roboshop/catalogue &&  npm install --unsafe-perm &>>/tmp/roboshop.log
 STAT $?
 
+## --unsafe-perm = to perform the normol user to set permissions to npm install
 
 
