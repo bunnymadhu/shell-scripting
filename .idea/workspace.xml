@@ -42,13 +42,6 @@
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
     </task>
-    <task id="LOCAL-00203" summary="make some changes  in frontend.sh file">
-      <created>1622705014846</created>
-      <option name="number" value="00203" />
-      <option name="presentableId" value="LOCAL-00203" />
-      <option name="project" value="LOCAL" />
-      <updated>1622705014846</updated>
-    </task>
     <task id="LOCAL-00204" summary="make some changes  in frontend.sh file">
       <created>1622705267472</created>
       <option name="number" value="00204" />
@@ -385,7 +378,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622875656616</updated>
     </task>
-    <option name="localTasksCounter" value="252" />
+    <task id="LOCAL-00252" summary="make some changes  in catalogue.sh">
+      <created>1622875704234</created>
+      <option name="number" value="00252" />
+      <option name="presentableId" value="LOCAL-00252" />
+      <option name="project" value="LOCAL" />
+      <updated>1622875704234</updated>
+    </task>
+    <option name="localTasksCounter" value="253" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
