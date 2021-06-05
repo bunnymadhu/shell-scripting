@@ -26,6 +26,10 @@ HEAD "Extract Downloaded Content\t"
 cd /home/roboshop && rm -rf catalogue &>>/tmp/roboshop.log
 STAT $?
 
+## in root user cd /home/roboshop/
+## ls ------ catalogue-main
+## mv catalogue-main catalogue,the go to centos user
+
 HEAD "unzip the file\t\t\t"
 unzip /tmp/catalogue.zip &>>/tmp/roboshop.log && mv catalogue-main catalogue
 STAT $?
@@ -34,4 +38,6 @@ HEAD "Install Nodejs Dependencies\t"
 cd /home/roboshop/catalogue &&  npm install --unsafe-perm &>>/tmp/roboshop.log
 STAT $?
 
-
+HEAD "Fix the permissions to the App Content"
+chown roboshop:roboshop /home/roboshop -R
+STAT $?
