@@ -24,6 +24,6 @@ if [ "${INSTANCE_STATE}" = "stopped" ]; then
   exit 0
 fi
 
-aws ec2 run-instances --launch-template LaunchTemplateId=${LAUNCHTEMPLATEID},Version=${LAUNCHTEMPLATEVERSION} --tag-specifications "ResourceType=instance ,Tags=[{Key=name,Value=${COMPONENT}}]" | jq
+aws ec2 run-instances --launch-template LaunchTemplateId=${LAUNCHTEMPLATEID},Version=${LAUNCHTEMPLATEVERSION} --tag-specifications "ResourceType=instance ,Tags=[{Key=Name,Value=${COMPONENT}}]" | jq
 
 ## | jq: to avoid that everytime instead press= q
