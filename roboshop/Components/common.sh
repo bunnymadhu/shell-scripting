@@ -43,9 +43,11 @@ DOWNLOAD_FROM_GITHUB() {
   HEAD "Download from Github\t\t\t"
   curl -s -L -o /tmp/$1.zip "https://github.com/roboshop-devops-project/$1/archive/main.zip" &>>/tmp/roboshop.log
   STAT $?
+
   HEAD "Extract Downloaded Content\t\t"
   cd /home/roboshop && rm -rf catalogue &>>/tmp/roboshop.log
   STAT $?
+
   HEAD "unzip the file\t\t\t\t"
   cd /home/roboshop && rm -rf $1 && unzip /tmp/$1.zip &>>/tmp/roboshop.log && mv $1-main $1
   STAT $?
