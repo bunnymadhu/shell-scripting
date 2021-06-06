@@ -39,17 +39,22 @@ SETUP_SYSTEMD() {
   STAT $?
 }
 
+DOWNLOAD_FROM_GITHUB() {
+  HEAD "Download from Github\t\t\t"
+  curl -s -L -o /tmp/$1.zip "https://github.com/roboshop-devops-project/$1/archive/main.zip" &>>/tmp/roboshop.log
+  STAT $?
+}
+
 NODEJS () {
   HEAD "Installing Nodejs\t\t\t"
   yum install nodejs make gcc-c++ -y &>>/tmp/roboshop.log
   STAT $?
 
   APP_USER_ADD
+  DOWNLOAD_FROM_GITHUB
 
 ## $1 is the first argument is passed through
-  HEAD "Download from Github\t\t\t"
-  curl -s -L -o /tmp/$1.zip "https://github.com/roboshop-devops-project/$1/archive/main.zip" &>>/tmp/roboshop.log
-  STAT $?
+
 
   HEAD "Extract Downloaded Content\t\t"
   cd /home/roboshop && rm -rf catalogue &>>/tmp/roboshop.log

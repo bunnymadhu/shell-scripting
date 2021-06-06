@@ -37,5 +37,10 @@ if [ $? -ne 0 ]; then
   mysql --connect-expired-password -uroot -p"${DEF_PASS}" </tmp/db.sql &>>/tmp/roboshop.log
   STAT $?
 fi
-
 ## --connect-expired-password = is cat /tmp/roboshop.log in that u can find that word {--connect-expired-password}
+
+DOWNLOAD_FROM_GITHUB mysql
+
+HEAD "Load MySQL Schema"
+cd /tmp && unzip -o mysql.zip &>>/tmp/roboshop.log && cd mysql-main && mysql -u root -pRoboShop@1 <shipping.sql &>>/tmp/roboshop.log
+STAT $?

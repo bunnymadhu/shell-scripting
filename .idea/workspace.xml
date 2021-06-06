@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roboshop/Components/common.sh" beforeDir="false" afterPath="$PROJECT_DIR$/roboshop/Components/common.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/roboshop/Components/mysql.sh" beforeDir="false" afterPath="$PROJECT_DIR$/roboshop/Components/mysql.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,20 +45,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
-    </task>
-    <task id="LOCAL-00252" summary="make some changes  in catalogue.sh">
-      <created>1622875704234</created>
-      <option name="number" value="00252" />
-      <option name="presentableId" value="LOCAL-00252" />
-      <option name="project" value="LOCAL" />
-      <updated>1622875704234</updated>
-    </task>
-    <task id="LOCAL-00253" summary="make some changes  in catalogue.sh">
-      <created>1622876266882</created>
-      <option name="number" value="00253" />
-      <option name="presentableId" value="LOCAL-00253" />
-      <option name="project" value="LOCAL" />
-      <updated>1622876266882</updated>
     </task>
     <task id="LOCAL-00254" summary="make some changes  in catalogue.sh">
       <created>1622876908188</created>
@@ -388,7 +375,21 @@
       <option name="project" value="LOCAL" />
       <updated>1622985810413</updated>
     </task>
-    <option name="localTasksCounter" value="301" />
+    <task id="LOCAL-00301" summary="make some changes  in mysql.sh">
+      <created>1622986366103</created>
+      <option name="number" value="00301" />
+      <option name="presentableId" value="LOCAL-00301" />
+      <option name="project" value="LOCAL" />
+      <updated>1622986366103</updated>
+    </task>
+    <task id="LOCAL-00302" summary="make some changes  in mysql.sh">
+      <created>1622986488109</created>
+      <option name="number" value="00302" />
+      <option name="presentableId" value="LOCAL-00302" />
+      <option name="project" value="LOCAL" />
+      <updated>1622986488109</updated>
+    </task>
+    <option name="localTasksCounter" value="303" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
