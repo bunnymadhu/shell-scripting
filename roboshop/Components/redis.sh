@@ -12,3 +12,8 @@ STAT $?
 HEAD "Install Redis "
 yum install redis -y &>>/tmp/roboshop.log
 STAT $?
+
+HEAD "Update the address in Redis.config"
+sed -i -e "s/127.0.0.1/0.0.0.0/" /etc/redis/redis.conf
+STAT $?
+
