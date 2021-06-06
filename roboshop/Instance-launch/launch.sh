@@ -36,7 +36,7 @@ if [ "${INSTANCE_STATE}" = "stopped" ]; then
 fi
 
 aws ec2 run-instances --launch-template LaunchTemplateId=${LAUNCHTEMPLATEID},Version=${LAUNCHTEMPLATEVERSION} --tag-specifications "ResourceType=instance ,Tags=[{Key=Name,Value=${COMPONENT}}]" | jq
-sleep 30
+sleep 10
 DNS_UPDATE
 
 
