@@ -43,6 +43,12 @@ DOWNLOAD_FROM_GITHUB() {
   HEAD "Download from Github\t\t\t"
   curl -s -L -o /tmp/$1.zip "https://github.com/roboshop-devops-project/$1/archive/main.zip" &>>/tmp/roboshop.log
   STAT $?
+  HEAD "Extract Downloaded Content\t\t"
+  cd /home/roboshop && rm -rf catalogue &>>/tmp/roboshop.log
+  STAT $?
+  HEAD "unzip the file\t\t\t\t"
+  cd /home/roboshop && rm -rf $1 && unzip /tmp/$1.zip &>>/tmp/roboshop.log && mv $1-main $1
+  STAT $?
 }
 
 NODEJS () {
@@ -54,19 +60,9 @@ NODEJS () {
   DOWNLOAD_FROM_GITHUB
 
 ## $1 is the first argument is passed through
-
-
-  HEAD "Extract Downloaded Content\t\t"
-  cd /home/roboshop && rm -rf catalogue &>>/tmp/roboshop.log
-  STAT $?
-
-  ## in root user cd /home/roboshop/
-  ## ls ------ catalogue-main
-  ## mv catalogue-main catalogue,,,the go to centos
-
-  HEAD "unzip the file\t\t\t\t"
-  cd /home/roboshop && rm -rf $1 && unzip /tmp/$1.zip &>>/tmp/roboshop.log && mv $1-main $1
-  STAT $?
+## in root user cd /home/roboshop/
+## ls ------ catalogue-main
+## mv catalogue-main catalogue,,,the go to centos
 
   HEAD "Install Nodejs Dependencies\t\t"
   cd /home/roboshop/$1 &&  npm install --unsafe-perm &>>/tmp/roboshop.log
@@ -74,6 +70,21 @@ NODEJS () {
 
   HEAD "Fix the permissions to the App Content"
   chown roboshop:roboshop /home/roboshop -R
+  STAT $?
+
+  SETUP_SYSTEMD "$1"
+}
+
+MAVEN () {
+  HEAD "Install Maven"
+  yum install maven -y  &>>/tmp/roboshop.log
+  STAT $?
+
+  APP_USER_ADD
+  DOWNLOAD_FROM_GITHUB $1
+
+  HEAD "Make Application package"
+  cd /home/roboshop/$? && mvn clean package &>>/tmp/roboshop.log && mv target/$?-1.0.jar $?.jar &>>/tmp/roboshop.log
   STAT $?
 
   SETUP_SYSTEMD "$1"
