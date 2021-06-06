@@ -28,7 +28,7 @@ STAT $?
 ## sudo grep 'A temporary password' /var/log/mysqld.log | aws '{print $NF}' , to print Nth field in that line  aws'{print $NF}'
 
 DEF_PASS=$(grep 'A temporary password' /var/log/mysqld.log | awk '{print $NF}')
-echo " ALTER USER 'root'@'localhost' IDENTIFIED BY 'RoboShop@1';
+echo "ALTER USER 'root'@'localhost' IDENTIFIED BY 'RoboShop@1';
 uninstall plugin validate_password;" >/tmp/db.sql
 
 HEAD "Reset mySQL Password\t"
