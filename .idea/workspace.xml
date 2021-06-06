@@ -42,27 +42,6 @@
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
     </task>
-    <task id="LOCAL-00236" summary="make some changes  in Makefile">
-      <created>1622822664857</created>
-      <option name="number" value="00236" />
-      <option name="presentableId" value="LOCAL-00236" />
-      <option name="project" value="LOCAL" />
-      <updated>1622822664857</updated>
-    </task>
-    <task id="LOCAL-00237" summary="make some changes  in Makefile">
-      <created>1622822755175</created>
-      <option name="number" value="00237" />
-      <option name="presentableId" value="LOCAL-00237" />
-      <option name="project" value="LOCAL" />
-      <updated>1622822755175</updated>
-    </task>
-    <task id="LOCAL-00238" summary="make some changes  in Makefile">
-      <created>1622822828356</created>
-      <option name="number" value="00238" />
-      <option name="presentableId" value="LOCAL-00238" />
-      <option name="project" value="LOCAL" />
-      <updated>1622822828356</updated>
-    </task>
     <task id="LOCAL-00239" summary="make some changes  in launch.sh">
       <created>1622823619812</created>
       <option name="number" value="00239" />
@@ -385,7 +364,28 @@
       <option name="project" value="LOCAL" />
       <updated>1622969786832</updated>
     </task>
-    <option name="localTasksCounter" value="285" />
+    <task id="LOCAL-00285" summary="make some changes  in common.sh">
+      <created>1622969999995</created>
+      <option name="number" value="00285" />
+      <option name="presentableId" value="LOCAL-00285" />
+      <option name="project" value="LOCAL" />
+      <updated>1622969999995</updated>
+    </task>
+    <task id="LOCAL-00286" summary="make some changes  in common.sh">
+      <created>1622970191063</created>
+      <option name="number" value="00286" />
+      <option name="presentableId" value="LOCAL-00286" />
+      <option name="project" value="LOCAL" />
+      <updated>1622970191063</updated>
+    </task>
+    <task id="LOCAL-00287" summary="make some changes  in common.sh">
+      <created>1622970252299</created>
+      <option name="number" value="00287" />
+      <option name="presentableId" value="LOCAL-00287" />
+      <option name="project" value="LOCAL" />
+      <updated>1622970252299</updated>
+    </task>
+    <option name="localTasksCounter" value="288" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
