@@ -31,7 +31,7 @@ DEF_PASS=$(grep 'A temporary password' /var/log/mysqld.log | awk '{print $NF}')
 echo " ALTER USER 'root'@'localhost' IDENTIFIED BY 'RoboShop@1';
 uninstall plugin validate_password;" >/tmp/db.sql
 
-HEAD "Reset mySQL Password"
+HEAD "Reset mySQL Password\t"
 mysql --connect-expired-password -uroot -p"${DEF_PASS}" </tmp/db.sql &>>/tmp/roboshop.log
 STAT $?
 
