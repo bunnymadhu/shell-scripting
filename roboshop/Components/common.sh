@@ -45,7 +45,7 @@ DOWNLOAD_FROM_GITHUB() {
   STAT $?
 
   HEAD "Extract Downloaded Content\t\t"
-  cd /home/roboshop && rm -rf catalogue &>>/tmp/roboshop.log
+  cd /home/roboshop && rm -rf catalogue &>>/tmp/roboshop.log &&  rm -rf shipping &>>/tmp/roboshop.log
   STAT $?
 
   HEAD "unzip the file\t\t\t\t"
