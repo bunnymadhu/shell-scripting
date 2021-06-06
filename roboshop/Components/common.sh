@@ -25,6 +25,20 @@ APP_USER_ADD() {
   fi
 }
 
+SETUP_SYSTEMD() {
+  HEAD "Update DNS Records in systemD file\t"
+  sed -i -e 's/MONGO_DNSNAME/mongodb.roboshop.internal/' -e 's/REDIS_ENDPOINT/redis.roboshop.internal/' -e 's/MONGO_ENDPOINT/mongodb.roboshop.internal/' /home/roboshop/$1/systemd.service
+  STAT $?
+
+  HEAD "Setup SystemD service\t\t\t"
+  mv /home/roboshop/$1/systemd.service /etc/systemd/system/$1.service &>>/tmp/roboshop.log
+  STAT $?
+
+  HEAD "Start $1 service\t\t"
+  systemctl daemon-reload && systemctl enable $1 &>>/tmp/roboshop.log && systemctl restart $1 &>>/tmp/roboshop.log
+  STAT $?
+}
+
 NODEJS () {
   HEAD "Installing Nodejs\t\t\t"
   yum install nodejs make gcc-c++ -y &>>/tmp/roboshop.log
@@ -57,15 +71,5 @@ NODEJS () {
   chown roboshop:roboshop /home/roboshop -R
   STAT $?
 
-  HEAD "Update DNS Records in systemD file\t"
-  sed -i -e 's/MONGO_DNSNAME/mongodb.roboshop.internal/' -e 's/REDIS_ENDPOINT/redis.roboshop.internal/' -e 's/MONGO_ENDPOINT/mongodb.roboshop.internal/' /home/roboshop/$1/systemd.service
-  STAT $?
-
-  HEAD "Setup SystemD service\t\t\t"
-  mv /home/roboshop/$1/systemd.service /etc/systemd/system/$1.service &>>/tmp/roboshop.log
-  STAT $?
-
-  HEAD "Start $1 service\t\t"
-  systemctl daemon-reload && systemctl enable $1 &>>/tmp/roboshop.log && systemctl restart $1 &>>/tmp/roboshop.log
-  STAT $?
+  SETUP_SYSTEMD "$1"
 }
