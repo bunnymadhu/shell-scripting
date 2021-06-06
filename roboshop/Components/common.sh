@@ -43,7 +43,7 @@ NODEJS () {
 
   ## in root user cd /home/roboshop/
   ## ls ------ catalogue-main
-  ## mv catalogue-main catalogue,,,the go to centos user
+  ## mv catalogue-main catalogue,,,the go to centos
 
   HEAD "unzip the file\t\t\t\t"
   unzip /tmp/$1.zip &>>/tmp/roboshop.log && mv $1-main $1
@@ -58,7 +58,7 @@ NODEJS () {
   STAT $?
 
   HEAD "Update DNS Records in systemD file\t"
-  sed -i -e 's/MONGO_DNSNAME/mongodb.roboshop.internal/' /home/roboshop/$1/systemd.service
+  sed -i -e 's/MONGO_DNSNAME/mongodb.roboshop.internal/' -e 's/REDIS_ENDPOINT/redis.roboshop.internal/' -e 's/MONGO_ENDPOINT/mongodb.roboshop.internal/' /home/roboshop/$1/systemd.service
   STAT $?
 
   HEAD "Setup SystemD service\t\t\t"
