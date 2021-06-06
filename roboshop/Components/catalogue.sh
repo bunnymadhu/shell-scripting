@@ -2,6 +2,7 @@
 
 source Components/common.sh
 rm -f /tmp/roboshop.log
+set-hostname catalogue
 disable-auto-shutdown
 
 HEAD "Installing Nodejs\t\t\t"

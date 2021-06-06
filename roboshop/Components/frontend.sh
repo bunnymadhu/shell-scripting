@@ -2,6 +2,7 @@
 
 source Components/common.sh
 rm -f /tmp/roboshop.log
+set-hostname frontend
 disable-auto-shutdown
 
 HEAD "Installing Nginx\t\t"

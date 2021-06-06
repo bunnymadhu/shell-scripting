@@ -2,6 +2,7 @@
 
 source Components/common.sh
 rm -f /tmp/roboshop.log
+set-hostname mongodb
 disable-auto-shutdown
 
 HEAD "Setup MongoDB Yum repo file\t\t"
