@@ -32,5 +32,7 @@ echo " ALTER USER 'root'@'localhost' IDENTIFIED BY 'RoboShop@1';
 uninstall plugin validate_password;" >/tmp/db.sql
 
 HEAD "Reset mySQL Password"
-mysql -uroot -p"${DEF_PASS}" </tmp/db.sql &>>/tmp/roboshop.log
+mysql --connect-expired-password -uroot -p"${DEF_PASS}" </tmp/db.sql &>>/tmp/roboshop.log
 STAT $?
+
+## --connect-expired-password = is cat /tmp/roboshop.log in that u can find that word {--connect-expired-password}
