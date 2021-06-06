@@ -31,8 +31,10 @@ DEF_PASS=$(grep 'A temporary password' /var/log/mysqld.log | awk '{print $NF}')
 echo "ALTER USER 'root'@'localhost' IDENTIFIED BY 'RoboShop@1';
 uninstall plugin validate_password;" >/tmp/db.sql
 
-HEAD "Reset mySQL Password\t"
-mysql --connect-expired-password -uroot -p"${DEF_PASS}" </tmp/db.sql &>>/tmp/roboshop.log
-STAT $?
-
+echo show databases | mysql -uroot -pRoboSho@1 &>>/tmp/roboshop.log
+if [$? -ne ]; then
+  HEAD "Reset mySQL Password\t"
+  mysql --connect-expired-password -uroot -p"${DEF_PASS}" </tmp/db.sql &>>/tmp/roboshop.log
+  STAT $?
+fi
 ## --connect-expired-password = is cat /tmp/roboshop.log in that u can find that word {--connect-expired-password}
