@@ -8,7 +8,7 @@ if [ -z "${COMPONENT}"  ]; then
  exit 1
 fi
 
-LAUNCHTEMPLATEID=lt-05cd3a1572980b093
+LAUNCHTEMPLATEID=llt-05cd3a1572980b093
 LAUNCHTEMPLATEVERSION=1
 
 ##  validate if instance is running r not
