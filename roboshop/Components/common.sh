@@ -60,7 +60,7 @@ NODEJS () {
   ## mv catalogue-main catalogue,,,the go to centos
 
   HEAD "unzip the file\t\t\t\t"
-  unzip /tmp/$1.zip &>>/tmp/roboshop.log && mv $1-main $1
+  cd /home/roboshop && rm -rf $1 && unzip /tmp/$1.zip &>>/tmp/roboshop.log && mv $1-main $1
   STAT $?
 
   HEAD "Install Nodejs Dependencies\t\t"
