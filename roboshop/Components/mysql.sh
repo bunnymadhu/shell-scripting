@@ -20,3 +20,17 @@ STAT $?
 HEAD "Start MySQL Services\t"
 systemctl enable mysqld &>>/tmp/roboshop.log && systemctl start mysqld &>>/tmp/roboshop.log
 STAT $?
+
+## a default root password will be generated and given in the log file,soo to opn {cat},
+## sudo cat /var/log/mysqld.log and to search {grep},
+## sudo grep temp  /var/log/mysqld.log, in that {A temporary password is there},
+## sudo grep 'A temporary password' /var/log/mysqld.log
+## sudo grep 'A temporary password' /var/log/mysqld.log | aws '{print $NF}' , to print Nth field in that line  aws'{print $NF}'
+
+DEF_PASS=$(sudo grep 'A temporary password' /var/log/mysqld.log | awk '{print $NF}')
+echo " ALTER USER 'root'@'localhost' IDENTIFIED BY 'RoboShop@1';
+uninstall plugin validate_password;" >/tmp/db.sql
+
+HEAD "Reset mySQL Password"
+mysql -uroot -p"${DEF_PASS}" </tmp/db.sql &>>/tmp/roboshop.log
+STAT $?
