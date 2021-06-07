@@ -45,7 +45,7 @@ SETUP_SYSTEMD() {
   STAT $?
   HEAD "Extract the Downloaded Archive"
   cd /home/roboshop && rm -rf $1 && unzip /tmp/$1.zip &>>/tmp/roboshop.log && mv $1-main $1
-   STAT $?
+  STAT $?
 
  }
 
