@@ -1,5 +1,7 @@
 #!/bin/bash
 
+disable-auto-shutdown
+
 HEAD () {
   echo -n -e  "\e[1m $1 \e[0m \t\t ... "
   }
@@ -14,6 +16,7 @@ STAT () {
     exit 1
   fi
   }
+
   FIX_APP_CONENT_PERM() {
   HEAD "Fix Permissions to App Content"
   chown roboshop:roboshop /home/roboshop -R
@@ -53,7 +56,6 @@ SETUP_SYSTEMD() {
   HEAD "Extract the Downloaded Archive"
   cd /home/roboshop && rm -rf $1 && unzip /tmp/$1.zip &>>/tmp/roboshop.log && mv $1-main $1
   STAT $?
-
  }
 
 NODEJS () {
@@ -73,9 +75,7 @@ NODEJS () {
   cd /home/roboshop/$1 &&  npm install --unsafe-perm &>>/tmp/roboshop.log
   STAT $?
 
-  HEAD "Fix the permissions to the App Content"
-  chown roboshop:roboshop /home/roboshop -R
-  STAT $?
+  FIX_APP_CONENT_PERM
 
   SETUP_SYSTEMD "$1"
 }

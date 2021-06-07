@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/roboshop/Instance-launch/launch.sh" beforeDir="false" afterPath="$PROJECT_DIR$/roboshop/Instance-launch/launch.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roboshop/Components/catalogue.sh" beforeDir="false" afterPath="$PROJECT_DIR$/roboshop/Components/catalogue.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roboshop/Components/common.sh" beforeDir="false" afterPath="$PROJECT_DIR$/roboshop/Components/common.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,13 +45,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
-    </task>
-    <task id="LOCAL-00305" summary="make some changes  in mysql.sh">
-      <created>1622988038574</created>
-      <option name="number" value="00305" />
-      <option name="presentableId" value="LOCAL-00305" />
-      <option name="project" value="LOCAL" />
-      <updated>1622988038574</updated>
     </task>
     <task id="LOCAL-00306" summary="make some changes  in common.sh">
       <created>1622997750529</created>
@@ -387,7 +382,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623068290900</updated>
     </task>
-    <option name="localTasksCounter" value="354" />
+    <task id="LOCAL-00354" summary="make some changes  in common.sh">
+      <created>1623076094291</created>
+      <option name="number" value="00354" />
+      <option name="presentableId" value="LOCAL-00354" />
+      <option name="project" value="LOCAL" />
+      <updated>1623076094291</updated>
+    </task>
+    <option name="localTasksCounter" value="355" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -5,7 +5,6 @@ rm -f /tmp/roboshop.log
 set-hostname catalogue
 disable-auto-shutdown
 
-
 NODEJS "catalogue"
 
 ## --unsafe-perm -- switching to users in shell-scripting a bit complexm,so thats why,to use root user to normal user give permissions..
