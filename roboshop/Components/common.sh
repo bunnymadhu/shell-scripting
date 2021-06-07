@@ -64,6 +64,7 @@ NODEJS () {
   STAT $?
 
   APP_USER_ADD
+
   DOWNLOAD_FROM_GITHUB
 
 ## $1 is the first argument is passed through
