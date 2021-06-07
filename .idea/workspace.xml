@@ -44,20 +44,6 @@
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
     </task>
-    <task id="LOCAL-00274" summary="make some changes  in redis.sh">
-      <created>1622950915575</created>
-      <option name="number" value="00274" />
-      <option name="presentableId" value="LOCAL-00274" />
-      <option name="project" value="LOCAL" />
-      <updated>1622950915575</updated>
-    </task>
-    <task id="LOCAL-00275" summary="make some changes  in redis.sh">
-      <created>1622951141259</created>
-      <option name="number" value="00275" />
-      <option name="presentableId" value="LOCAL-00275" />
-      <option name="project" value="LOCAL" />
-      <updated>1622951141259</updated>
-    </task>
     <task id="LOCAL-00276" summary="make some changes  in redis.sh">
       <created>1622951210928</created>
       <option name="number" value="00276" />
@@ -387,7 +373,21 @@
       <option name="project" value="LOCAL" />
       <updated>1623050178812</updated>
     </task>
-    <option name="localTasksCounter" value="323" />
+    <task id="LOCAL-00323" summary="make some changes  in common.sh">
+      <created>1623050502127</created>
+      <option name="number" value="00323" />
+      <option name="presentableId" value="LOCAL-00323" />
+      <option name="project" value="LOCAL" />
+      <updated>1623050502127</updated>
+    </task>
+    <task id="LOCAL-00324" summary="make some changes  in common.sh">
+      <created>1623050615060</created>
+      <option name="number" value="00324" />
+      <option name="presentableId" value="LOCAL-00324" />
+      <option name="project" value="LOCAL" />
+      <updated>1623050615060</updated>
+    </task>
+    <option name="localTasksCounter" value="325" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
