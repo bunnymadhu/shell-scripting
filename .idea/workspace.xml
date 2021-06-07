@@ -44,13 +44,6 @@
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
     </task>
-    <task id="LOCAL-00315" summary="make some changes  in common.sh">
-      <created>1623032982679</created>
-      <option name="number" value="00315" />
-      <option name="presentableId" value="LOCAL-00315" />
-      <option name="project" value="LOCAL" />
-      <updated>1623032982679</updated>
-    </task>
     <task id="LOCAL-00316" summary="make some changes  in common.sh">
       <created>1623033077034</created>
       <option name="number" value="00316" />
@@ -387,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623086575660</updated>
     </task>
-    <option name="localTasksCounter" value="364" />
+    <task id="LOCAL-00364" summary="make some changes  in rabbitmq.sh">
+      <created>1623086990682</created>
+      <option name="number" value="00364" />
+      <option name="presentableId" value="LOCAL-00364" />
+      <option name="project" value="LOCAL" />
+      <updated>1623086990682</updated>
+    </task>
+    <option name="localTasksCounter" value="365" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
