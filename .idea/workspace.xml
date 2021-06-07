@@ -44,34 +44,6 @@
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
     </task>
-    <task id="LOCAL-00284" summary="make some changes  in common.sh">
-      <created>1622969786832</created>
-      <option name="number" value="00284" />
-      <option name="presentableId" value="LOCAL-00284" />
-      <option name="project" value="LOCAL" />
-      <updated>1622969786832</updated>
-    </task>
-    <task id="LOCAL-00285" summary="make some changes  in common.sh">
-      <created>1622969999995</created>
-      <option name="number" value="00285" />
-      <option name="presentableId" value="LOCAL-00285" />
-      <option name="project" value="LOCAL" />
-      <updated>1622969999995</updated>
-    </task>
-    <task id="LOCAL-00286" summary="make some changes  in common.sh">
-      <created>1622970191063</created>
-      <option name="number" value="00286" />
-      <option name="presentableId" value="LOCAL-00286" />
-      <option name="project" value="LOCAL" />
-      <updated>1622970191063</updated>
-    </task>
-    <task id="LOCAL-00287" summary="make some changes  in common.sh">
-      <created>1622970252299</created>
-      <option name="number" value="00287" />
-      <option name="presentableId" value="LOCAL-00287" />
-      <option name="project" value="LOCAL" />
-      <updated>1622970252299</updated>
-    </task>
     <task id="LOCAL-00288" summary="make some changes  in common.sh">
       <created>1622970534450</created>
       <option name="number" value="00288" />
@@ -387,7 +359,35 @@
       <option name="project" value="LOCAL" />
       <updated>1623051795441</updated>
     </task>
-    <option name="localTasksCounter" value="333" />
+    <task id="LOCAL-00333" summary="make some changes  in common.sh">
+      <created>1623052147207</created>
+      <option name="number" value="00333" />
+      <option name="presentableId" value="LOCAL-00333" />
+      <option name="project" value="LOCAL" />
+      <updated>1623052147207</updated>
+    </task>
+    <task id="LOCAL-00334" summary="make some changes  in common.sh">
+      <created>1623052194331</created>
+      <option name="number" value="00334" />
+      <option name="presentableId" value="LOCAL-00334" />
+      <option name="project" value="LOCAL" />
+      <updated>1623052194331</updated>
+    </task>
+    <task id="LOCAL-00335" summary="make some changes  in common.sh">
+      <created>1623052340215</created>
+      <option name="number" value="00335" />
+      <option name="presentableId" value="LOCAL-00335" />
+      <option name="project" value="LOCAL" />
+      <updated>1623052340215</updated>
+    </task>
+    <task id="LOCAL-00336" summary="make some changes  in common.sh">
+      <created>1623052398193</created>
+      <option name="number" value="00336" />
+      <option name="presentableId" value="LOCAL-00336" />
+      <option name="project" value="LOCAL" />
+      <updated>1623052398193</updated>
+    </task>
+    <option name="localTasksCounter" value="337" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
