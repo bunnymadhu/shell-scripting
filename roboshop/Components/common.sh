@@ -50,15 +50,11 @@ DOWNLOAD_FROM_GITHUB() {
 
   HEAD "unzip the file\t\t\t\t"
   cd /home/roboshop
-   if [ -d $1 ]; then
-     echo file is already there, so avoid the User creation &>>/tmp/roboshop.log
-     rmdir -rf $1
-  fi
   unzip /tmp/$1.zip &>>/tmp/roboshop.log
   STAT $?
 
   HEAD "Change the file name\t\t\t\t"
-  mvdir $1-main $1
+  rm -rf $1 && mv $1-main $1
   STAT $?
 }
 
