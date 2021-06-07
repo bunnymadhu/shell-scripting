@@ -5,7 +5,7 @@ rm -f /tmp/roboshop.log
 set-hostname rabbitmq
 disable-auto-shutdown
 
-HEAD "Install ERLNG\t\t\t"
+HEAD "Install ERLNG\t\t\t\t"
 yum list installed | grep erlang  &>>/tmp/roboshop.log
 if [  $? -eq 0 ]; then
   echo "ERLNG already installed" &>>/tmp/roboshop.log
@@ -15,7 +15,7 @@ yum install https://github.com/rabbitmq/erlang-rpm/releases/download/v23.2.6/erl
 STAT $?
 fi
 
-HEAD "Setup Rabbitmq Yum Repos"
+HEAD "Setup Rabbitmq Yum Repos\t\t"
 curl -s https://packagecloud.io/install/repositories/rabbitmq/rabbitmq-server/script.rpm.sh | sudo bash  &>>/tmp/roboshop.log
 STAT $?
 
@@ -23,11 +23,11 @@ HEAD "Install RabbitMQ Server\t\t"
 yum install rabbitmq-server -y  &>>/tmp/roboshop.log
 STAT $?
 
-HEAD "Start RabbitMQ Server\t\t"
+HEAD "Start RabbitMQ Server\t\t\t"
 systemctl enable rabbitmq-server  &>>/tmp/roboshop.log && systemctl start rabbitmq-server &>>/tmp/roboshop.log
 STAT $?
 
-HEAD "Create Application user in RabbitMq"
+HEAD "Create Application user in RabbitMq\t"
 rabbitmqctl list_users | grep roboshop &>>/tmp/roboshop.log
 if [  $? -ne 0 ]; then
   rabbitmqctl add_user roboshop roboshop123 &>>/tmp/roboshop.log
