@@ -52,13 +52,13 @@ DOWNLOAD_FROM_GITHUB() {
   cd /home/roboshop
    if [ -d $1 ]; then
      echo file is already there, so avoid the User creation &>>/tmp/roboshop.log
-     rm -rf $1
+     rmdir -rf $1
   fi
   unzip /tmp/$1.zip &>>/tmp/roboshop.log
   STAT $?
 
   HEAD "Change the file name\t\t\t\t"
-  mv $1-main $1
+  mvdir $1-main $1
   STAT $?
 }
 
