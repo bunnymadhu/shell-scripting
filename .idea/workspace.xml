@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/roboshop/Components/rabbitmq.sh" beforeDir="false" afterPath="$PROJECT_DIR$/roboshop/Components/rabbitmq.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,13 +43,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
-    </task>
-    <task id="LOCAL-00314" summary="make some changes  in common.sh">
-      <created>1623032822398</created>
-      <option name="number" value="00314" />
-      <option name="presentableId" value="LOCAL-00314" />
-      <option name="project" value="LOCAL" />
-      <updated>1623032822398</updated>
     </task>
     <task id="LOCAL-00315" summary="make some changes  in common.sh">
       <created>1623032982679</created>
@@ -388,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623084849800</updated>
     </task>
-    <option name="localTasksCounter" value="363" />
+    <task id="LOCAL-00363" summary="make some changes  in rabbitmq.sh">
+      <created>1623086575660</created>
+      <option name="number" value="00363" />
+      <option name="presentableId" value="LOCAL-00363" />
+      <option name="project" value="LOCAL" />
+      <updated>1623086575660</updated>
+    </task>
+    <option name="localTasksCounter" value="364" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -404,7 +403,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="removed spaces in 03.varible.sh file" />
     <MESSAGE value="add command in 04.input.sh file" />
     <MESSAGE value="edit changes in sample file" />
     <MESSAGE value="create new file in 06-Quotes &amp; Redirectors &amp; exit status" />
@@ -429,6 +427,7 @@
     <MESSAGE value="make some changes  in redis.sh" />
     <MESSAGE value="make some changes  in mysql.sh" />
     <MESSAGE value="make some changes  in common.sh" />
-    <option name="LAST_COMMIT_MESSAGE" value="make some changes  in common.sh" />
+    <MESSAGE value="make some changes  in rabbitmq.sh" />
+    <option name="LAST_COMMIT_MESSAGE" value="make some changes  in rabbitmq.sh" />
   </component>
 </project>
