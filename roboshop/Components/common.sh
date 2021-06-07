@@ -53,7 +53,11 @@ DOWNLOAD_FROM_GITHUB() {
    if [ -d $1 ]; then
       rm -rf $1
   fi
-  unzip /tmp/$1.zip &>>/tmp/roboshop.log && mv $1-main $1
+  unzip /tmp/$1.zip &>>/tmp/roboshop.log
+  STAT $?
+
+  HEAD "Change the file name\t\t\t\t"
+  mv $1-main $1
   STAT $?
 }
 
