@@ -52,7 +52,7 @@ DOWNLOAD_FROM_GITHUB() {
   cd /home/roboshop
    if [ -d $1 ]; then
       rm -rf $1
-    fi
+  fi
   unzip /tmp/$1.zip &>>/tmp/roboshop.log && mv $1-main $1
   STAT $?
 }
