@@ -45,16 +45,13 @@ DOWNLOAD_FROM_GITHUB() {
   STAT $?
 
   HEAD "Extract Downloaded Content\t\t"
-  cd /home/roboshop && rm -rf catalogue &>>/tmp/roboshop.log &&  rm -rf shipping &>>/tmp/roboshop.log
-  STAT $?
-
-  HEAD "unzip the file\t\t\t\t"
   cd /home/roboshop
-  unzip /tmp/$1.zip &>>/tmp/roboshop.log
-  STAT $?
-
-  HEAD "Change the file name\t\t\t\t"
-  rm -rf $1 && mv $1-main $1
+  list=`ls $1-main'
+  cd $1-main
+  cwd=`pwd`
+  for folder in $list;do
+        mv ${cwd}/$"{$1-main}" '/data/*' ${cwd}/$"{$1}"
+  done
   STAT $?
 }
 
@@ -96,3 +93,4 @@ MAVEN () {
 
   SETUP_SYSTEMD "$1"
 }
+
