@@ -67,11 +67,6 @@ NODEJS () {
 
   DOWNLOAD_FROM_GITHUB
 
-## $1 is the first argument is passed through
-## in root user cd /home/roboshop/
-## ls ------ catalogue-main
-## mv catalogue-main catalogue,,,the go to centos
-
   HEAD "Install Nodejs Dependencies\t\t"
   cd /home/roboshop/$1 &&  npm install --unsafe-perm &>>/tmp/roboshop.log
   STAT $?
@@ -80,6 +75,10 @@ NODEJS () {
 
   SETUP_SYSTEMD "$1"
 }
+## $1 is the first argument is passed through
+## in root user cd /home/roboshop/
+## ls ------ catalogue-main
+## mv catalogue-main catalogue,,,the go to centos
 
 MAVEN () {
   HEAD "Install Maven\t\t\\t\t"
