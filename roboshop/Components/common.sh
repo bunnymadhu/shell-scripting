@@ -51,7 +51,8 @@ DOWNLOAD_FROM_GITHUB() {
   HEAD "unzip the file\t\t\t\t"
   cd /home/roboshop
    if [ -d $1 ]; then
-      rm -rf $1
+     echo file is already there, so avoid the User creation &>>/tmp/roboshop.log
+     rm -rf $1
   fi
   unzip /tmp/$1.zip &>>/tmp/roboshop.log
   STAT $?
