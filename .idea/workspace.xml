@@ -42,20 +42,6 @@
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
     </task>
-    <task id="LOCAL-00295" summary="make some changes  in mysql.sh">
-      <created>1622983534981</created>
-      <option name="number" value="00295" />
-      <option name="presentableId" value="LOCAL-00295" />
-      <option name="project" value="LOCAL" />
-      <updated>1622983534981</updated>
-    </task>
-    <task id="LOCAL-00296" summary="make some changes  in mysql.sh">
-      <created>1622985269832</created>
-      <option name="number" value="00296" />
-      <option name="presentableId" value="LOCAL-00296" />
-      <option name="project" value="LOCAL" />
-      <updated>1622985269832</updated>
-    </task>
     <task id="LOCAL-00297" summary="make some changes  in mysql.sh">
       <created>1622985464152</created>
       <option name="number" value="00297" />
@@ -385,7 +371,21 @@
       <option name="project" value="LOCAL" />
       <updated>1623065808685</updated>
     </task>
-    <option name="localTasksCounter" value="344" />
+    <task id="LOCAL-00344" summary="make some changes  in common.sh">
+      <created>1623065846823</created>
+      <option name="number" value="00344" />
+      <option name="presentableId" value="LOCAL-00344" />
+      <option name="project" value="LOCAL" />
+      <updated>1623065846823</updated>
+    </task>
+    <task id="LOCAL-00345" summary="make some changes  in common.sh">
+      <created>1623066082147</created>
+      <option name="number" value="00345" />
+      <option name="presentableId" value="LOCAL-00345" />
+      <option name="project" value="LOCAL" />
+      <updated>1623066082147</updated>
+    </task>
+    <option name="localTasksCounter" value="346" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
