@@ -88,5 +88,5 @@ MAVEN () {
   FIX_APP_CONENT_PERM
 
   SETUP_SYSTEMD "$1"
-}
+ }
 
