@@ -84,7 +84,7 @@ MAVEN () {
   HEAD "Make Application package"
   cd /home/roboshop/$1 && mvn clean package &>> /tmp/roboshop.log && mv target/$1-1.0.jar $1.jar  &>>/tmp/roboshop.log
   STAT $?
-
+  FIX_APP_CONENT_PERM
   SETUP_SYSTEMD "$1"
 }
 
