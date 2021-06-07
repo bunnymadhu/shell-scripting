@@ -9,7 +9,7 @@ if [ -z "${COMPONENT}"  ]; then
 fi
 
 LAUNCHTEMPLATEID=lt-05cd3a1572980b093
-LAUNCHTEMPLATEVERSION=1
+LAUNCHTEMPLATEVERSION=2
 
 ##  validate if instance is running r not
 
