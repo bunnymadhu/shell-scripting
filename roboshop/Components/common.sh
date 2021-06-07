@@ -40,18 +40,11 @@ SETUP_SYSTEMD() {
 }
 
 DOWNLOAD_FROM_GITHUB() {
-  HEAD "Download from Github\t\t\t"
+  HEAD "Download App from GitHub\t"
   curl -s -L -o /tmp/$1.zip "https://github.com/roboshop-devops-project/$1/archive/main.zip" &>>/tmp/roboshop.log
   STAT $?
-
-  HEAD "Extract Downloaded Content\t\t"
-  cd /home/roboshop
-  list=`ls $1-main'
-  cd $1-main
-  cwd=`pwd`
-  for folder in $list;do
-        mv ${cwd}/$"{$1-main}" '/data/*' ${cwd}/$"{$1}"
-  done
+  HEAD "Extract the Downloaded Archive"
+  cd /home/roboshop && rm -rf $1 && unzip /tmp/$1.zip &>>/tmp/roboshop.log && mv $1-main $1
   STAT $?
 }
 
