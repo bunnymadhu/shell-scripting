@@ -65,7 +65,7 @@ NODEJS () {
 
   APP_USER_ADD
 
-  DOWNLOAD_FROM_GITHUB
+  DOWNLOAD_FROM_GITHUB $1
 
   HEAD "Install Nodejs Dependencies\t\t"
   cd /home/roboshop/$1 &&  npm install --unsafe-perm &>>/tmp/roboshop.log
