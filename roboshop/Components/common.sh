@@ -49,7 +49,11 @@ DOWNLOAD_FROM_GITHUB() {
   STAT $?
 
   HEAD "unzip the file\t\t\t\t"
-  cd /home/roboshop && rm -rf $1 && unzip /tmp/$1.zip &>>/tmp/roboshop.log && mv $1-main $1
+  cd /home/roboshop
+   if [ -d $1 ]; then
+      rm -rf $1
+    fi
+  unzip /tmp/$1.zip &>>/tmp/roboshop.log && mv $1-main $1
   STAT $?
 }
 
