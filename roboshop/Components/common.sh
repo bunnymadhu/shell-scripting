@@ -14,6 +14,11 @@ STAT () {
     exit 1
   fi
   }
+  FIX_APP_CONENT_PERM() {
+  HEAD "Fix Permissions to App Content"
+  chown roboshop:roboshop /home/roboshop -R
+  STAT $?
+}
 
 APP_USER_ADD() {
   HEAD "Add Roboshop  APP  User\t\t"
