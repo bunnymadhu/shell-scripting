@@ -42,12 +42,13 @@ INSTANCE_CREATE() {
     return 0
   fi
 
-  aws ec2 run-instances --launch-template LaunchTemplateId=${LAUNCHTEMPLATEID},Version=${LAUNCHTEMPLATEVERSION} --tag-specifications "ResourceType=instance ,Tags=[{Key=Name,Value=${COMPONENT}}]" | jq
+   echo -n Instance ${COMPONENT} created - IPADDRESS is
+  aws ec2 run-instances --launch-template LaunchTemplateId=${LAUNCHTEMPLATEID},Version=${LAUNCHTEMPLATEVERSION} --tag-specifications "ResourceType=instance ,Tags=[{Key=Name,Value=${COMPONENT}}]" | jq | grep  PrivateIpAddress | xargs -n1
   sleep 10
   DNS_UPDATE
 }
 
-if  [ "${COMPONENT}" == "all" ]; then
+if  [ "${1}" == "all" ]; then
   for component in mongodb catalogue redis user cart mysql shipping rabbitmq payment ; do
     COMPONENT=$component
     INSTANCE_CREATE
