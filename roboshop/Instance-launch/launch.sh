@@ -53,8 +53,4 @@ else
   INSTANCE_CREATE
 fi
 
-
-
-
-
 ## | jq: to avoid that everytime instead press= q
