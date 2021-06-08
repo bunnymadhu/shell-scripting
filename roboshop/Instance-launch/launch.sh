@@ -53,6 +53,7 @@ if  [ "${COMPONENT}" == "all" ]; then
   INSTANCE_CREATE
   done
 else
+  COMPONENT=$1
   INSTANCE_CREATE
 fi
 
