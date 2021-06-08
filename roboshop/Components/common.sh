@@ -37,7 +37,7 @@ APP_USER_ADD() {
 
 SETUP_SYSTEMD() {
   HEAD "Update DNS Records in systemD file\t"
-  sed -i -e 's/MONGO_DNSNAME/mongodb.roboshop.internal/' -e 's/REDIS_ENDPOINT/redis.roboshop.internal/' -e 's/MONGO_ENDPOINT/mongodb.roboshop.internal/' -e 's/CATALOGUE_ENDPOINT/catalogue.roboshop.internal/' -e 's/CARTENDPOINT/cart.roboshop.internal/'  -e 's/DBHOST/mysql.roboshop.internal/' /home/roboshop/$1/systemd.service
+  sed -i -e 's/MONGO_DNSNAME/mongodb.roboshop.internal/' -e 's/REDIS_ENDPOINT/redis.roboshop.internal/' -e 's/MONGO_ENDPOINT/mongodb.roboshop.internal/' -e 's/CATALOGUE_ENDPOINT/catalogue.roboshop.internal/' -e 's/CARTENDPOINT/cart.roboshop.internal/'  -e 's/DBHOST/mysql.roboshop.internal/'  -e 's/CARTHOST/cart.roboshop.internal/' -e 's/USERHOST/user.roboshop.internal/' -e 's/AMQPHOST/rabbitmq.roboshop.internal/' /home/roboshop/$1/systemd.service
   STAT $?
 
   HEAD "Setup SystemD service\t\t\t"
@@ -98,3 +98,24 @@ MAVEN () {
 
  }
 
+PYTHON3 () {
+HEAD "Install Python3\t\t\\t\t"
+  yum install python36 gcc python3-devel -y &>>/tmp/roboshop.log
+  STAT $?
+
+  APP_USER_ADD
+  DOWNLOAD_FROM_GITHUB $1
+
+  HEAD "Install python Dependencies\t\t"
+  cd /home/roboshop/$1 &&  pip3 install -r requirements.txt  &>>/tmp/roboshop.log
+  STAT $?
+
+  USER_ID=$(id -u roboshop)
+  GROUP_ID=$(id -g roboshop)
+
+  HEAD "Update App Configuration"
+  sed -i -e "/uid/ c uid=${USER_ID}" -e "/gid/ c gid=${GROUP_ID}" /home/roboshop/$1/$1.ini
+  STAT $?
+
+  SETUP_SYSTEMD "$1"
+}
