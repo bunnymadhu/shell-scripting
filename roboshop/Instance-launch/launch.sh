@@ -13,11 +13,6 @@ LAUNCHTEMPLATEVERSION=2
 
 ##  validate if instance is running r not
 
-#if  [ "${COMPONENT}" == "all" ]; then
- # for Component in mongodb catalogue redis user cart mysql shipping rabbitmq payment ; do
-
-  #done
-#fi
 
 DNS_UPDATE() {
   PRIVATEIP=$(aws ec2 describe-instances --filters "Name=tag:Name,Values=${COMPONENT} "  | jq .Reservations[].Instances[].PrivateIpAddress | xargs -n1)
