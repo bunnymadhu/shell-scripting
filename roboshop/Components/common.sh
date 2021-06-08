@@ -99,7 +99,7 @@ MAVEN () {
  }
 
 PYTHON3 () {
-HEAD "Install Python3\t\t\\t\t"
+HEAD "Install Python3\t\t\\t"
   yum install python36 gcc python3-devel -y &>>/tmp/roboshop.log
   STAT $?
 
