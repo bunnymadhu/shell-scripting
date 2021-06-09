@@ -14,9 +14,14 @@ LAUNCHTEMPLATEVERSION=2
 ##  validate if instance is running r not
 
 
+##DNS_UPDATE() {
+  ##PRIVATEIP=$(aws ec2 describe-instances --filters "Name=tag:Name,Values=${COMPONENT} "  | jq .Reservations[].Instances[].PrivateIpAddress | xargs -n1)
+  ##sed  -e "s/COMPONENT/${COMPONENT}/" -e "s/IPADDRESS/${PRIVATEIP}/" record.json >/tmp/record.json
+  ##aws route53 change-resource-record-sets --hosted-zone-id Z03444518JCZ2U6FF5S6 --change-batch file:///tmp/record.json | jq
+##}
 DNS_UPDATE() {
-  PRIVATEIP=$(aws ec2 describe-instances --filters "Name=tag:Name,Values=${COMPONENT} "  | jq .Reservations[].Instances[].PrivateIpAddress | xargs -n1)
-  sed  -e "s/COMPONENT/${COMPONENT}/" -e "s/IPADDRESS/${PRIVATEIP}/" record.json >/tmp/record.json
+  PRIVATEIP=$(aws ec2 describe-instances --filters "Name=tag:Name,Values=${COMPONENT}"  | jq .Reservations[].Instances[].PrivateIpAddress | xargs -n1)
+  sed -e "s/COMPONENT/$COMPONENT/" -e "s/IPADDRESS/${PRIVATEIP}/" record.json >/tmp/record.json
   aws route53 change-resource-record-sets --hosted-zone-id Z03444518JCZ2U6FF5S6 --change-batch file:///tmp/record.json | jq
 }
 
