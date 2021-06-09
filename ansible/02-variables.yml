@@ -1,0 +1,15 @@
+## Types of variables Pre-defined from user
+## Play level variables
+## Task leval variables
+## Command line variables
+## Inventory file variables
+## Variable from a file
+
+- name: sample variables
+  hosts: all
+  variable:
+    URL: play.example.com
+  tasks:
+    - name: print variable
+      debug:
+        msg: URL =  {{ URL }}
