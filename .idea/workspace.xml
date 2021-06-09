@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ansible/02-variables.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,13 +41,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
-    </task>
-    <task id="LOCAL-00337" summary="make some changes  in common.sh">
-      <created>1623052546191</created>
-      <option name="number" value="00337" />
-      <option name="presentableId" value="LOCAL-00337" />
-      <option name="project" value="LOCAL" />
-      <updated>1623052546191</updated>
     </task>
     <task id="LOCAL-00338" summary="make some changes  in common.sh">
       <created>1623052706417</created>
@@ -388,7 +378,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623259854881</updated>
     </task>
-    <option name="localTasksCounter" value="386" />
+    <task id="LOCAL-00386" summary="make some changes  in 01-variable.yml">
+      <created>1623282461980</created>
+      <option name="number" value="00386" />
+      <option name="presentableId" value="LOCAL-00386" />
+      <option name="project" value="LOCAL" />
+      <updated>1623282461981</updated>
+    </task>
+    <option name="localTasksCounter" value="387" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -404,7 +401,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="edit changes in sample file" />
     <MESSAGE value="create new file in 06-Quotes &amp; Redirectors &amp; exit status" />
     <MESSAGE value="create new file in 06-Quotes &amp; Redirectors &amp; exit status.sh" />
     <MESSAGE value="create new file in 07-functions.sh" />
@@ -429,6 +425,7 @@
     <MESSAGE value="make some changes  in launch.sh" />
     <MESSAGE value="make some changes  in mysql.sh" />
     <MESSAGE value="make some changes  in ansible" />
-    <option name="LAST_COMMIT_MESSAGE" value="make some changes  in ansible" />
+    <MESSAGE value="make some changes  in 01-variable.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="make some changes  in 01-variable.yml" />
   </component>
 </project>

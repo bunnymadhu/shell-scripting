@@ -10,6 +10,6 @@
   variable:
     URL: play.example.com
   tasks:
-    - name: print variable
+    - name: Print variable
       debug:
         msg: URL =  {{ URL }}
