@@ -1,9 +1,9 @@
-- name: sample variables
+- name: Sample Variables
   hosts: all
   variable:
     URL: play.example.com
   tasks:
-    - name: Print variable
+    - name: Print Variable
       debug:
         msg: URL =  {{ URL }}
 

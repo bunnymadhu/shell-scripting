@@ -42,34 +42,6 @@
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
     </task>
-    <task id="LOCAL-00338" summary="make some changes  in common.sh">
-      <created>1623052706417</created>
-      <option name="number" value="00338" />
-      <option name="presentableId" value="LOCAL-00338" />
-      <option name="project" value="LOCAL" />
-      <updated>1623052706417</updated>
-    </task>
-    <task id="LOCAL-00339" summary="make some changes  in common.sh">
-      <created>1623064766907</created>
-      <option name="number" value="00339" />
-      <option name="presentableId" value="LOCAL-00339" />
-      <option name="project" value="LOCAL" />
-      <updated>1623064766908</updated>
-    </task>
-    <task id="LOCAL-00340" summary="make some changes  in common.sh">
-      <created>1623065520375</created>
-      <option name="number" value="00340" />
-      <option name="presentableId" value="LOCAL-00340" />
-      <option name="project" value="LOCAL" />
-      <updated>1623065520375</updated>
-    </task>
-    <task id="LOCAL-00341" summary="make some changes  in common.sh">
-      <created>1623065609887</created>
-      <option name="number" value="00341" />
-      <option name="presentableId" value="LOCAL-00341" />
-      <option name="project" value="LOCAL" />
-      <updated>1623065609887</updated>
-    </task>
     <task id="LOCAL-00342" summary="make some changes  in common.sh">
       <created>1623065698000</created>
       <option name="number" value="00342" />
@@ -385,7 +357,35 @@
       <option name="project" value="LOCAL" />
       <updated>1623282461981</updated>
     </task>
-    <option name="localTasksCounter" value="387" />
+    <task id="LOCAL-00387" summary="make some changes  in 01-variable.yml">
+      <created>1623282752367</created>
+      <option name="number" value="00387" />
+      <option name="presentableId" value="LOCAL-00387" />
+      <option name="project" value="LOCAL" />
+      <updated>1623282752367</updated>
+    </task>
+    <task id="LOCAL-00388" summary="make some changes  in 01-variables.yml">
+      <created>1623282931681</created>
+      <option name="number" value="00388" />
+      <option name="presentableId" value="LOCAL-00388" />
+      <option name="project" value="LOCAL" />
+      <updated>1623282931681</updated>
+    </task>
+    <task id="LOCAL-00389" summary="make some changes  in 02-variables.yml">
+      <created>1623282945958</created>
+      <option name="number" value="00389" />
+      <option name="presentableId" value="LOCAL-00389" />
+      <option name="project" value="LOCAL" />
+      <updated>1623282945958</updated>
+    </task>
+    <task id="LOCAL-00390" summary="make some changes  in 02-variables.yml">
+      <created>1623282973800</created>
+      <option name="number" value="00390" />
+      <option name="presentableId" value="LOCAL-00390" />
+      <option name="project" value="LOCAL" />
+      <updated>1623282973800</updated>
+    </task>
+    <option name="localTasksCounter" value="391" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -401,8 +401,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="create new file in 06-Quotes &amp; Redirectors &amp; exit status" />
-    <MESSAGE value="create new file in 06-Quotes &amp; Redirectors &amp; exit status.sh" />
     <MESSAGE value="create new file in 07-functions.sh" />
     <MESSAGE value="some editing done in the  file 07-functions.sh" />
     <MESSAGE value="create a file called makefile" />
@@ -426,6 +424,8 @@
     <MESSAGE value="make some changes  in mysql.sh" />
     <MESSAGE value="make some changes  in ansible" />
     <MESSAGE value="make some changes  in 01-variable.yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="make some changes  in 01-variable.yml" />
+    <MESSAGE value="make some changes  in 01-variables.yml" />
+    <MESSAGE value="make some changes  in 02-variables.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="make some changes  in 02-variables.yml" />
   </component>
 </project>
