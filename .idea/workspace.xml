@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roboshop/Instance-launch/launch.sh" beforeDir="false" afterPath="$PROJECT_DIR$/roboshop/Instance-launch/launch.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,20 +43,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
-    </task>
-    <task id="LOCAL-00332" summary="make some changes  in common.sh">
-      <created>1623051795441</created>
-      <option name="number" value="00332" />
-      <option name="presentableId" value="LOCAL-00332" />
-      <option name="project" value="LOCAL" />
-      <updated>1623051795441</updated>
-    </task>
-    <task id="LOCAL-00333" summary="make some changes  in common.sh">
-      <created>1623052147207</created>
-      <option name="number" value="00333" />
-      <option name="presentableId" value="LOCAL-00333" />
-      <option name="project" value="LOCAL" />
-      <updated>1623052147207</updated>
     </task>
     <task id="LOCAL-00334" summary="make some changes  in common.sh">
       <created>1623052194331</created>
@@ -388,7 +373,21 @@
       <option name="project" value="LOCAL" />
       <updated>1623173156571</updated>
     </task>
-    <option name="localTasksCounter" value="381" />
+    <task id="LOCAL-00381" summary="make some changes  in launch.sh">
+      <created>1623241802344</created>
+      <option name="number" value="00381" />
+      <option name="presentableId" value="LOCAL-00381" />
+      <option name="project" value="LOCAL" />
+      <updated>1623241802346</updated>
+    </task>
+    <task id="LOCAL-00382" summary="make some changes  in launch.sh">
+      <created>1623242039663</created>
+      <option name="number" value="00382" />
+      <option name="presentableId" value="LOCAL-00382" />
+      <option name="project" value="LOCAL" />
+      <updated>1623242039663</updated>
+    </task>
+    <option name="localTasksCounter" value="383" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

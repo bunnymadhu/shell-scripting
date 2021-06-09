@@ -39,7 +39,14 @@ if [ $? -ne 0 ]; then
 fi
 ## --connect-expired-password = is cat /tmp/roboshop.log in that u can find that word {--connect-expired-password}
 
-DOWNLOAD_FROM_GITHUB mysql
+HEAD "Download Schema from GitHub\t"
+curl -s -L -o /tmp/mysql.zip "https://github.com/roboshop-devops-project/mysql/archive/main.zip" &>>/tmp/roboshop.log
+STAT $?
+
+HEAD "Extract Downloaded Archive\t"
+cd /tmp
+unzip -o mysql.zip &>>/tmp/roboshop.log
+STAT $?
 
 HEAD "Load MySQL Schema\t\t\t"
 cd /tmp && unzip -o mysql.zip &>>/tmp/roboshop.log && cd mysql-main && mysql -u root -pRoboShop@1 <shipping.sql &>>/tmp/roboshop.log
