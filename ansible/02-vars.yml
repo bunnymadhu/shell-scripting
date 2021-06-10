@@ -39,11 +39,22 @@
       debug:
         msg: URL = {{ URL }}
 
+## command  line inventory also very powerpull
+## when u give URL=some madhu.example.com it will takes all over the script to madhu.example.com...
+##  ansible-playbook -i inv -k 02-vars.yml -e URL=cli.exaample.com (here -e is very powerpull it takes all over the script to that example.com)
+
+- name: Print fact
+  hosts: all
+  tasks:
+    - name: print fact
+      debug:
+        msg: python Version = {{ ansible_python_version }}
 
 
-## Types of variables Pre-defined from user           ## highest priroity in the variables
-## Play level variables                                           ##
-## Task leval variables(local level)                          ##
-## Command line variables                                    ##
-## Inventory file variables                                      ##
-## Variable from a file                                           ##
+
+## Types of variables Pre-defined from user           ## highest priroity in the variables (priority=precedence)
+## Play level variables                                           ## Command line variables
+## Task leval variables(local level)                          ##  Task leval variables(local level)
+## Command line variables                                    ##  Variable from a file
+## Inventory file variables                                      ##  Play level variables
+## Variable from a file                                           ##  Inventory file variables

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ansible/02-vars.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/02-vars.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,13 +44,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
-    </task>
-    <task id="LOCAL-00356" summary="make some changes  in common.sh">
-      <created>1623078371235</created>
-      <option name="number" value="00356" />
-      <option name="presentableId" value="LOCAL-00356" />
-      <option name="project" value="LOCAL" />
-      <updated>1623078371235</updated>
     </task>
     <task id="LOCAL-00357" summary="make some changes  in common.sh">
       <created>1623078461638</created>
@@ -387,7 +381,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623294850375</updated>
     </task>
-    <option name="localTasksCounter" value="405" />
+    <task id="LOCAL-00405" summary="make some changes  in 02-vars.yml">
+      <created>1623295172049</created>
+      <option name="number" value="00405" />
+      <option name="presentableId" value="LOCAL-00405" />
+      <option name="project" value="LOCAL" />
+      <updated>1623295172049</updated>
+    </task>
+    <option name="localTasksCounter" value="406" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
