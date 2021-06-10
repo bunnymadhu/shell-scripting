@@ -50,6 +50,20 @@
       debug:
         msg: python Version = {{ ansible_python_version }}
 
+- name: Register a variable
+  hosts:
+  tasks:
+    - name: Grab how many users are logged in
+      shell: who | wc -l
+      register: output
+
+    - name: print ouput
+      debug:
+        msg: output {{ out }}
+
+## to avoid the passwoed evrytime replace of '-k'=ansible-playbook -i inv 02-vars.yml -e ansible_password=DevOps321
+## -k=ask for password,-i=ti prevent the inv files,-m=module,-e=to allow the permission(to avoid the prompting)..
+
 
 
 ## Types of variables Pre-defined from user           ## highest priroity in the variables (priority=precedence)
