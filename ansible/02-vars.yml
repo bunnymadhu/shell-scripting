@@ -51,7 +51,7 @@
         msg: python Version = {{ ansible_python_version }}
 
 - name: Register a variable
-  hosts:
+  hosts: all
   tasks:
     - name: Grab how many users are logged in
       shell: who | wc -l
