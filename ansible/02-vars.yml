@@ -59,7 +59,7 @@
 
     - name: print ouput
       debug:
-        msg: output {{ out }}
+        msg: output =  {{ out }}
 
 ## to avoid the passwoed evrytime replace of '-k'=ansible-playbook -i inv 02-vars.yml -e ansible_password=DevOps321
 ## -k=ask for password,-i=ti prevent the inv files,-m=module,-e=to allow the permission(to avoid the prompting)..
