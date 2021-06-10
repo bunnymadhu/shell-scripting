@@ -1,6 +1,6 @@
 - name: Sample Variables
   hosts: all
-  variable:
+  variables:
     URL: play.example.com
   tasks:
     - name: Print Variable

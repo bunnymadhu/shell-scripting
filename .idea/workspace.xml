@@ -42,20 +42,6 @@
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
     </task>
-    <task id="LOCAL-00342" summary="make some changes  in common.sh">
-      <created>1623065698000</created>
-      <option name="number" value="00342" />
-      <option name="presentableId" value="LOCAL-00342" />
-      <option name="project" value="LOCAL" />
-      <updated>1623065698000</updated>
-    </task>
-    <task id="LOCAL-00343" summary="make some changes  in common.sh">
-      <created>1623065808685</created>
-      <option name="number" value="00343" />
-      <option name="presentableId" value="LOCAL-00343" />
-      <option name="project" value="LOCAL" />
-      <updated>1623065808685</updated>
-    </task>
     <task id="LOCAL-00344" summary="make some changes  in common.sh">
       <created>1623065846823</created>
       <option name="number" value="00344" />
@@ -385,7 +371,21 @@
       <option name="project" value="LOCAL" />
       <updated>1623282973800</updated>
     </task>
-    <option name="localTasksCounter" value="391" />
+    <task id="LOCAL-00391" summary="make some changes  in 02-variables.yml">
+      <created>1623283072896</created>
+      <option name="number" value="00391" />
+      <option name="presentableId" value="LOCAL-00391" />
+      <option name="project" value="LOCAL" />
+      <updated>1623283072896</updated>
+    </task>
+    <task id="LOCAL-00392" summary="make some changes  in 02-variables.yml">
+      <created>1623283177594</created>
+      <option name="number" value="00392" />
+      <option name="presentableId" value="LOCAL-00392" />
+      <option name="project" value="LOCAL" />
+      <updated>1623283177594</updated>
+    </task>
+    <option name="localTasksCounter" value="393" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
