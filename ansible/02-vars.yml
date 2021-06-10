@@ -57,7 +57,7 @@
       shell: who | wc -l
       register: output
 
-    - name: print ouput
+    - name: print output
       debug:
         msg: output =  {{ out }}
 
