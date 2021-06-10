@@ -21,6 +21,8 @@
       debug:
         msg: URL = {{ URL }}
 
+
+
 ## Types of variables Pre-defined from user
 ## Play level variables
 ## Task leval variables
