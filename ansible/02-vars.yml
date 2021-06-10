@@ -21,12 +21,23 @@
       debug:
         msg: URL = {{ URL }}
 
+- name: Demo on variable from user input
+  hosts: all
+  vars_prompt:
+    - name: URL
+      prompt: ENTER URL
+      private: false             #(to display the what ever u type a msg--(no or false or true)its a boolean's)
+  tasks:
+    - name: print variable
+      debug:
+      msg: URL = {{ URL }}
 
 
 
-## Types of variables Pre-defined from user
-## Play level variables
-## Task leval variables
-## Command line variables
-## Inventory file variables
-## Variable from a file
+
+## Types of variables Pre-defined from user           ## highest priroity in the variables
+## Play level variables                                           ##
+## Task leval variables(local level)                          ##
+## Command line variables                                    ##
+## Inventory file variables                                      ##
+## Variable from a file                                           ##
