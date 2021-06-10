@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ansible/02-variables.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/02-vars.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/02-vars.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/02-vars.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,20 +43,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
-    </task>
-    <task id="LOCAL-00345" summary="make some changes  in common.sh">
-      <created>1623066082147</created>
-      <option name="number" value="00345" />
-      <option name="presentableId" value="LOCAL-00345" />
-      <option name="project" value="LOCAL" />
-      <updated>1623066082147</updated>
-    </task>
-    <task id="LOCAL-00346" summary="make some changes  in common.sh">
-      <created>1623066340960</created>
-      <option name="number" value="00346" />
-      <option name="presentableId" value="LOCAL-00346" />
-      <option name="project" value="LOCAL" />
-      <updated>1623066340960</updated>
     </task>
     <task id="LOCAL-00347" summary="make some changes  in common.sh">
       <created>1623066573229</created>
@@ -387,7 +373,21 @@
       <option name="project" value="LOCAL" />
       <updated>1623283425875</updated>
     </task>
-    <option name="localTasksCounter" value="394" />
+    <task id="LOCAL-00394" summary="make some changes  in 02-vars.yml">
+      <created>1623283695174</created>
+      <option name="number" value="00394" />
+      <option name="presentableId" value="LOCAL-00394" />
+      <option name="project" value="LOCAL" />
+      <updated>1623283695174</updated>
+    </task>
+    <task id="LOCAL-00395" summary="make some changes  in 02-vars.yml">
+      <created>1623283936569</created>
+      <option name="number" value="00395" />
+      <option name="presentableId" value="LOCAL-00395" />
+      <option name="project" value="LOCAL" />
+      <updated>1623283936570</updated>
+    </task>
+    <option name="localTasksCounter" value="396" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -403,7 +403,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="create new file in 07-functions.sh" />
     <MESSAGE value="some editing done in the  file 07-functions.sh" />
     <MESSAGE value="create a file called makefile" />
     <MESSAGE value="some changes done in the  makefile" />
@@ -428,6 +427,7 @@
     <MESSAGE value="make some changes  in 01-variable.yml" />
     <MESSAGE value="make some changes  in 01-variables.yml" />
     <MESSAGE value="make some changes  in 02-variables.yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="make some changes  in 02-variables.yml" />
+    <MESSAGE value="make some changes  in 02-vars.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="make some changes  in 02-vars.yml" />
   </component>
 </project>

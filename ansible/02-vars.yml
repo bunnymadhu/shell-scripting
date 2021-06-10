@@ -6,7 +6,7 @@
     - name: print Variable
       debug:
         msg: URL = {{ URL }}
-    - name: print variable from task # (task level)
+    - name: print variable from task #(task level)
       vars:
         URL: task.example.com
       debug:
