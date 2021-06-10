@@ -30,7 +30,7 @@
   tasks:
     - name: print variable
       debug:
-      msg: URL = {{ URL }}
+        msg: URL = {{ URL }}
 
 
 
