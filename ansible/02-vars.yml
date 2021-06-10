@@ -32,6 +32,12 @@
       debug:
         msg: URL = {{ URL }}
 
+- name: Demo on variable from inventory  #(vim inv URL=inventory.example.com)
+  hosts: all
+  tasks:
+    - name: print variable
+      debug:
+        msg: URL = {{ URL }}
 
 
 
