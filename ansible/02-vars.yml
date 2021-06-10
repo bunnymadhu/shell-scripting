@@ -12,6 +12,15 @@
       debug:
         msg: URL = {{ URL }}
 
+- name: Demo on variable from files
+  hosts: all
+  vars_files:
+    - example-vars.yml    #(file from that )
+  tasks:
+    - name: print Variable
+      debug:
+        msg: URL = {{ URL }}
+
 ## Types of variables Pre-defined from user
 ## Play level variables
 ## Task leval variables
