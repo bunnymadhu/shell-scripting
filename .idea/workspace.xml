@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="" />
+    <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/02-vars.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/02-vars.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,34 +44,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
-    </task>
-    <task id="LOCAL-00361" summary="make some changes  in common.sh">
-      <created>1623080997679</created>
-      <option name="number" value="00361" />
-      <option name="presentableId" value="LOCAL-00361" />
-      <option name="project" value="LOCAL" />
-      <updated>1623080997679</updated>
-    </task>
-    <task id="LOCAL-00362" summary="make some changes  in common.sh">
-      <created>1623084849800</created>
-      <option name="number" value="00362" />
-      <option name="presentableId" value="LOCAL-00362" />
-      <option name="project" value="LOCAL" />
-      <updated>1623084849800</updated>
-    </task>
-    <task id="LOCAL-00363" summary="make some changes  in rabbitmq.sh">
-      <created>1623086575660</created>
-      <option name="number" value="00363" />
-      <option name="presentableId" value="LOCAL-00363" />
-      <option name="project" value="LOCAL" />
-      <updated>1623086575660</updated>
-    </task>
-    <task id="LOCAL-00364" summary="make some changes  in rabbitmq.sh">
-      <created>1623086990682</created>
-      <option name="number" value="00364" />
-      <option name="presentableId" value="LOCAL-00364" />
-      <option name="project" value="LOCAL" />
-      <updated>1623086990682</updated>
     </task>
     <task id="LOCAL-00365" summary="make some changes  in rabbitmq.sh">
       <created>1623087199827</created>
@@ -385,7 +360,35 @@
       <option name="project" value="LOCAL" />
       <updated>1623296987510</updated>
     </task>
-    <option name="localTasksCounter" value="410" />
+    <task id="LOCAL-00410" summary="make some changes  in 02-vars.yml">
+      <created>1623297064677</created>
+      <option name="number" value="00410" />
+      <option name="presentableId" value="LOCAL-00410" />
+      <option name="project" value="LOCAL" />
+      <updated>1623297064677</updated>
+    </task>
+    <task id="LOCAL-00411" summary="make some changes  in 02-vars.yml">
+      <created>1623297075584</created>
+      <option name="number" value="00411" />
+      <option name="presentableId" value="LOCAL-00411" />
+      <option name="project" value="LOCAL" />
+      <updated>1623297075584</updated>
+    </task>
+    <task id="LOCAL-00412" summary="make some changes  in 02-vars.yml">
+      <created>1623297153489</created>
+      <option name="number" value="00412" />
+      <option name="presentableId" value="LOCAL-00412" />
+      <option name="project" value="LOCAL" />
+      <updated>1623297153490</updated>
+    </task>
+    <task id="LOCAL-00413" summary="make some changes  in 02-vars.yml">
+      <created>1623297302908</created>
+      <option name="number" value="00413" />
+      <option name="presentableId" value="LOCAL-00413" />
+      <option name="project" value="LOCAL" />
+      <updated>1623297302908</updated>
+    </task>
+    <option name="localTasksCounter" value="414" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -1,7 +1,7 @@
-- name: Demo on variable
+- name: Demo on variable #(play level)
   hosts: all
   vars:
-    URL: play.example.com #(play level)
+    URL: play.example.com
   tasks:
     - name: print Variable
       debug:
@@ -21,7 +21,7 @@
       debug:
         msg: URL = {{ URL }}
 
-- name: Demo on variable from user input
+- name: Demo on variable from user input #(user level)
   hosts: all
   vars_prompt:
     - name: URL
@@ -32,7 +32,7 @@
       debug:
         msg: URL = {{ URL }}
 
-- name: Demo on variable from inventory  #(vim inv URL=inventory.example.com)
+- name: Demo on variable from inventory  #(vim inv URL=inventory.example.com) #(inventory level)
   hosts: all
   tasks:
     - name: print variable
@@ -43,7 +43,7 @@
 ## when u give URL=some madhu.example.com it will takes all over the script to madhu.example.com...
 ##  ansible-playbook -i inv -k 02-vars.yml -e URL=cli.exaample.com (here -e is very powerpull it takes all over the script to that example.com)
 
-- name: Print fact
+- name: Print fact  #(setup factsl)
   hosts: all
   tasks:
     - name: print fact
@@ -59,7 +59,15 @@
 
     - name: print output
       debug:
-        msg: Number of users logged in =  {{ output.stdout }}
+        msg: Number of users logged in =  {{ output.stdout }} # first search output in that brackets a,d then output.stdout,nu have to understand in that.
+
+    - name: Declare a Variable
+      set_fact:
+        NO_OF_USERS: "{{ output.stdout }}"
+
+    - name:  print no of users from a new bar
+      debug:
+        msg: "{{ NO_OF_USERS }}"
 
 ## to avoid the passwoed evrytime replace of '-k'=ansible-playbook -i inv 02-vars.yml -e ansible_password=DevOps321
 ## -k=ask for password,-i=ti prevent the inv files,-m=module,-e=to allow the permission(to avoid the prompting)..
