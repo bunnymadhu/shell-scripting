@@ -1,11 +1,11 @@
-- name: Sample Variables
+- name: Demo on variable
   hosts: all
-  variables:
+  vars:
     URL: play.example.com
   tasks:
-    - name: Print Variable
+    - name: print Variable
       debug:
-        msg: URL =  {{ URL }}
+        msg: URL = {{ URL }}
 
 
 ## Types of variables Pre-defined from user
