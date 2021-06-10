@@ -1,12 +1,16 @@
 - name: Demo on variable
   hosts: all
   vars:
-    URL: play.example.com
+    URL: play.example.com #(play level)
   tasks:
     - name: print Variable
       debug:
         msg: URL = {{ URL }}
-
+    - name: print variable from task # (task level)
+      vars:
+        URL: task.example.com
+      debug:
+        msg: URL = {{ URL }}
 
 ## Types of variables Pre-defined from user
 ## Play level variables
