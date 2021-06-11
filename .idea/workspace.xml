@@ -42,27 +42,6 @@
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
     </task>
-    <task id="LOCAL-00367" summary="make some changes  in rabbitmq.sh">
-      <created>1623087748674</created>
-      <option name="number" value="00367" />
-      <option name="presentableId" value="LOCAL-00367" />
-      <option name="project" value="LOCAL" />
-      <updated>1623087748674</updated>
-    </task>
-    <task id="LOCAL-00368" summary="make some changes  in rabbitmq.sh">
-      <created>1623161445110</created>
-      <option name="number" value="00368" />
-      <option name="presentableId" value="LOCAL-00368" />
-      <option name="project" value="LOCAL" />
-      <updated>1623161445110</updated>
-    </task>
-    <task id="LOCAL-00369" summary="make some changes  in rabbitmq.sh">
-      <created>1623165833336</created>
-      <option name="number" value="00369" />
-      <option name="presentableId" value="LOCAL-00369" />
-      <option name="project" value="LOCAL" />
-      <updated>1623165833336</updated>
-    </task>
     <task id="LOCAL-00370" summary="make some changes  in common.sh">
       <created>1623168490208</created>
       <option name="number" value="00370" />
@@ -385,7 +364,28 @@
       <option name="project" value="LOCAL" />
       <updated>1623380927221</updated>
     </task>
-    <option name="localTasksCounter" value="416" />
+    <task id="LOCAL-00416" summary="make some changes  in sample">
+      <created>1623381113261</created>
+      <option name="number" value="00416" />
+      <option name="presentableId" value="LOCAL-00416" />
+      <option name="project" value="LOCAL" />
+      <updated>1623381113261</updated>
+    </task>
+    <task id="LOCAL-00417" summary="make some changes  in sample">
+      <created>1623381245084</created>
+      <option name="number" value="00417" />
+      <option name="presentableId" value="LOCAL-00417" />
+      <option name="project" value="LOCAL" />
+      <updated>1623381245084</updated>
+    </task>
+    <task id="LOCAL-00418" summary="make some changes  in 03-roles.yml">
+      <created>1623381338099</created>
+      <option name="number" value="00418" />
+      <option name="presentableId" value="LOCAL-00418" />
+      <option name="project" value="LOCAL" />
+      <updated>1623381338099</updated>
+    </task>
+    <option name="localTasksCounter" value="419" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -401,8 +401,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="some changes done in the  makefile" />
-    <MESSAGE value="some changes done in the  frontend" />
     <MESSAGE value="some changes done in the  makefile for roboshop" />
     <MESSAGE value="make some changes  in makefile file" />
     <MESSAGE value="make some changes  in common.sh file" />
@@ -426,6 +424,8 @@
     <MESSAGE value="make some changes  in example-vars.yml" />
     <MESSAGE value="make some changes  in 02-vars.yml" />
     <MESSAGE value="make some changes  in 02-roles.yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="make some changes  in 02-roles.yml" />
+    <MESSAGE value="make some changes  in sample" />
+    <MESSAGE value="make some changes  in 03-roles.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="make some changes  in 03-roles.yml" />
   </component>
 </project>
