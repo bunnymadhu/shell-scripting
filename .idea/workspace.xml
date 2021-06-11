@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ansible/roles/sample/defaults/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/sample/defaults/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/roles/sample/tasks/sample.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/sample/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/sample/tasks/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +41,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\MADHUSUDHAN\IdeaProjects\shell-scripting\ansible\roles\sample\vars" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\MADHUSUDHAN\IdeaProjects\shell-scripting\ansible\roles\sample\tasks" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -48,13 +53,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
-    </task>
-    <task id="LOCAL-00373" summary="make some changes  in common.sh">
-      <created>1623169325134</created>
-      <option name="number" value="00373" />
-      <option name="presentableId" value="LOCAL-00373" />
-      <option name="project" value="LOCAL" />
-      <updated>1623169325134</updated>
     </task>
     <task id="LOCAL-00374" summary="make some changes  in launch.sh">
       <created>1623169405573</created>
@@ -392,7 +390,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623383097390</updated>
     </task>
-    <option name="localTasksCounter" value="422" />
+    <task id="LOCAL-00422" summary="make some changes  in 03-roles.yml">
+      <created>1623383381157</created>
+      <option name="number" value="00422" />
+      <option name="presentableId" value="LOCAL-00422" />
+      <option name="project" value="LOCAL" />
+      <updated>1623383381159</updated>
+    </task>
+    <option name="localTasksCounter" value="423" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
