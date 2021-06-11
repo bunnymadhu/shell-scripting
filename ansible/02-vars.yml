@@ -57,6 +57,7 @@
       shell: who | wc -l
       register: output
 
+    ## if the value is not starting with  variable, yet you have variable some where in the value,then no need to quote the value.
     - name: print output
       debug:
         msg: Number of users logged in =  {{ output.stdout }} # first search output in that brackets a,d then output.stdout,nu have to understand in that.
@@ -67,7 +68,7 @@
 
     - name:  print no of users from a new bar
       debug:
-        msg: "{{ NO_OF_USERS }}"
+        msg: "{{ NO_OF_USERS }}"    ## if the value start with a variable then u have quote the value
 
 ## to avoid the passwoed evrytime replace of '-k'=ansible-playbook -i inv 02-vars.yml -e ansible_password=DevOps321
 ## -k=ask for password,-i=ti prevent the inv files,-m=module,-e=to allow the permission(to avoid the prompting)..
