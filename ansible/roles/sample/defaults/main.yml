@@ -1,1 +1,4 @@
 URL: defaults.example.yml
+
+## so defaults indicates which ever  default URL  taken to the script it will take default URL,
+## but in case var.example.yml or google.example.yml like that it will take only VAR URL OR GOOGLE URL.
