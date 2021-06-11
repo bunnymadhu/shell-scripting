@@ -2,9 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ansible/roles/sample/tasks/sample.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/Instance-launch/launch.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/Instance-launch/record.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/inv-roboshop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/roboshop.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/roles/cart/tasks/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/roles/catalogue/tasks/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/roles/frontend/tasks/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/roles/mongodb/tasks/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/roles/mysql/tasks/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/roles/payment/tasks/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/roles/rabbitmq/tasks/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/roles/redis/tasks/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/roles/shipping/tasks/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/roles/user/tasks/main.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/roles/sample/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/sample/tasks/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,11 +46,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ansible/roles/sample/vars" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ansible/roles" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\MADHUSUDHAN\IdeaProjects\shell-scripting\ansible\roles" />
+      <recent name="C:\Users\MADHUSUDHAN\IdeaProjects\shell-scripting\ansible" />
       <recent name="C:\Users\MADHUSUDHAN\IdeaProjects\shell-scripting\ansible\roles\sample\vars" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -53,13 +67,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
-    </task>
-    <task id="LOCAL-00374" summary="make some changes  in launch.sh">
-      <created>1623169405573</created>
-      <option name="number" value="00374" />
-      <option name="presentableId" value="LOCAL-00374" />
-      <option name="project" value="LOCAL" />
-      <updated>1623169405573</updated>
     </task>
     <task id="LOCAL-00375" summary="make some changes  in launch.sh">
       <created>1623169452069</created>
@@ -397,7 +404,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623383381159</updated>
     </task>
-    <option name="localTasksCounter" value="423" />
+    <task id="LOCAL-00423" summary="make some changes  in 03-roles.yml">
+      <created>1623425750030</created>
+      <option name="number" value="00423" />
+      <option name="presentableId" value="LOCAL-00423" />
+      <option name="project" value="LOCAL" />
+      <updated>1623425750030</updated>
+    </task>
+    <option name="localTasksCounter" value="424" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
