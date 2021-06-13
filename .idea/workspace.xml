@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/04-tags.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/04-tags.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/roboshop.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roboshop.yml" afterDir="false" />
-    </list>
+    <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,13 +53,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
-    </task>
-    <task id="LOCAL-00421" summary="make some changes  in 03-roles.yml">
-      <created>1623383097389</created>
-      <option name="number" value="00421" />
-      <option name="presentableId" value="LOCAL-00421" />
-      <option name="project" value="LOCAL" />
-      <updated>1623383097390</updated>
     </task>
     <task id="LOCAL-00422" summary="make some changes  in 03-roles.yml">
       <created>1623383381157</created>
@@ -401,7 +390,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623589150876</updated>
     </task>
-    <option name="localTasksCounter" value="470" />
+    <task id="LOCAL-00470" summary="make some changes  in roboshop.yml">
+      <created>1623590080946</created>
+      <option name="number" value="00470" />
+      <option name="presentableId" value="LOCAL-00470" />
+      <option name="project" value="LOCAL" />
+      <updated>1623590080946</updated>
+    </task>
+    <option name="localTasksCounter" value="471" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -438,10 +434,10 @@
     <MESSAGE value="make some changes  in 03-roles.yml" />
     <MESSAGE value="make some changes  in inv.roboshop" />
     <MESSAGE value="make some changes  in launch.sh" />
-    <MESSAGE value="make some changes  in roboshop.yml" />
     <MESSAGE value="make some changes  in frontend" />
     <MESSAGE value="make some changes  in mongodb" />
     <MESSAGE value="make some changes  in 04-tags.yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="make some changes  in 04-tags.yml" />
+    <MESSAGE value="make some changes  in roboshop.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="make some changes  in roboshop.yml" />
   </component>
 </project>
