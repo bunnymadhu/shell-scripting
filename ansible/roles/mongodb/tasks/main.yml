@@ -6,3 +6,6 @@
     enabled: yes
     gpgcheck: yes
     gpgkey:  https://www.mongodb.org/static/pgp/server-4.2.asc
+    file: mongodb
+
+## in cd /etc/yum/repos.d all repositories are in that path only,,,so in that MongoDB repository.repos so we can avoid that full name we will give  under file (mongodb)
