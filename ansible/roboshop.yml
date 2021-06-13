@@ -7,6 +7,7 @@
 
  - name: Setup roboshop project
    hosts:  MONGODB
+   become: yes
    roles:
     - name: Load Mongodb Role
-       role: mongodb
+      role: mongodb
