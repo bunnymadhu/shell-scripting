@@ -7,7 +7,7 @@
     name: nginx
     state: present
 
-- name: Start Nignx
+- name: Start Nginx
   ansible.builtin.systemd:
     state: started
     name: nginx
@@ -35,7 +35,7 @@
     src: roboshop.conf
     dest: /etc/nginx/default.d/roboshop.conf
 
-- name: Start Nignx
+- name: Start Nginx
   ansible.builtin.systemd:
     state: restarted
     name: nginx
