@@ -35,6 +35,6 @@
     name: nginx
     enabled: yes
 
-## adding '/ ' is useful to should be show the content of inside that file
+## adding '/ ' is useful to show the content of inside that file
 
 
