@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/roles/mongodb/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/mongodb/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/roles/mongodb/vars/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/mongodb/vars/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/roles/mysql/vars/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/mysql/vars/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/roles/payment/vars/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/payment/vars/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/roles/rabbitmq/vars/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/rabbitmq/vars/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/roles/redis/vars/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/redis/vars/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/roles/shipping/vars/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/shipping/vars/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/roles/user/vars/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/user/vars/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roboshop.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roboshop.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,20 +55,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
-    </task>
-    <task id="LOCAL-00413" summary="make some changes  in 02-vars.yml">
-      <created>1623297302908</created>
-      <option name="number" value="00413" />
-      <option name="presentableId" value="LOCAL-00413" />
-      <option name="project" value="LOCAL" />
-      <updated>1623297302908</updated>
-    </task>
-    <task id="LOCAL-00414" summary="make some changes  in 02-vars.yml">
-      <created>1623341047684</created>
-      <option name="number" value="00414" />
-      <option name="presentableId" value="LOCAL-00414" />
-      <option name="project" value="LOCAL" />
-      <updated>1623341047685</updated>
     </task>
     <task id="LOCAL-00415" summary="make some changes  in 02-roles.yml">
       <created>1623380927221</created>
@@ -407,7 +385,21 @@
       <option name="project" value="LOCAL" />
       <updated>1623586372519</updated>
     </task>
-    <option name="localTasksCounter" value="462" />
+    <task id="LOCAL-00462" summary="make some changes  in mongodb">
+      <created>1623587760807</created>
+      <option name="number" value="00462" />
+      <option name="presentableId" value="LOCAL-00462" />
+      <option name="project" value="LOCAL" />
+      <updated>1623587760807</updated>
+    </task>
+    <task id="LOCAL-00463" summary="make some changes  in mongodb">
+      <created>1623587932399</created>
+      <option name="number" value="00463" />
+      <option name="presentableId" value="LOCAL-00463" />
+      <option name="project" value="LOCAL" />
+      <updated>1623587932399</updated>
+    </task>
+    <option name="localTasksCounter" value="464" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -423,7 +415,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="make some changes  in if_condition.sh file" />
     <MESSAGE value="make some changes  in frontend.sh file" />
     <MESSAGE value="make some changes  in instance_launch" />
     <MESSAGE value="make some changes  in frontend.sh" />
@@ -448,6 +439,7 @@
     <MESSAGE value="make some changes  in launch.sh" />
     <MESSAGE value="make some changes  in roboshop.yml" />
     <MESSAGE value="make some changes  in frontend" />
-    <option name="LAST_COMMIT_MESSAGE" value="make some changes  in frontend" />
+    <MESSAGE value="make some changes  in mongodb" />
+    <option name="LAST_COMMIT_MESSAGE" value="make some changes  in mongodb" />
   </component>
 </project>
