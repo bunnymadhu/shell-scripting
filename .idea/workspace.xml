@@ -52,13 +52,6 @@
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
     </task>
-    <task id="LOCAL-00401" summary="make some changes  in example-vars.yml">
-      <created>1623284930036</created>
-      <option name="number" value="00401" />
-      <option name="presentableId" value="LOCAL-00401" />
-      <option name="project" value="LOCAL" />
-      <updated>1623284930036</updated>
-    </task>
     <task id="LOCAL-00402" summary="make some changes  in example-vars.yml">
       <created>1623285054409</created>
       <option name="number" value="00402" />
@@ -395,7 +388,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623567624720</updated>
     </task>
-    <option name="localTasksCounter" value="450" />
+    <task id="LOCAL-00450" summary="make some changes  in frontend">
+      <created>1623567992771</created>
+      <option name="number" value="00450" />
+      <option name="presentableId" value="LOCAL-00450" />
+      <option name="project" value="LOCAL" />
+      <updated>1623567992771</updated>
+    </task>
+    <option name="localTasksCounter" value="451" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
