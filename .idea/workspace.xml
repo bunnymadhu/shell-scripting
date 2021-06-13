@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="" />
+    <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/mongodb/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/mongodb/tasks/main.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,27 +56,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
-    </task>
-    <task id="LOCAL-00437" summary="make some changes  in roboshop.yml">
-      <created>1623545853437</created>
-      <option name="number" value="00437" />
-      <option name="presentableId" value="LOCAL-00437" />
-      <option name="project" value="LOCAL" />
-      <updated>1623545853437</updated>
-    </task>
-    <task id="LOCAL-00438" summary="make some changes  in frontend">
-      <created>1623555201677</created>
-      <option name="number" value="00438" />
-      <option name="presentableId" value="LOCAL-00438" />
-      <option name="project" value="LOCAL" />
-      <updated>1623555201679</updated>
-    </task>
-    <task id="LOCAL-00439" summary="make some changes  in roboshop.yml">
-      <created>1623555355194</created>
-      <option name="number" value="00439" />
-      <option name="presentableId" value="LOCAL-00439" />
-      <option name="project" value="LOCAL" />
-      <updated>1623555355197</updated>
     </task>
     <task id="LOCAL-00440" summary="make some changes  in frontend">
       <created>1623564105082</created>
@@ -397,7 +379,28 @@
       <option name="project" value="LOCAL" />
       <updated>1623595486365</updated>
     </task>
-    <option name="localTasksCounter" value="486" />
+    <task id="LOCAL-00486" summary="make some changes  in mongodb">
+      <created>1623595550584</created>
+      <option name="number" value="00486" />
+      <option name="presentableId" value="LOCAL-00486" />
+      <option name="project" value="LOCAL" />
+      <updated>1623595550584</updated>
+    </task>
+    <task id="LOCAL-00487" summary="make some changes  in mongodb">
+      <created>1623595565661</created>
+      <option name="number" value="00487" />
+      <option name="presentableId" value="LOCAL-00487" />
+      <option name="project" value="LOCAL" />
+      <updated>1623595565661</updated>
+    </task>
+    <task id="LOCAL-00488" summary="make some changes  in mongodb">
+      <created>1623595712951</created>
+      <option name="number" value="00488" />
+      <option name="presentableId" value="LOCAL-00488" />
+      <option name="project" value="LOCAL" />
+      <updated>1623595712951</updated>
+    </task>
+    <option name="localTasksCounter" value="489" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
