@@ -59,3 +59,4 @@ else
 fi
 
 ## | jq: to avoid that everytime instead press= q
+## cd ~/.ssh to remove hosts in earlier then it will update recent fr*.roboshop.internal latest address...
