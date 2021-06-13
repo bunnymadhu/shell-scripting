@@ -4,7 +4,11 @@
     - name: print fruits
       debug:
         msg: fruits
+      tags:
+        - fruits
 
     - name: print vegatables
       debug:
         msg: vegatables
+      tags:
+        - vegatables
