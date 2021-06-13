@@ -26,10 +26,19 @@
     - Restart MongoDB
 
 ## and then check in cat /etc/mongod.conf
+## handlers will run at ending of the play
 
 - name: Start MongoDB service
   systemd:
     name: mongod
     enabled: yes
     state: started
+
+- name: Download package
+  include_role:
+    name: common
+    tasks_from: download-from-github
+    vars:
+      APP_DIR: /usr/share/nginx/html
+      EXTRACT_DIR: /usr/share/nginx
 

@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ansible/roles/common/tasks/download-from-github.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/frontend/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/frontend/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/mongodb/handlers/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/mongodb/handlers/main.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ansible/roles/mongodb/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/mongodb/tasks/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,27 +59,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
-    </task>
-    <task id="LOCAL-00429" summary="make some changes  in launch.sh">
-      <created>1623517313100</created>
-      <option name="number" value="00429" />
-      <option name="presentableId" value="LOCAL-00429" />
-      <option name="project" value="LOCAL" />
-      <updated>1623517313100</updated>
-    </task>
-    <task id="LOCAL-00430" summary="make some changes  in launch.sh">
-      <created>1623517891882</created>
-      <option name="number" value="00430" />
-      <option name="presentableId" value="LOCAL-00430" />
-      <option name="project" value="LOCAL" />
-      <updated>1623517891882</updated>
-    </task>
-    <task id="LOCAL-00431" summary="make some changes  in launch.sh">
-      <created>1623517934530</created>
-      <option name="number" value="00431" />
-      <option name="presentableId" value="LOCAL-00431" />
-      <option name="project" value="LOCAL" />
-      <updated>1623517934530</updated>
     </task>
     <task id="LOCAL-00432" summary="make some changes  in launch.sh">
       <created>1623544143974</created>
@@ -399,7 +382,28 @@
       <option name="project" value="LOCAL" />
       <updated>1623593390360</updated>
     </task>
-    <option name="localTasksCounter" value="478" />
+    <task id="LOCAL-00478" summary="make some changes  in mongodb">
+      <created>1623593456658</created>
+      <option name="number" value="00478" />
+      <option name="presentableId" value="LOCAL-00478" />
+      <option name="project" value="LOCAL" />
+      <updated>1623593456658</updated>
+    </task>
+    <task id="LOCAL-00479" summary="make some changes  in mongodb">
+      <created>1623593562480</created>
+      <option name="number" value="00479" />
+      <option name="presentableId" value="LOCAL-00479" />
+      <option name="project" value="LOCAL" />
+      <updated>1623593562480</updated>
+    </task>
+    <task id="LOCAL-00480" summary="make some changes  in mongodb">
+      <created>1623593616277</created>
+      <option name="number" value="00480" />
+      <option name="presentableId" value="LOCAL-00480" />
+      <option name="project" value="LOCAL" />
+      <updated>1623593616277</updated>
+    </task>
+    <option name="localTasksCounter" value="481" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

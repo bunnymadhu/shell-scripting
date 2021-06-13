@@ -6,3 +6,4 @@
 
 # if any task is modified or changes are happen and we want trigger another task  then it works--it shows,,if it is only changed really then we will call the restart the system on that time handlers will use...and mention comment notify: where it  changes happen,,
 ## notify: is going to usefull to handler,if there any change the handler will come  run the command
+## handlers will run at ending of the play
