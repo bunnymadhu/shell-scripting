@@ -12,8 +12,8 @@
     name: common
     tasks_from: download-from-github
   vars:
-    APP_DIR: /usr/share/nginx/html
-    EXTRACT_DIR: /usr/share/nginx
+     APP_DIR: /usr/share/nginx/html
+     EXTRACT_DIR: /usr/share/nginx
 
 - name: Copy Extracted Directory
   ansible.builtin.copy:
