@@ -1,7 +1,7 @@
 [FRONTEND]
 frontend.roboshop.internal
 [MONGODB]
-mongndb.roboshop.internal
+mongodb.roboshop.internal
 [CATALOGUE]
 catalogue.roboshop.internal
 [REDIS]

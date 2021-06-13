@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/inv-roboshop" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/inv-roboshop" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,20 +53,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
-    </task>
-    <task id="LOCAL-00383" summary="make some changes  in mysql.sh">
-      <created>1623243774961</created>
-      <option name="number" value="00383" />
-      <option name="presentableId" value="LOCAL-00383" />
-      <option name="project" value="LOCAL" />
-      <updated>1623243774961</updated>
-    </task>
-    <task id="LOCAL-00384" summary="make some changes  in ansible">
-      <created>1623258352130</created>
-      <option name="number" value="00384" />
-      <option name="presentableId" value="LOCAL-00384" />
-      <option name="project" value="LOCAL" />
-      <updated>1623258352131</updated>
     </task>
     <task id="LOCAL-00385" summary="make some changes  in ansible">
       <created>1623259854881</created>
@@ -397,7 +383,21 @@
       <option name="project" value="LOCAL" />
       <updated>1623517934530</updated>
     </task>
-    <option name="localTasksCounter" value="432" />
+    <task id="LOCAL-00432" summary="make some changes  in launch.sh">
+      <created>1623544143974</created>
+      <option name="number" value="00432" />
+      <option name="presentableId" value="LOCAL-00432" />
+      <option name="project" value="LOCAL" />
+      <updated>1623544143974</updated>
+    </task>
+    <task id="LOCAL-00433" summary="make some changes  in roboshop.yml">
+      <created>1623544204119</created>
+      <option name="number" value="00433" />
+      <option name="presentableId" value="LOCAL-00433" />
+      <option name="project" value="LOCAL" />
+      <updated>1623544204119</updated>
+    </task>
+    <option name="localTasksCounter" value="434" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -413,7 +413,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="make some changes  in makefile file" />
     <MESSAGE value="make some changes  in common.sh file" />
     <MESSAGE value="make some changes  in if_condition.sh file" />
     <MESSAGE value="make some changes  in frontend.sh file" />
@@ -438,6 +437,7 @@
     <MESSAGE value="make some changes  in 03-roles.yml" />
     <MESSAGE value="make some changes  in inv.roboshop" />
     <MESSAGE value="make some changes  in launch.sh" />
-    <option name="LAST_COMMIT_MESSAGE" value="make some changes  in launch.sh" />
+    <MESSAGE value="make some changes  in roboshop.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="make some changes  in roboshop.yml" />
   </component>
 </project>
