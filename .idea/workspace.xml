@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ansible/roles/frontend/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/frontend/tasks/main.yml" afterDir="false" />
-    </list>
+    <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,34 +53,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
-    </task>
-    <task id="LOCAL-00433" summary="make some changes  in roboshop.yml">
-      <created>1623544204119</created>
-      <option name="number" value="00433" />
-      <option name="presentableId" value="LOCAL-00433" />
-      <option name="project" value="LOCAL" />
-      <updated>1623544204119</updated>
-    </task>
-    <task id="LOCAL-00434" summary="make some changes  in roboshop.yml">
-      <created>1623544293413</created>
-      <option name="number" value="00434" />
-      <option name="presentableId" value="LOCAL-00434" />
-      <option name="project" value="LOCAL" />
-      <updated>1623544293413</updated>
-    </task>
-    <task id="LOCAL-00435" summary="make some changes  in roboshop.yml">
-      <created>1623544367203</created>
-      <option name="number" value="00435" />
-      <option name="presentableId" value="LOCAL-00435" />
-      <option name="project" value="LOCAL" />
-      <updated>1623544367203</updated>
-    </task>
-    <task id="LOCAL-00436" summary="make some changes  in roboshop.yml">
-      <created>1623544512438</created>
-      <option name="number" value="00436" />
-      <option name="presentableId" value="LOCAL-00436" />
-      <option name="project" value="LOCAL" />
-      <updated>1623544512438</updated>
     </task>
     <task id="LOCAL-00437" summary="make some changes  in roboshop.yml">
       <created>1623545853437</created>
@@ -399,7 +369,35 @@
       <option name="project" value="LOCAL" />
       <updated>1623595110508</updated>
     </task>
-    <option name="localTasksCounter" value="482" />
+    <task id="LOCAL-00482" summary="make some changes  in mongodb">
+      <created>1623595210618</created>
+      <option name="number" value="00482" />
+      <option name="presentableId" value="LOCAL-00482" />
+      <option name="project" value="LOCAL" />
+      <updated>1623595210618</updated>
+    </task>
+    <task id="LOCAL-00483" summary="make some changes  in mongodb">
+      <created>1623595239766</created>
+      <option name="number" value="00483" />
+      <option name="presentableId" value="LOCAL-00483" />
+      <option name="project" value="LOCAL" />
+      <updated>1623595239766</updated>
+    </task>
+    <task id="LOCAL-00484" summary="make some changes  in mongodb">
+      <created>1623595324963</created>
+      <option name="number" value="00484" />
+      <option name="presentableId" value="LOCAL-00484" />
+      <option name="project" value="LOCAL" />
+      <updated>1623595324963</updated>
+    </task>
+    <task id="LOCAL-00485" summary="make some changes  in mongodb">
+      <created>1623595486365</created>
+      <option name="number" value="00485" />
+      <option name="presentableId" value="LOCAL-00485" />
+      <option name="project" value="LOCAL" />
+      <updated>1623595486365</updated>
+    </task>
+    <option name="localTasksCounter" value="486" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
