@@ -9,11 +9,21 @@
     file: mongodb
 
 ## in cd /etc/yum/repos.d all repositories are in that path only,,,so in that MongoDB repository.repos so we can avoid that full name we will give  under file (mongodb)..it will take mongodb.repo,,bcz that spaces are  little confusion in linux..use rm -rf MongoDB/ repository.repos
+## it dont take in name:MongoDB Repository so thats y just give MongoDB
+
 
 - name: install MongoDB
   yum:
     name: mongodb-org
     state: present
+
+- name: Update the MongnDB IP Address
+  ansible.builtin.replace:
+    path: /etc/mongod.conf
+    regexp: '127.0.0.1'
+    replace: '0.0.0.0'
+
+## and then check in cat /etc/mongod.conf
 
 - name: Start MongoDB service
   systemd:
@@ -21,8 +31,3 @@
     enabled: yes
     state: started
 
-- name: Update the MongnDB IP Address
-  ansible.builtin.replace:
-    path: /etc/mongod.conf
-    regexp: '127.0.0.1'
-    replace: '0.0.0.0'

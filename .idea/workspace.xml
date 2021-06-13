@@ -56,20 +56,6 @@
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
     </task>
-    <task id="LOCAL-00425" summary="make some changes  in 03-roles.yml">
-      <created>1623474742356</created>
-      <option name="number" value="00425" />
-      <option name="presentableId" value="LOCAL-00425" />
-      <option name="project" value="LOCAL" />
-      <updated>1623474742357</updated>
-    </task>
-    <task id="LOCAL-00426" summary="make some changes  in 03-roles.yml">
-      <created>1623477599734</created>
-      <option name="number" value="00426" />
-      <option name="presentableId" value="LOCAL-00426" />
-      <option name="project" value="LOCAL" />
-      <updated>1623477599734</updated>
-    </task>
     <task id="LOCAL-00427" summary="make some changes  in inv.roboshop">
       <created>1623515522073</created>
       <option name="number" value="00427" />
@@ -399,7 +385,21 @@
       <option name="project" value="LOCAL" />
       <updated>1623591932615</updated>
     </task>
-    <option name="localTasksCounter" value="474" />
+    <task id="LOCAL-00474" summary="make some changes  in mongodb">
+      <created>1623592135720</created>
+      <option name="number" value="00474" />
+      <option name="presentableId" value="LOCAL-00474" />
+      <option name="project" value="LOCAL" />
+      <updated>1623592135720</updated>
+    </task>
+    <task id="LOCAL-00475" summary="make some changes  in mongodb">
+      <created>1623592310023</created>
+      <option name="number" value="00475" />
+      <option name="presentableId" value="LOCAL-00475" />
+      <option name="project" value="LOCAL" />
+      <updated>1623592310023</updated>
+    </task>
+    <option name="localTasksCounter" value="476" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
