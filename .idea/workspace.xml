@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ansible/ansible.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/ansible.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,20 +53,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
-    </task>
-    <task id="LOCAL-00381" summary="make some changes  in launch.sh">
-      <created>1623241802344</created>
-      <option name="number" value="00381" />
-      <option name="presentableId" value="LOCAL-00381" />
-      <option name="project" value="LOCAL" />
-      <updated>1623241802346</updated>
-    </task>
-    <task id="LOCAL-00382" summary="make some changes  in launch.sh">
-      <created>1623242039663</created>
-      <option name="number" value="00382" />
-      <option name="presentableId" value="LOCAL-00382" />
-      <option name="project" value="LOCAL" />
-      <updated>1623242039663</updated>
     </task>
     <task id="LOCAL-00383" summary="make some changes  in mysql.sh">
       <created>1623243774961</created>
@@ -397,7 +383,21 @@
       <option name="project" value="LOCAL" />
       <updated>1623517313100</updated>
     </task>
-    <option name="localTasksCounter" value="430" />
+    <task id="LOCAL-00430" summary="make some changes  in launch.sh">
+      <created>1623517891882</created>
+      <option name="number" value="00430" />
+      <option name="presentableId" value="LOCAL-00430" />
+      <option name="project" value="LOCAL" />
+      <updated>1623517891882</updated>
+    </task>
+    <task id="LOCAL-00431" summary="make some changes  in launch.sh">
+      <created>1623517934530</created>
+      <option name="number" value="00431" />
+      <option name="presentableId" value="LOCAL-00431" />
+      <option name="project" value="LOCAL" />
+      <updated>1623517934530</updated>
+    </task>
+    <option name="localTasksCounter" value="432" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
