@@ -46,8 +46,11 @@
 
 - name: Load Schema
   community.mongodb.mongodb_shell:
-    file: "/tmp/mongodb-main/users.js"
+    file: "/tmp/mongodb-main/{{item}}"
     idempotent: yes
+ loop:
+   - user.js
+   - catalogue.js
 
 ## idempotent-Idempotence is the property of certain operations in mathematics and computer science whereby they can be applied multiple times without changing the result beyond the initial application.. Ansible is like idempotent bcz if anything is nt change it doesnt show in newer one,it shoes in intial one..
 ## idempotent-The module will not rerun the command if this file exists and idempotent is set to true.
