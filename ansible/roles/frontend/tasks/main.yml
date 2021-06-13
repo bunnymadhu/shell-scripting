@@ -7,6 +7,12 @@
     name: nginx
     state: present
 
+- name: Start Nignx
+  ansible.builtin.systemd:
+    state: started
+    name: nginx
+    enabled: yes
+
 - name: Remove old htdocs directory
   ansible.builtin.file:
     path: /usr/share/nginx/html

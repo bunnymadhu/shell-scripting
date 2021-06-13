@@ -2,9 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ansible/roles/common/tasks/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ansible/roles/frontend/meta/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ansible/roles/frontend/vars/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/roles/cart/meta/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/roles/cart/vars/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/roles/catalogue/meta/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/roles/catalogue/vars/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/roles/mongodb/meta/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/roles/mongodb/vars/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/roles/mysql/meta/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/roles/mysql/vars/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/roles/payment/meta/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/roles/payment/vars/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/roles/rabbitmq/meta/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/roles/rabbitmq/vars/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/roles/redis/meta/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/roles/redis/vars/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/roles/shipping/meta/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/roles/shipping/vars/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/roles/user/meta/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansible/roles/user/vars/main.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,14 +50,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ansible/roles" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ansible/roles/user" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\MADHUSUDHAN\IdeaProjects\shell-scripting\ansible\roles" />
-      <recent name="C:\Users\MADHUSUDHAN\IdeaProjects\shell-scripting\ansible" />
-      <recent name="C:\Users\MADHUSUDHAN\IdeaProjects\shell-scripting\ansible\roles\sample\vars" />
+      <recent name="C:\Users\MADHUSUDHAN\IdeaProjects\shell-scripting\ansible\roles\user" />
+      <recent name="C:\Users\MADHUSUDHAN\IdeaProjects\shell-scripting\ansible\roles\shipping" />
+      <recent name="C:\Users\MADHUSUDHAN\IdeaProjects\shell-scripting\ansible\roles\redis" />
+      <recent name="C:\Users\MADHUSUDHAN\IdeaProjects\shell-scripting\ansible\roles\rabbitmq" />
+      <recent name="C:\Users\MADHUSUDHAN\IdeaProjects\shell-scripting\ansible\roles\payment" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\MADHUSUDHAN\IdeaProjects\shell-scripting\ansible\roles\sample\tasks" />
@@ -56,13 +73,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
-    </task>
-    <task id="LOCAL-00404" summary="make some changes  in 02-vars.yml">
-      <created>1623294850375</created>
-      <option name="number" value="00404" />
-      <option name="presentableId" value="LOCAL-00404" />
-      <option name="project" value="LOCAL" />
-      <updated>1623294850375</updated>
     </task>
     <task id="LOCAL-00405" summary="make some changes  in 02-vars.yml">
       <created>1623295172049</created>
@@ -400,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623573408004</updated>
     </task>
-    <option name="localTasksCounter" value="453" />
+    <task id="LOCAL-00453" summary="make some changes  in frontend">
+      <created>1623577084111</created>
+      <option name="number" value="00453" />
+      <option name="presentableId" value="LOCAL-00453" />
+      <option name="project" value="LOCAL" />
+      <updated>1623577084111</updated>
+    </task>
+    <option name="localTasksCounter" value="454" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
