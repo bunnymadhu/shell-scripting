@@ -24,8 +24,6 @@
     dest: /usr/share/nginx/html/
     remote_src: yes
 
-## adding '/ ' is useful to should be show the content of inside that file
-
 - name: Copy Nginx Roboshop Config
   copy:
     src: roboshop.conf
@@ -36,5 +34,7 @@
     state: restarted
     name: nginx
     enabled: yes
+
+## adding '/ ' is useful to should be show the content of inside that file
 
 
