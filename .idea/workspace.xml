@@ -3,8 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/Instance-launch/launch.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/Instance-launch/launch.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/roles/frontend/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/frontend/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/mongodb/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/mongodb/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/mongodb/vars/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/mongodb/vars/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/mysql/vars/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/mysql/vars/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/payment/vars/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/payment/vars/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/rabbitmq/vars/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/rabbitmq/vars/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/redis/vars/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/redis/vars/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/shipping/vars/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/shipping/vars/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/user/vars/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/user/vars/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,13 +63,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
-    </task>
-    <task id="LOCAL-00412" summary="make some changes  in 02-vars.yml">
-      <created>1623297153489</created>
-      <option name="number" value="00412" />
-      <option name="presentableId" value="LOCAL-00412" />
-      <option name="project" value="LOCAL" />
-      <updated>1623297153490</updated>
     </task>
     <task id="LOCAL-00413" summary="make some changes  in 02-vars.yml">
       <created>1623297302908</created>
@@ -401,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623579761762</updated>
     </task>
-    <option name="localTasksCounter" value="461" />
+    <task id="LOCAL-00461" summary="make some changes  in frontend">
+      <created>1623586372519</created>
+      <option name="number" value="00461" />
+      <option name="presentableId" value="LOCAL-00461" />
+      <option name="project" value="LOCAL" />
+      <updated>1623586372519</updated>
+    </task>
+    <option name="localTasksCounter" value="462" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
