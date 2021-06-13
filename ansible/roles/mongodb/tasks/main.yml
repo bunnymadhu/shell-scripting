@@ -49,7 +49,7 @@
     file: "/tmp/mongodb-main/{{item}}"
     idempotent: yes
   loop:
-    - user.js
+    - users.js
     - catalogue.js
 
 ## idempotent-Idempotence is the property of certain operations in mathematics and computer science whereby they can be applied multiple times without changing the result beyond the initial application.. Ansible is like idempotent bcz if anything is nt change it doesnt show in newer one,it shoes in intial one..
