@@ -1,4 +1,4 @@
-- name: Demo on tags
+- name: Demo on tags   #(task level)
   hosts: localhost
   tasks:
     - name: print fruits
@@ -12,3 +12,21 @@
         msg: vegatables
       tags:
         - vegatables
+
+- name: Demo on tags  #(play level)
+  hosts: localhost
+  tags:
+    - AWS
+    tasks:
+        - name: print AWS
+          debug:
+            msg: AWS
+
+- name: Demo on tags  #(play level)
+  hosts: localhost
+  tags:
+    - Devops
+    tasks:
+      - name: print Devops
+        debug:
+          msg: Devops

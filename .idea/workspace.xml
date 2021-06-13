@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ansible/04-tags.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/04-tags.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/04-tags.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,20 +55,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
-    </task>
-    <task id="LOCAL-00416" summary="make some changes  in sample">
-      <created>1623381113261</created>
-      <option name="number" value="00416" />
-      <option name="presentableId" value="LOCAL-00416" />
-      <option name="project" value="LOCAL" />
-      <updated>1623381113261</updated>
-    </task>
-    <task id="LOCAL-00417" summary="make some changes  in sample">
-      <created>1623381245084</created>
-      <option name="number" value="00417" />
-      <option name="presentableId" value="LOCAL-00417" />
-      <option name="project" value="LOCAL" />
-      <updated>1623381245084</updated>
     </task>
     <task id="LOCAL-00418" summary="make some changes  in 03-roles.yml">
       <created>1623381338099</created>
@@ -399,7 +385,21 @@
       <option name="project" value="LOCAL" />
       <updated>1623588002055</updated>
     </task>
-    <option name="localTasksCounter" value="465" />
+    <task id="LOCAL-00465" summary="make some changes  in 04-tags.yml">
+      <created>1623588431812</created>
+      <option name="number" value="00465" />
+      <option name="presentableId" value="LOCAL-00465" />
+      <option name="project" value="LOCAL" />
+      <updated>1623588431812</updated>
+    </task>
+    <task id="LOCAL-00466" summary="make some changes  in 04-tags.yml">
+      <created>1623588571453</created>
+      <option name="number" value="00466" />
+      <option name="presentableId" value="LOCAL-00466" />
+      <option name="project" value="LOCAL" />
+      <updated>1623588571453</updated>
+    </task>
+    <option name="localTasksCounter" value="467" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -415,7 +415,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="make some changes  in frontend.sh file" />
     <MESSAGE value="make some changes  in instance_launch" />
     <MESSAGE value="make some changes  in frontend.sh" />
     <MESSAGE value="make some changes  in mongodb.sh" />
@@ -440,6 +439,7 @@
     <MESSAGE value="make some changes  in roboshop.yml" />
     <MESSAGE value="make some changes  in frontend" />
     <MESSAGE value="make some changes  in mongodb" />
-    <option name="LAST_COMMIT_MESSAGE" value="make some changes  in mongodb" />
+    <MESSAGE value="make some changes  in 04-tags.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="make some changes  in 04-tags.yml" />
   </component>
 </project>
