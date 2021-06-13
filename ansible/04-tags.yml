@@ -17,16 +17,16 @@
   hosts: localhost
   tags:
     - AWS
-    tasks:
-        - name: print AWS
-          debug:
-            msg: AWS
+  tasks:
+    - name: print AWS
+      debug:
+        msg: AWS
 
 - name: Demo on tags  #(play level)
   hosts: localhost
   tags:
     - Devops
-    tasks:
-      - name: print Devops
-        debug:
-          msg: Devops
+  tasks:
+    - name: print Devops
+      debug:
+        msg: Devops
