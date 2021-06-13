@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ansible/roles/mongodb/handlers/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/mongodb/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/mongodb/tasks/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,13 +55,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
-    </task>
-    <task id="LOCAL-00428" summary="make some changes  in launch.sh">
-      <created>1623516897334</created>
-      <option name="number" value="00428" />
-      <option name="presentableId" value="LOCAL-00428" />
-      <option name="project" value="LOCAL" />
-      <updated>1623516897335</updated>
     </task>
     <task id="LOCAL-00429" summary="make some changes  in launch.sh">
       <created>1623517313100</created>
@@ -400,7 +392,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623592661130</updated>
     </task>
-    <option name="localTasksCounter" value="477" />
+    <task id="LOCAL-00477" summary="make some changes  in mongodb">
+      <created>1623593390360</created>
+      <option name="number" value="00477" />
+      <option name="presentableId" value="LOCAL-00477" />
+      <option name="project" value="LOCAL" />
+      <updated>1623593390360</updated>
+    </task>
+    <option name="localTasksCounter" value="478" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
