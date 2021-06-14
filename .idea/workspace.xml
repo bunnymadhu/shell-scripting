@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="" />
+    <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/catalogue/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/catalogue/tasks/main.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,34 +56,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
-    </task>
-    <task id="LOCAL-00442" summary="make some changes  in frontend">
-      <created>1623565362108</created>
-      <option name="number" value="00442" />
-      <option name="presentableId" value="LOCAL-00442" />
-      <option name="project" value="LOCAL" />
-      <updated>1623565362108</updated>
-    </task>
-    <task id="LOCAL-00443" summary="make some changes  in frontend">
-      <created>1623565577838</created>
-      <option name="number" value="00443" />
-      <option name="presentableId" value="LOCAL-00443" />
-      <option name="project" value="LOCAL" />
-      <updated>1623565577838</updated>
-    </task>
-    <task id="LOCAL-00444" summary="make some changes  in frontend">
-      <created>1623565732712</created>
-      <option name="number" value="00444" />
-      <option name="presentableId" value="LOCAL-00444" />
-      <option name="project" value="LOCAL" />
-      <updated>1623565732713</updated>
-    </task>
-    <task id="LOCAL-00445" summary="make some changes  in frontend">
-      <created>1623566620376</created>
-      <option name="number" value="00445" />
-      <option name="presentableId" value="LOCAL-00445" />
-      <option name="project" value="LOCAL" />
-      <updated>1623566620376</updated>
     </task>
     <task id="LOCAL-00446" summary="make some changes  in frontend">
       <created>1623566800846</created>
@@ -397,7 +372,35 @@
       <option name="project" value="LOCAL" />
       <updated>1623597859607</updated>
     </task>
-    <option name="localTasksCounter" value="491" />
+    <task id="LOCAL-00491" summary="make some changes  in mongodb">
+      <created>1623598071073</created>
+      <option name="number" value="00491" />
+      <option name="presentableId" value="LOCAL-00491" />
+      <option name="project" value="LOCAL" />
+      <updated>1623598071073</updated>
+    </task>
+    <task id="LOCAL-00492" summary="make some changes  in mongodb">
+      <created>1623598102932</created>
+      <option name="number" value="00492" />
+      <option name="presentableId" value="LOCAL-00492" />
+      <option name="project" value="LOCAL" />
+      <updated>1623598102932</updated>
+    </task>
+    <task id="LOCAL-00493" summary="make some changes  in mongodb">
+      <created>1623598229406</created>
+      <option name="number" value="00493" />
+      <option name="presentableId" value="LOCAL-00493" />
+      <option name="project" value="LOCAL" />
+      <updated>1623598229406</updated>
+    </task>
+    <task id="LOCAL-00494" summary="make some changes  in mongodb">
+      <created>1623598290869</created>
+      <option name="number" value="00494" />
+      <option name="presentableId" value="LOCAL-00494" />
+      <option name="project" value="LOCAL" />
+      <updated>1623598290869</updated>
+    </task>
+    <option name="localTasksCounter" value="495" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -436,8 +439,8 @@
     <MESSAGE value="make some changes  in frontend" />
     <MESSAGE value="make some changes  in 04-tags.yml" />
     <MESSAGE value="make some changes  in roboshop.yml" />
-    <MESSAGE value="make some changes  in mongodb" />
     <MESSAGE value="make some changes  in 05-loops.yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="make some changes  in 05-loops.yml" />
+    <MESSAGE value="make some changes  in mongodb" />
+    <option name="LAST_COMMIT_MESSAGE" value="make some changes  in mongodb" />
   </component>
 </project>

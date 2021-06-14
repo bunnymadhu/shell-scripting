@@ -1,3 +1,20 @@
-- name: Print Component Name
-  debug:
-    msg: Component = Catalogue
+- name: Install the latest version of Apache
+  yum:
+    name:
+      - nodejs
+      - make
+      - gcc-c++
+    state: latest
+
+- name: Add Roboshop User
+  ansible.builtin.user:
+    name: roboshop
+    comment: Roboshop Project User
+
+- name: Download package
+  include_role:
+    name: common
+    tasks_from: download-from-github
+  vars:
+    APP_DIR: /home/roboshop/catalogue
+    EXTRACT_DIR: /home/roboshop
