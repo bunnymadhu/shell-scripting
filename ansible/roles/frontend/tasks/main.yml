@@ -38,4 +38,6 @@
 ## cat /etc/nginx/default.d/roboshop.conf
 ## telnet catalogue.roboshop.internal 8080 -- will help this  checking up we r able to reach u in  remote server
 ## here remote_src means,sometimes source is itself  in same node wherever dest file is...on that time remote_src=true means the source is same node not on ansible server...
+## nslookup frontend.roboshop,internal is the command to shows which server u r wrkng..
+## dig  rontend.roboshop,internal .. dig is also a command to shows the server
 
