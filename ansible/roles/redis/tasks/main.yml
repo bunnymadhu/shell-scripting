@@ -8,4 +8,18 @@
     name: redis
     state: present
     enablerepo: "remi"
-# enablerepo will usefull to yum command will  identify the automatically which ever in the latest package and will download the latest package..
+
+# enablerepo:"remi" will usefull to yum command will  identify the automatically which ever in the latest package and will download the latest package..
+## yum list installed | grep redis.... it shows which version and then yum remove redis.x86_64 (old version) and git pull in ansible server and see root server in redis.roboshop.internal it will create latest version by thet help enablerepo..
+
+- name: Update the Redis IP Address
+  ansible.builtin.replace:
+    path: /etc/redis.conf
+    regexp: '127.0.0.1'
+    replace: '0.0.0.0'
+
+- name: Start Redis
+  systemd:
+    name: redis
+    enabled: yes
+    state: started
