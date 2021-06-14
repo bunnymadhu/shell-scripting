@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/roboshop.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roboshop.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/roles/frontend/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/frontend/tasks/main.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ansible/roles/redis/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/redis/tasks/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,13 +55,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
-    </task>
-    <task id="LOCAL-00455" summary="make some changes  in frontend">
-      <created>1623578815202</created>
-      <option name="number" value="00455" />
-      <option name="presentableId" value="LOCAL-00455" />
-      <option name="project" value="LOCAL" />
-      <updated>1623578815203</updated>
     </task>
     <task id="LOCAL-00456" summary="make some changes  in frontend">
       <created>1623578894083</created>
@@ -402,7 +392,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623675684578</updated>
     </task>
-    <option name="localTasksCounter" value="504" />
+    <task id="LOCAL-00504" summary="make some changes  in redis">
+      <created>1623684548488</created>
+      <option name="number" value="00504" />
+      <option name="presentableId" value="LOCAL-00504" />
+      <option name="project" value="LOCAL" />
+      <updated>1623684548488</updated>
+    </task>
+    <option name="localTasksCounter" value="505" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -418,7 +415,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="make some changes  in mongodb.sh" />
     <MESSAGE value="make some changes  in Makefile" />
     <MESSAGE value="make some changes  in makefile" />
     <MESSAGE value="make some changes  in catalogue.sh" />
@@ -443,6 +439,7 @@
     <MESSAGE value="make some changes  in 05-loops.yml" />
     <MESSAGE value="make some changes  in mongodb" />
     <MESSAGE value="make some changes  in catalogue" />
-    <option name="LAST_COMMIT_MESSAGE" value="make some changes  in catalogue" />
+    <MESSAGE value="make some changes  in redis" />
+    <option name="LAST_COMMIT_MESSAGE" value="make some changes  in redis" />
   </component>
 </project>
