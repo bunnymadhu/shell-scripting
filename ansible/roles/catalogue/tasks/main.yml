@@ -32,5 +32,18 @@
     path: /home/roboshop/catalogue
   become_user: roboshop
 
+- name: Copy SystemD file
+  copy:
+    src: systemd.service
+    dest: /etc/systemd/system/catalogue.service
 
 ## in this in root user cd /home/roboshop/catalogue all script is in root access,so thats why under the  become_user: roboshop will work...
+
+- name: Start MongoDB Service
+  systemd:
+    name: catalogue
+    state: restarted
+    enabled: yes
+    daemon_reload: yes
+
+
