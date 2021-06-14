@@ -1,4 +1,4 @@
-- name: Setup roboshop project Frontend Component
+- name: Setup roboshop project  -- Frontend Component
   hosts:  FRONTEND
   become: yes
   tags:
@@ -7,7 +7,7 @@
     - name: Load Frontend Role
       role: frontend
 
-- name: Setup roboshop project MongnDB Component
+- name: Setup roboshop project  -- MongnDB Component
   hosts:  MONGODB
   become: yes
   tags:
@@ -16,7 +16,7 @@
     - name: Load Mongodb Role
       role: mongodb
 
-- name: Setup roboshop project Catalogue Component
+- name: Setup roboshop project --  Catalogue Component
   hosts:  CATALOGUE
   become: yes
   tags:
