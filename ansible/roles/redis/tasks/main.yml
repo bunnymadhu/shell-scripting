@@ -7,3 +7,5 @@
   yum:
     name: redis
     state: present
+    enablerepo: "remi"
+# enablerepo will usefull to yum command will  identify the automatically which ever in the latest package and will download the latest package..
