@@ -1,4 +1,4 @@
-- name: Install the latest version of Apache
+- name: Install NodeJS
   yum:
     name:
       - nodejs
