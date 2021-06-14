@@ -34,5 +34,8 @@
 
 ## adding '/ ' is useful to show the content of inside that file
 ## while we doing in all frontend-payment first we have to create sh launch.sh all.so on that case all latest DNS will update,,bcz we created earlier in shell-scripting,so instances private id's are there,in ansible we dont have right to working same private id's..thats y create new instances in the name of  sh launch.sh all.....
-
+##  tail -f /var/log/nginx/access.log
+## cat /etc/nginx/default.d/roboshop.conf
+## telnet catalogue.roboshop.internal 8080 -- will help this  checking up we r able to reach u in  remote server
+## here remote_src means,sometimes source is itself  in same node wherever dest file is...on that time remote_src=true means the source is same node not on ansible server...
 

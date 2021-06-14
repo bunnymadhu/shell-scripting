@@ -24,3 +24,66 @@
   roles:
     - name: Load Catalogue Role
       role: catalogue
+
+- name: Setup roboshop project --  Redis Component
+  hosts:  REDIS
+  become: yes
+  tags:
+      - redis
+  roles:
+    - name: Load Redis Role
+      role: redis
+
+- name: Setup roboshop project --  User Component
+  hosts:  USER
+  become: yes
+  tags:
+      - user
+  roles:
+    - name: Load User Role
+      role: user
+
+- name: Setup roboshop project --  Cart Component
+  hosts:  CART
+  become: yes
+  tags:
+      - cart
+  roles:
+    - name: Load Cart Role
+      role: cart
+
+- name: Setup roboshop project --  Mysql Component
+  hosts:  MYSQL
+  become: yes
+  tags:
+      - mysql
+  roles:
+    - name: Load Mysql Role
+      role: mysql
+
+- name: Setup roboshop project --  Shipping Component
+  hosts:  SHIPPING
+  become: yes
+  tags:
+      - shipping
+  roles:
+    - name: Load Shipping Role
+      role: shipping
+
+- name: Setup roboshop project --  Rabbitmq Component
+  hosts:  RABBITMQ
+  become: yes
+  tags:
+      - rabbitmq
+  roles:
+    - name: Load Rabbitmq Role
+      role: rabbitmq
+
+- name: Setup roboshop project --  Payment Component
+  hosts:  PAYMENT
+  become: yes
+  tags:
+      - payment
+  roles:
+    - name: Load Payment Role
+      role: cart
