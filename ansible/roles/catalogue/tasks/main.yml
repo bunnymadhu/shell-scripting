@@ -24,3 +24,8 @@
     src: /home/roboshop/catalogue-main/
     dest: /home/roboshop/catalogue/
     remote_src: yes
+  become_user: roboshop
+
+
+
+## in this in root user cd /home/roboshop/catalogue all script is in root access,so thats why under the  become_user: roboshop will work...
