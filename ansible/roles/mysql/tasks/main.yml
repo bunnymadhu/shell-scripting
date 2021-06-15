@@ -25,6 +25,17 @@
     state: started
     enabled: yes
 
+- name: Check the MySQL Login
+  community.mysql.mysql_query:
+    login_user: root
+    login_pass: RoboShop@1
+    query: show databases
+ register: out
+
+- name: debug
+  debug:
+    msg: "{{ out }}"
+
 - name: Grabing Default Password
   shell: grep "A temporary password" /var/log/mysqld.log | awk '{print $NF}'
   register: MYSQL_DEFAULT_PASSWORD
