@@ -41,7 +41,7 @@
       shell: grep "A temporary password" /var/log/mysqld.log | awk '{print $NF}'
       register: MYSQL_DEFAULT_PASSWORD
 
-   - name: Copy Password Rest SQL Script
+   - name: Copy Password Reset SQL Script
      copy:
        src: mysql-pass-reset.sql
         dest: /tmp/mysql-pass-reset.sql
