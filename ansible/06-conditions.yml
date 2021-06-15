@@ -9,3 +9,7 @@
       when: IS_RUN
 
 #   IS_RUN = is a bulean
+# -e = overwritten meaning
+# if bolean comes into picture we will use
+# if string comes into picture we will use ==
+# if numbers comes into picture we will use == or <
