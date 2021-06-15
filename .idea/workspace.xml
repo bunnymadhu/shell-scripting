@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ansible/06-conditions.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/06-conditions.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/06-conditions.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,27 +55,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
-    </task>
-    <task id="LOCAL-00476" summary="make some changes  in mongodb">
-      <created>1623592661130</created>
-      <option name="number" value="00476" />
-      <option name="presentableId" value="LOCAL-00476" />
-      <option name="project" value="LOCAL" />
-      <updated>1623592661130</updated>
-    </task>
-    <task id="LOCAL-00477" summary="make some changes  in mongodb">
-      <created>1623593390360</created>
-      <option name="number" value="00477" />
-      <option name="presentableId" value="LOCAL-00477" />
-      <option name="project" value="LOCAL" />
-      <updated>1623593390360</updated>
-    </task>
-    <task id="LOCAL-00478" summary="make some changes  in mongodb">
-      <created>1623593456658</created>
-      <option name="number" value="00478" />
-      <option name="presentableId" value="LOCAL-00478" />
-      <option name="project" value="LOCAL" />
-      <updated>1623593456658</updated>
     </task>
     <task id="LOCAL-00479" summary="make some changes  in mongodb">
       <created>1623593562480</created>
@@ -399,7 +378,28 @@
       <option name="project" value="LOCAL" />
       <updated>1623773032730</updated>
     </task>
-    <option name="localTasksCounter" value="525" />
+    <task id="LOCAL-00525" summary="make some changes  in mysql">
+      <created>1623773515970</created>
+      <option name="number" value="00525" />
+      <option name="presentableId" value="LOCAL-00525" />
+      <option name="project" value="LOCAL" />
+      <updated>1623773515970</updated>
+    </task>
+    <task id="LOCAL-00526" summary="make some changes  in 05-loops.yml">
+      <created>1623773559627</created>
+      <option name="number" value="00526" />
+      <option name="presentableId" value="LOCAL-00526" />
+      <option name="project" value="LOCAL" />
+      <updated>1623773559627</updated>
+    </task>
+    <task id="LOCAL-00527" summary="make some changes  in 05-loops.yml">
+      <created>1623773630130</created>
+      <option name="number" value="00527" />
+      <option name="presentableId" value="LOCAL-00527" />
+      <option name="project" value="LOCAL" />
+      <updated>1623773630130</updated>
+    </task>
+    <option name="localTasksCounter" value="528" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -434,12 +434,12 @@
     <MESSAGE value="make some changes  in frontend" />
     <MESSAGE value="make some changes  in 04-tags.yml" />
     <MESSAGE value="make some changes  in roboshop.yml" />
-    <MESSAGE value="make some changes  in 05-loops.yml" />
     <MESSAGE value="make some changes  in mongodb" />
     <MESSAGE value="make some changes  in catalogue" />
     <MESSAGE value="make some changes  in redis" />
     <MESSAGE value="make some changes  in cart" />
     <MESSAGE value="make some changes  in mysql" />
-    <option name="LAST_COMMIT_MESSAGE" value="make some changes  in mysql" />
+    <MESSAGE value="make some changes  in 05-loops.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="make some changes  in 05-loops.yml" />
   </component>
 </project>
