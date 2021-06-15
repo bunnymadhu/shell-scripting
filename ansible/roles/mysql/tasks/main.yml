@@ -20,7 +20,7 @@
 - name: Start MySQL Service
   systemd:
     name: mysqld
-    state: present
+    state: started
     enabled: yes
 
 #- name: Grabing Default Password
