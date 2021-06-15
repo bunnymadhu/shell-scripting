@@ -56,34 +56,6 @@
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
     </task>
-    <task id="LOCAL-00487" summary="make some changes  in mongodb">
-      <created>1623595565661</created>
-      <option name="number" value="00487" />
-      <option name="presentableId" value="LOCAL-00487" />
-      <option name="project" value="LOCAL" />
-      <updated>1623595565661</updated>
-    </task>
-    <task id="LOCAL-00488" summary="make some changes  in mongodb">
-      <created>1623595712951</created>
-      <option name="number" value="00488" />
-      <option name="presentableId" value="LOCAL-00488" />
-      <option name="project" value="LOCAL" />
-      <updated>1623595712951</updated>
-    </task>
-    <task id="LOCAL-00489" summary="make some changes  in mongodb">
-      <created>1623596460302</created>
-      <option name="number" value="00489" />
-      <option name="presentableId" value="LOCAL-00489" />
-      <option name="project" value="LOCAL" />
-      <updated>1623596460302</updated>
-    </task>
-    <task id="LOCAL-00490" summary="make some changes  in 05-loops.yml">
-      <created>1623597859607</created>
-      <option name="number" value="00490" />
-      <option name="presentableId" value="LOCAL-00490" />
-      <option name="project" value="LOCAL" />
-      <updated>1623597859607</updated>
-    </task>
     <task id="LOCAL-00491" summary="make some changes  in mongodb">
       <created>1623598071073</created>
       <option name="number" value="00491" />
@@ -399,7 +371,35 @@
       <option name="project" value="LOCAL" />
       <updated>1623774906977</updated>
     </task>
-    <option name="localTasksCounter" value="536" />
+    <task id="LOCAL-00536" summary="make some changes  in mysql">
+      <created>1623775052632</created>
+      <option name="number" value="00536" />
+      <option name="presentableId" value="LOCAL-00536" />
+      <option name="project" value="LOCAL" />
+      <updated>1623775052632</updated>
+    </task>
+    <task id="LOCAL-00537" summary="make some changes  in mysql">
+      <created>1623775104786</created>
+      <option name="number" value="00537" />
+      <option name="presentableId" value="LOCAL-00537" />
+      <option name="project" value="LOCAL" />
+      <updated>1623775104786</updated>
+    </task>
+    <task id="LOCAL-00538" summary="make some changes  in mysql">
+      <created>1623775170017</created>
+      <option name="number" value="00538" />
+      <option name="presentableId" value="LOCAL-00538" />
+      <option name="project" value="LOCAL" />
+      <updated>1623775170017</updated>
+    </task>
+    <task id="LOCAL-00539" summary="make some changes  in mysql">
+      <created>1623775239972</created>
+      <option name="number" value="00539" />
+      <option name="presentableId" value="LOCAL-00539" />
+      <option name="project" value="LOCAL" />
+      <updated>1623775239972</updated>
+    </task>
+    <option name="localTasksCounter" value="540" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
