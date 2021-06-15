@@ -40,4 +40,8 @@
 ## here remote_src means,sometimes source is itself  in same node wherever dest file is...on that time remote_src=true means the source is same node not on ansible server...
 ## nslookup frontend.roboshop,internal is the command to shows which server u r wrkng..
 ## dig  rontend.roboshop,internal .. dig is also a command to shows the server
+## ansible doesnt have any kind of search(grep) modules..
+## ctl+k = it will show push message
+## ctl+forward slash is to notate front '#' in selected lines
+## -b=sudo(Root or become root)permission,-a=atribute
 

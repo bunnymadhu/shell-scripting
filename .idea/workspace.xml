@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="make some changes  in cart">
+    <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/roboshop.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roboshop.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/frontend/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/frontend/tasks/main.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ansible/roles/mysql/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/mysql/tasks/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,13 +57,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
-    </task>
-    <task id="LOCAL-00461" summary="make some changes  in frontend">
-      <created>1623586372519</created>
-      <option name="number" value="00461" />
-      <option name="presentableId" value="LOCAL-00461" />
-      <option name="project" value="LOCAL" />
-      <updated>1623586372519</updated>
     </task>
     <task id="LOCAL-00462" summary="make some changes  in mongodb">
       <created>1623587760807</created>
@@ -401,7 +394,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623688705604</updated>
     </task>
-    <option name="localTasksCounter" value="510" />
+    <task id="LOCAL-00510" summary="make some changes  in cart">
+      <created>1623728564615</created>
+      <option name="number" value="00510" />
+      <option name="presentableId" value="LOCAL-00510" />
+      <option name="project" value="LOCAL" />
+      <updated>1623728564615</updated>
+    </task>
+    <option name="localTasksCounter" value="511" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

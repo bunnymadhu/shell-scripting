@@ -23,18 +23,14 @@
     state: present
     enabled: yes
 
-## ansible doesnt have any kind of search(grep) modules..
-## ctl+k = it will show push message
-## ctl+forward slash is to notate front '#' in selected lines
-
-- name: "Searching for a String"
-    become: yes
-    become_user: root
-    tags: example1
-    lineinfile:
-      path: /etc/httpd/conf/httpd.conf
-      line: "LogLevel debug"
-      state: present
-    check_mode: yes
-    register: presence
-    failed_when: presence is changed
+#- name: Grabing Default Password
+#  lineinfile:
+#      path: /var/log/mysql.log
+#      line: "A temporary password"
+#      state: present
+# check_mode: yes
+# register: presence
+#
+#- name:
+#  debug:
+#    msg: "{{presence}}"
