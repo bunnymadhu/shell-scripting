@@ -1,0 +1,11 @@
+- name: Demo on Conditions
+  hosts:
+  vars:
+    IS_RUN: false
+  tasks:
+    - name: Run based on user input
+      debug:
+        msg: hello madhu
+    when: IS_RUN
+
+#   IS_RUN = is a bulean
