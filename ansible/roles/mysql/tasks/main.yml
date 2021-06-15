@@ -42,7 +42,7 @@
          register: MYSQL_DEFAULT_PASSWORD
 
       - name: Copy Password Rest SQL Script
-        copy:
+         copy:
           src: mysql-pass-reset.sql
           dest: /tmp/mysql-pass-reset.sql
 
