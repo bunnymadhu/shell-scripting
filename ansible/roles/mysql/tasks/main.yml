@@ -30,7 +30,7 @@
     login_user: root
     login_pass: RoboShop@1
     query: show databases
- register: out
+  register: out
 
 - name: debug
   debug:
