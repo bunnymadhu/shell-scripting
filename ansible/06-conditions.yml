@@ -6,6 +6,6 @@
     - name: Run based on user input
       debug:
         msg: hello madhu
-    when: IS_RUN
+     when: IS_RUN
 
 #   IS_RUN = is a bulean
