@@ -34,7 +34,7 @@
 
 - name: debug
   debug:
-    msg: "{{ out }}"
+    msg: "{{out}}"
 
 - name: Grabing Default Password
   shell: grep "A temporary password" /var/log/mysqld.log | awk '{print $NF}'
