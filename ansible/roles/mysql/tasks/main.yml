@@ -1,3 +1,40 @@
-- name: Print Component Name
-  debug:
-    msg: Component = MySQL
+- name: Add MySQL repository
+  yum_repository:
+    name: MySQL
+    description: MySQL Repository
+    baseurl: http://repo.mysql.com/yum/mysql-5.7-community/el/7/$basearch/
+    enabled: yes
+    gpgcheck: no
+    file: mysql
+
+- name: Remove MariaDB Libraries
+  yum:
+    name: mariadb.libs
+    state: absent
+
+- name: Install MySQL Server
+  yum:
+    name: mysql-community-server
+    state: present
+
+- name: Start MySQL Service
+  systemd:
+    name: mysqld
+    state: present
+    enabled: yes
+
+## ansible doesnt have any kind of search(grep) modules..
+## ctl+k = it will show push message
+## ctl+forward slash is to notate front '#' in selected lines
+
+- name: "Searching for a String"
+    become: yes
+    become_user: root
+    tags: example1
+    lineinfile:
+      path: /etc/httpd/conf/httpd.conf
+      line: "LogLevel debug"
+      state: present
+    check_mode: yes
+    register: presence
+    failed_when: presence is changed

@@ -7,7 +7,7 @@
     - name: Load Frontend Role
       role: frontend
 
-- name: Setup roboshop project  -- MongnDB Component
+- name: Setup roboshop project  -- MongoDB Component
   hosts:  MONGODB
   become: yes
   tags:
