@@ -37,9 +37,9 @@
   mysql_user:
     login_host: 'localhost'
     login_user: 'root'
-    login_password: "{{MYSQL_DEFAULT_PASSWORD}}"
+    login_password: "{{MYSQL_DEFAULT_PASSWORD.stdout}}"
     name: 'root'
     password: 'Roboshop@1'
     state: present
 
-
+# .stdout is the going to have the password not the complete message...
