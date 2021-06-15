@@ -50,5 +50,6 @@
      shell: mysql --connect-expired-password -u root -p"{{MYSQL_DEFAULT_PASSWORD.stdout}}" < /tmp/mysql-pass-reset.sql
  when: out.failed
 
+
 # .stdout is the going to have the password not the complete message...
 # using block module u can keep some task inside that and u cn place the some condition
