@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/mysql/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/mysql/tasks/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,13 +55,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
-    </task>
-    <task id="LOCAL-00463" summary="make some changes  in mongodb">
-      <created>1623587932399</created>
-      <option name="number" value="00463" />
-      <option name="presentableId" value="LOCAL-00463" />
-      <option name="project" value="LOCAL" />
-      <updated>1623587932399</updated>
     </task>
     <task id="LOCAL-00464" summary="make some changes  in mongodb">
       <created>1623588002055</created>
@@ -399,7 +392,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623768216684</updated>
     </task>
-    <option name="localTasksCounter" value="512" />
+    <task id="LOCAL-00512" summary="make some changes  in mysql">
+      <created>1623769094776</created>
+      <option name="number" value="00512" />
+      <option name="presentableId" value="LOCAL-00512" />
+      <option name="project" value="LOCAL" />
+      <updated>1623769094776</updated>
+    </task>
+    <option name="localTasksCounter" value="513" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -415,7 +415,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="make some changes  in makefile" />
     <MESSAGE value="make some changes  in catalogue.sh" />
     <MESSAGE value="make some changes  in redis.sh" />
     <MESSAGE value="make some changes  in rabbitmq.sh" />
@@ -440,6 +439,7 @@
     <MESSAGE value="make some changes  in catalogue" />
     <MESSAGE value="make some changes  in redis" />
     <MESSAGE value="make some changes  in cart" />
-    <option name="LAST_COMMIT_MESSAGE" value="make some changes  in cart" />
+    <MESSAGE value="make some changes  in mysql" />
+    <option name="LAST_COMMIT_MESSAGE" value="make some changes  in mysql" />
   </component>
 </project>

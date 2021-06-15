@@ -23,14 +23,14 @@
     state: started
     enabled: yes
 
-#- name: Grabing Default Password
-#  lineinfile:
-#      path: /var/log/mysql.log
-#      line: "A temporary password"
-#      state: present
-# check_mode: yes
-# register: presence
-#
-#- name:
-#  debug:
-#    msg: "{{presence}}"
+- name: Grabing Default Password
+  lineinfile:
+      path: /var/log/mysqld.log
+      line: "A temporary password"
+      state: present
+ check_mode: yes
+ register: presence
+
+- name: debug
+  debug:
+    msg: "{{presence}}"
