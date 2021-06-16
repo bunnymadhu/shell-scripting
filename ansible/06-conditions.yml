@@ -12,7 +12,7 @@
     - name: Print if this is Ubuntu OS
       debug:
         msg: Hello Ubuntu
-      when: ansible
+      when: ansible_distribution
 
 #   IS_RUN = is a bulean
 # -e = overwritten meaning
