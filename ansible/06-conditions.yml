@@ -9,9 +9,9 @@
         msg: hello madhu
       when: IS_RUN
     ## String Condition
-    - name: Print if this is Ubuntu OS
-      debug:
-        msg: Hello Ubuntu
+   - name: Print if this is Ubuntu OS
+     debug:
+       msg: Hello Ubuntu
      when: ansible
 
 #   IS_RUN = is a bulean

@@ -56,20 +56,6 @@
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
     </task>
-    <task id="LOCAL-00506" summary="make some changes  in redis">
-      <created>1623685378091</created>
-      <option name="number" value="00506" />
-      <option name="presentableId" value="LOCAL-00506" />
-      <option name="project" value="LOCAL" />
-      <updated>1623685378091</updated>
-    </task>
-    <task id="LOCAL-00507" summary="make some changes  in redis">
-      <created>1623686528330</created>
-      <option name="number" value="00507" />
-      <option name="presentableId" value="LOCAL-00507" />
-      <option name="project" value="LOCAL" />
-      <updated>1623686528330</updated>
-    </task>
     <task id="LOCAL-00508" summary="make some changes  in redis">
       <created>1623687186788</created>
       <option name="number" value="00508" />
@@ -399,7 +385,21 @@
       <option name="project" value="LOCAL" />
       <updated>1623852878939</updated>
     </task>
-    <option name="localTasksCounter" value="555" />
+    <task id="LOCAL-00555" summary="make some changes  in 06-conditions.yml">
+      <created>1623857154878</created>
+      <option name="number" value="00555" />
+      <option name="presentableId" value="LOCAL-00555" />
+      <option name="project" value="LOCAL" />
+      <updated>1623857154878</updated>
+    </task>
+    <task id="LOCAL-00556" summary="make some changes  in 06-conditions.yml">
+      <created>1623857215614</created>
+      <option name="number" value="00556" />
+      <option name="presentableId" value="LOCAL-00556" />
+      <option name="project" value="LOCAL" />
+      <updated>1623857215614</updated>
+    </task>
+    <option name="localTasksCounter" value="557" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -415,7 +415,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="make some changes  in redis.sh" />
     <MESSAGE value="make some changes  in rabbitmq.sh" />
     <MESSAGE value="make some changes  in common.sh" />
     <MESSAGE value="make some changes  in mysql.sh" />
@@ -440,6 +439,7 @@
     <MESSAGE value="make some changes  in 05-loops.yml" />
     <MESSAGE value="make some changes  in mysql" />
     <MESSAGE value="make some changes  in 07-ignore-errors.yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="make some changes  in 07-ignore-errors.yml" />
+    <MESSAGE value="make some changes  in 06-conditions.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="make some changes  in 06-conditions.yml" />
   </component>
 </project>
