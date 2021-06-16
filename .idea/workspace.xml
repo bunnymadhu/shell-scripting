@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/common/tasks/java.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/common/tasks/java.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,27 +56,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
-    </task>
-    <task id="LOCAL-00517" summary="make some changes  in mysql">
-      <created>1623771085173</created>
-      <option name="number" value="00517" />
-      <option name="presentableId" value="LOCAL-00517" />
-      <option name="project" value="LOCAL" />
-      <updated>1623771085173</updated>
-    </task>
-    <task id="LOCAL-00518" summary="make some changes  in mysql">
-      <created>1623771268287</created>
-      <option name="number" value="00518" />
-      <option name="presentableId" value="LOCAL-00518" />
-      <option name="project" value="LOCAL" />
-      <updated>1623771268287</updated>
-    </task>
-    <task id="LOCAL-00519" summary="make some changes  in mysql">
-      <created>1623771574057</created>
-      <option name="number" value="00519" />
-      <option name="presentableId" value="LOCAL-00519" />
-      <option name="project" value="LOCAL" />
-      <updated>1623771574057</updated>
     </task>
     <task id="LOCAL-00520" summary="make some changes  in mysql">
       <created>1623772188199</created>
@@ -399,7 +379,28 @@
       <option name="project" value="LOCAL" />
       <updated>1623862343970</updated>
     </task>
-    <option name="localTasksCounter" value="566" />
+    <task id="LOCAL-00566" summary="make some changes  in shipping">
+      <created>1623863485236</created>
+      <option name="number" value="00566" />
+      <option name="presentableId" value="LOCAL-00566" />
+      <option name="project" value="LOCAL" />
+      <updated>1623863485236</updated>
+    </task>
+    <task id="LOCAL-00567" summary="make some changes  in shipping">
+      <created>1623863615688</created>
+      <option name="number" value="00567" />
+      <option name="presentableId" value="LOCAL-00567" />
+      <option name="project" value="LOCAL" />
+      <updated>1623863615688</updated>
+    </task>
+    <task id="LOCAL-00568" summary="make some changes  in shipping">
+      <created>1623863648601</created>
+      <option name="number" value="00568" />
+      <option name="presentableId" value="LOCAL-00568" />
+      <option name="project" value="LOCAL" />
+      <updated>1623863648601</updated>
+    </task>
+    <option name="localTasksCounter" value="569" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

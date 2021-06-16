@@ -28,7 +28,7 @@
 - name: Build a Package with Maven
   shell: mvn clean package && mv target/{{COMPONENT}}-1.0.jar {{COMPONENT}}.jar
   args:
-     chdir: /home/roboshop/{{COMPONENT}}
+    chdir: /home/roboshop/{{COMPONENT}}
   become_user: roboshop
 
 ## in shell ansible module--- u can switch to another directory to use args ; chdir
