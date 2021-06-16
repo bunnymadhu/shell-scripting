@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ansible/roles/common/tasks/java.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ansible/roles/shipping/files/systemd.service" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/roles/shipping/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/shipping/tasks/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,13 +55,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
-    </task>
-    <task id="LOCAL-00516" summary="make some changes  in mysql">
-      <created>1623770091710</created>
-      <option name="number" value="00516" />
-      <option name="presentableId" value="LOCAL-00516" />
-      <option name="project" value="LOCAL" />
-      <updated>1623770091710</updated>
     </task>
     <task id="LOCAL-00517" summary="make some changes  in mysql">
       <created>1623771085173</created>
@@ -402,7 +392,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623859550814</updated>
     </task>
-    <option name="localTasksCounter" value="565" />
+    <task id="LOCAL-00565" summary="make some changes  in shipping">
+      <created>1623862343970</created>
+      <option name="number" value="00565" />
+      <option name="presentableId" value="LOCAL-00565" />
+      <option name="project" value="LOCAL" />
+      <updated>1623862343970</updated>
+    </task>
+    <option name="localTasksCounter" value="566" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -418,7 +415,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="make some changes  in rabbitmq.sh" />
     <MESSAGE value="make some changes  in common.sh" />
     <MESSAGE value="make some changes  in mysql.sh" />
     <MESSAGE value="make some changes  in ansible" />
@@ -443,6 +439,7 @@
     <MESSAGE value="make some changes  in mysql" />
     <MESSAGE value="make some changes  in 07-ignore-errors.yml" />
     <MESSAGE value="make some changes  in 06-conditions.yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="make some changes  in 06-conditions.yml" />
+    <MESSAGE value="make some changes  in shipping" />
+    <option name="LAST_COMMIT_MESSAGE" value="make some changes  in shipping" />
   </component>
 </project>
