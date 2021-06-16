@@ -2,6 +2,7 @@
   hosts: localhost
   vars:
     IS_RUN: false
+    COUNT: 2
   tasks:
      ## Boolean Condition
     - name: Run based on user input
@@ -12,7 +13,12 @@
     - name: Print if this is Ubuntu OS
       debug:
         msg: Hello Ubuntu
-      when: ansible_distribution
+      when: ansible_distribution == "Ubuntu"
+    ## Number Condition
+    - name: Print if 2 == 2
+      debug:
+        msg: Hello 2 == 2
+      when: COUNT 2 == 2
 
 #   IS_RUN = is a bulean
 # -e = overwritten meaning
