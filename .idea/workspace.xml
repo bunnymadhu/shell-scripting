@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ansible/07-ignore-errors.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/roles/mysql/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/mysql/tasks/main.yml" afterDir="false" />
-    </list>
+    <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,27 +53,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
-    </task>
-    <task id="LOCAL-00502" summary="make some changes  in catalogue">
-      <created>1623674614950</created>
-      <option name="number" value="00502" />
-      <option name="presentableId" value="LOCAL-00502" />
-      <option name="project" value="LOCAL" />
-      <updated>1623674614950</updated>
-    </task>
-    <task id="LOCAL-00503" summary="make some changes  in catalogue">
-      <created>1623675684578</created>
-      <option name="number" value="00503" />
-      <option name="presentableId" value="LOCAL-00503" />
-      <option name="project" value="LOCAL" />
-      <updated>1623675684578</updated>
-    </task>
-    <task id="LOCAL-00504" summary="make some changes  in redis">
-      <created>1623684548488</created>
-      <option name="number" value="00504" />
-      <option name="presentableId" value="LOCAL-00504" />
-      <option name="project" value="LOCAL" />
-      <updated>1623684548488</updated>
     </task>
     <task id="LOCAL-00505" summary="make some changes  in redis">
       <created>1623684757713</created>
@@ -401,7 +376,28 @@
       <option name="project" value="LOCAL" />
       <updated>1623778816230</updated>
     </task>
-    <option name="localTasksCounter" value="551" />
+    <task id="LOCAL-00551" summary="make some changes  in 07-ignore-errors.yml">
+      <created>1623852497168</created>
+      <option name="number" value="00551" />
+      <option name="presentableId" value="LOCAL-00551" />
+      <option name="project" value="LOCAL" />
+      <updated>1623852497168</updated>
+    </task>
+    <task id="LOCAL-00552" summary="make some changes  in 07-ignore-errors.yml">
+      <created>1623852600792</created>
+      <option name="number" value="00552" />
+      <option name="presentableId" value="LOCAL-00552" />
+      <option name="project" value="LOCAL" />
+      <updated>1623852600792</updated>
+    </task>
+    <task id="LOCAL-00553" summary="make some changes  in 07-ignore-errors.yml">
+      <created>1623852618678</created>
+      <option name="number" value="00553" />
+      <option name="presentableId" value="LOCAL-00553" />
+      <option name="project" value="LOCAL" />
+      <updated>1623852618678</updated>
+    </task>
+    <option name="localTasksCounter" value="554" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -417,7 +413,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="make some changes  in catalogue.sh" />
     <MESSAGE value="make some changes  in redis.sh" />
     <MESSAGE value="make some changes  in rabbitmq.sh" />
     <MESSAGE value="make some changes  in common.sh" />
@@ -442,6 +437,7 @@
     <MESSAGE value="make some changes  in cart" />
     <MESSAGE value="make some changes  in 05-loops.yml" />
     <MESSAGE value="make some changes  in mysql" />
-    <option name="LAST_COMMIT_MESSAGE" value="make some changes  in mysql" />
+    <MESSAGE value="make some changes  in 07-ignore-errors.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="make some changes  in 07-ignore-errors.yml" />
   </component>
 </project>

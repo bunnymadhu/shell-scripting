@@ -55,9 +55,9 @@
 # .stdout is the going to have the password not the complete message...
 # using block module u can keep some task inside that and u cn place the some condition
 
-- name: Start MongoDB service
+- name: Start MySQL service
   systemd:
-    name: mongod
+    name: mysqld
     enabled: yes
     state: started
 
