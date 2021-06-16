@@ -17,8 +17,8 @@
     ## Number Condition
     - name: Print if 2 == 2
       debug:
-        msg: Hello 2 == 2
-     when: COUNT 2 == 2
+        msg: Hello COUNT == 2
+      when: COUNT 2 == 2
 
 #   IS_RUN = is a bulean
 # -e = overwritten meaning
