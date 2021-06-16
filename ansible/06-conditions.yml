@@ -18,7 +18,7 @@
     - name: Print if 2 == 2
       debug:
         msg: Hello COUNT == 2
-      when: COUNT 2 == 2
+      when: COUNT  == 2
 
 #   IS_RUN = is a bulean
 # -e = overwritten meaning
