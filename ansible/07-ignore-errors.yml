@@ -1,0 +1,10 @@
+- name: ignore_errors Demo
+  hosts: localhost
+  tasks:
+    - name: Fail this task
+      fail:
+        msg: Failing for Demo
+
+    - name: Print hello
+      debug:
+        msg: Hello

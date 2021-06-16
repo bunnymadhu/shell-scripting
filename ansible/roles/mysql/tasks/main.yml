@@ -54,3 +54,27 @@
 
 # .stdout is the going to have the password not the complete message...
 # using block module u can keep some task inside that and u cn place the some condition
+
+- name: Start MongoDB service
+  systemd:
+    name: mongod
+    enabled: yes
+    state: started
+
+- name: Download package
+  include_role:
+    name: common
+    tasks_from: download-from-github
+  vars:
+    APP_DIR: /tmp/mysql-main
+    EXTRACT_DIR: /tmp
+
+## in root user cd /tmp and cd mongodb-main
+
+- name: Load Schema
+  community.mysql.mysql_db:
+    state: import
+    name: all
+    target: /tmp/mysql-main/shipping.sql
+    login_user: root
+    login_password: RoboShop@1

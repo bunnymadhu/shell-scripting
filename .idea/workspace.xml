@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ansible/07-ignore-errors.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/mysql/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/mysql/tasks/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,13 +57,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
-    </task>
-    <task id="LOCAL-00501" summary="make some changes  in catalogue">
-      <created>1623673309018</created>
-      <option name="number" value="00501" />
-      <option name="presentableId" value="LOCAL-00501" />
-      <option name="project" value="LOCAL" />
-      <updated>1623673309018</updated>
     </task>
     <task id="LOCAL-00502" summary="make some changes  in catalogue">
       <created>1623674614950</created>
@@ -399,7 +394,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623777973062</updated>
     </task>
-    <option name="localTasksCounter" value="550" />
+    <task id="LOCAL-00550" summary="make some changes  in mysql">
+      <created>1623778816229</created>
+      <option name="number" value="00550" />
+      <option name="presentableId" value="LOCAL-00550" />
+      <option name="project" value="LOCAL" />
+      <updated>1623778816230</updated>
+    </task>
+    <option name="localTasksCounter" value="551" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
