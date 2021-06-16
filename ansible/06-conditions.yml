@@ -3,10 +3,16 @@
   vars:
     IS_RUN: false
   tasks:
+     ## Boolean Condition
     - name: Run based on user input
       debug:
         msg: hello madhu
       when: IS_RUN
+    ## String Condition
+    - name: Print if this is Ubuntu OS
+      debug:
+        msg: Hello Ubuntu
+      when: ansible
 
 #   IS_RUN = is a bulean
 # -e = overwritten meaning
