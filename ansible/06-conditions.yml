@@ -20,6 +20,11 @@
         msg: Hello COUNT == 2
       when: COUNT  == 2
 
+    - name: Print if COUNT > 1
+      debug:
+        msg: Hello COUNT > 1
+      when: COUNT > 1
+
 #   IS_RUN = is a bulean
 # -e = overwritten meaning
 # if bolean comes into picture we will use
