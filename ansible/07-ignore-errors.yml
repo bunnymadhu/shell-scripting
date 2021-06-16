@@ -4,7 +4,7 @@
     - name: Fail this task
       fail:
         msg: Failing for Demo
-     ignore_errors: yes
+      ignore_errors: yes
 
     - name: Print hello
       debug:
