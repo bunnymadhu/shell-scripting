@@ -1,9 +1,9 @@
-- name: Install NodeJS
+- name: Install Python
   yum:
     name:
-      - nodejs
-      - make
-      - gcc-c++
+      - python36
+      - gcc
+      - python3-devel
     state: installed
 
 - name: Add Roboshop User
@@ -27,10 +27,12 @@
     remote_src: yes
   become_user: roboshop
 
-- name: Download the NodeJS Dependencies
-  community.general.npm:
-    path: /home/roboshop/{{COMPONENT}}
-  become_user: roboshop
+- name: Install specified python requirements
+  pip:
+    requirements: /home/roboshop/{{COMPONENT}}//requirements.txt
+    executable: pip3.3
+
+# exclusively say it is pip3 version so thats y mention 'excutable'
 
 - name: Copy SystemD file
   copy:
