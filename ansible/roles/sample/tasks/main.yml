@@ -1,10 +1,15 @@
-- name: print Hello
-  debug:
-    msg: Hello from a Role
+#- name: print Hello
+#  debug:
+#    msg: Hello from a Role
+#
+#- name: print URL
+#  debug:
+#    msg: URL = {{ URL }}
+#
+#- name: Load Sample
+#  include_tasks: sample.yml
 
-- name: print URL
-  debug:
-    msg: URL = {{ URL }}
-
-- name: Load Sample
-  include_tasks: sample.yml
+- name: Template
+  template:
+    src: sample.txt
+    dest: /tmp/sample.txt
