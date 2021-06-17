@@ -1,10 +1,21 @@
 - name: Demo on vault
   hosts: localhost
   vars:
-    PASSWORD: abc123
+    PASSWORD: !vault |
+                        $ANSIBLE_VAULT;1.1;AES256
+                        36373237356434396133646330323861663665616631303035343832316232626264663830376237
+                        3936356636353064376562333163663938363735396465320a396565313763646431646633373733
+                        32616436623332656361353263353830333633393736343565333263623062663161616331393537
+                        6239386136646166350a343662353065643132303463626663343762373733346438643231376235
+                        3638
   tasks:
     - name: Demo on Vault
       debug:
         msg: Password = {{ PASSWORD }}
 
  ## whenever u have a sensitive information,we have to stored in encripted way,so vault is usefull to  that...
+ ## after git pull; ansible-playbook 09-vault.yml -e ansible_password=DevOps321 then
+ ## ansible-vault in that
+ ## ansible-vault encrypt_string abc123 u can that ancripted script...
+ ## what ever password(DevOps321) u can use that de-cripted r else u can loss the password
+ ## if u want the script u can go thru the ansible-playbook 09-vault.yml -e ansible_password=DevOps321

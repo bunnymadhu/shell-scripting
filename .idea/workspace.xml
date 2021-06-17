@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ansible/09-vault.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/09-vault.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/09-vault.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,20 +64,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
-    </task>
-    <task id="LOCAL-00529" summary="make some changes  in mysql">
-      <created>1623774452393</created>
-      <option name="number" value="00529" />
-      <option name="presentableId" value="LOCAL-00529" />
-      <option name="project" value="LOCAL" />
-      <updated>1623774452393</updated>
-    </task>
-    <task id="LOCAL-00530" summary="make some changes  in mysql">
-      <created>1623774572620</created>
-      <option name="number" value="00530" />
-      <option name="presentableId" value="LOCAL-00530" />
-      <option name="project" value="LOCAL" />
-      <updated>1623774572620</updated>
     </task>
     <task id="LOCAL-00531" summary="make some changes  in mysql">
       <created>1623774664515</created>
@@ -408,7 +394,21 @@
       <option name="project" value="LOCAL" />
       <updated>1623947362035</updated>
     </task>
-    <option name="localTasksCounter" value="578" />
+    <task id="LOCAL-00578" summary="make some changes  in 09-vault.yml">
+      <created>1623948250808</created>
+      <option name="number" value="00578" />
+      <option name="presentableId" value="LOCAL-00578" />
+      <option name="project" value="LOCAL" />
+      <updated>1623948250808</updated>
+    </task>
+    <task id="LOCAL-00579" summary="make some changes  in 09-vault.yml">
+      <created>1623948395045</created>
+      <option name="number" value="00579" />
+      <option name="presentableId" value="LOCAL-00579" />
+      <option name="project" value="LOCAL" />
+      <updated>1623948395047</updated>
+    </task>
+    <option name="localTasksCounter" value="580" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -424,7 +424,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="make some changes  in 01-variables.yml" />
     <MESSAGE value="make some changes  in 02-variables.yml" />
     <MESSAGE value="make some changes  in example-vars.yml" />
     <MESSAGE value="make some changes  in 02-vars.yml" />
@@ -449,6 +448,7 @@
     <MESSAGE value="make some changes  in roboshop.yml" />
     <MESSAGE value="make some changes  in sample.txt" />
     <MESSAGE value="make some changes  in 08-templates.yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="make some changes  in 08-templates.yml" />
+    <MESSAGE value="make some changes  in 09-vault.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="make some changes  in 09-vault.yml" />
   </component>
 </project>
