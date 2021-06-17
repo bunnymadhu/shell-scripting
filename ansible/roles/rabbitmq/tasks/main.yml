@@ -11,13 +11,13 @@
     name: rabbitmq-server
     state: present
 
-- name: Start RabitMQ Service
+- name: Start RabbitMQ Service
   systemd:
     name: rabbitmq-server
     state: started
     enabled: yes
 
-- name: Configure RabitMQ User
+- name: Configure RabbitMQ User
   community.rabbitmq.rabbitmq_user:
     user: roboshop
     password: roboshop123
