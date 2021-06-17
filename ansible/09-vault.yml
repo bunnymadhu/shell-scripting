@@ -1,0 +1,10 @@
+- name: Demo on vault
+  hosts:
+  vars:
+    PASSWORD: abc123
+  tasks:
+    - name: Demo on Vault
+      debug:
+        msg: Password = {{ PASSWORD }}
+
+ ## whenever u have a sensitive information,we have to stored in encripted way,so vault is usefull to  that...
