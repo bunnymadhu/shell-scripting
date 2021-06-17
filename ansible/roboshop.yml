@@ -86,4 +86,4 @@
       - payment
   roles:
     - name: Load Payment Role
-      role: cart
+      role: payment
