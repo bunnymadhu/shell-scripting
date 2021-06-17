@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/roles/common/tasks/java.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/common/tasks/java.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/06-conditions.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/06-conditions.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,13 +56,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
-    </task>
-    <task id="LOCAL-00520" summary="make some changes  in mysql">
-      <created>1623772188199</created>
-      <option name="number" value="00520" />
-      <option name="presentableId" value="LOCAL-00520" />
-      <option name="project" value="LOCAL" />
-      <updated>1623772188199</updated>
     </task>
     <task id="LOCAL-00521" summary="make some changes  in mysql">
       <created>1623772362756</created>
@@ -400,7 +393,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623863648601</updated>
     </task>
-    <option name="localTasksCounter" value="569" />
+    <task id="LOCAL-00569" summary="make some changes  in shipping">
+      <created>1623864159569</created>
+      <option name="number" value="00569" />
+      <option name="presentableId" value="LOCAL-00569" />
+      <option name="project" value="LOCAL" />
+      <updated>1623864159569</updated>
+    </task>
+    <option name="localTasksCounter" value="570" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

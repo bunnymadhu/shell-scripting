@@ -1,7 +1,7 @@
 - name: Install Maven
   yum:
     name:
-      - java
+      - maven
     state: installed
 
 - name: Add Roboshop User

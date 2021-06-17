@@ -30,3 +30,4 @@
 # if bolean comes into picture we will use
 # if string comes into picture we will use ==
 # if numbers comes into picture we will use == or <
+# see ansible documentory on '"conditions'' to see the multiple tasks on web..
