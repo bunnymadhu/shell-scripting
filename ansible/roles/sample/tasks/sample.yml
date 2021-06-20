@@ -1,3 +1,0 @@
-- name: Print Sample Hello
-  debug:
-    msg: Hello from Sample YML file in  role

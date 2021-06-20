@@ -3,7 +3,70 @@
   <component name="ChangeListManager">
     <list default="true" id="49101422-32dc-4d15-84b2-8289fdd8d3ee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/09-vault.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/09-vault.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maven/maven format" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/01-playbook.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/02-vars.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/03-roles.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/04-tags.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/05-loops.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/06-conditions.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/07-ignore-errors.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/08-templates.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/09-vault.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/Instance-launch/launch.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/Instance-launch/record.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/ansible.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/example-vars.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/inv-roboshop" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roboshop.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/cart/files/systemd.service" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/cart/meta/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/cart/tasks/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/cart/vars/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/catalogue/files/systemd.service" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/catalogue/meta/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/catalogue/tasks/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/catalogue/vars/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/common/tasks/download-from-github.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/common/tasks/java.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/common/tasks/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/common/tasks/nodejs.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/common/tasks/python.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/frontend/files/roboshop.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/frontend/meta/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/frontend/tasks/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/frontend/vars/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/mongodb/handlers/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/mongodb/meta/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/mongodb/tasks/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/mongodb/vars/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/mysql/files/mysql-pass-reset.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/mysql/meta/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/mysql/tasks/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/mysql/vars/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/payment/files/systemd.service" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/payment/meta/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/payment/tasks/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/payment/vars/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/rabbitmq/meta/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/rabbitmq/tasks/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/rabbitmq/vars/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/redis/meta/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/redis/tasks/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/redis/vars/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/sample/defaults/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/sample/tasks/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/sample/tasks/sample.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/sample/templates/sample.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/sample/vars/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/shipping/files/systemd.service" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/shipping/meta/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/shipping/tasks/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/shipping/vars/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/user/files/systemd.service" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/user/meta/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/user/tasks/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/user/vars/main.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +104,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ansible/roles/payment" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -64,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622046702919</updated>
-    </task>
-    <task id="LOCAL-00531" summary="make some changes  in mysql">
-      <created>1623774664515</created>
-      <option name="number" value="00531" />
-      <option name="presentableId" value="LOCAL-00531" />
-      <option name="project" value="LOCAL" />
-      <updated>1623774664515</updated>
     </task>
     <task id="LOCAL-00532" summary="make some changes  in mysql">
       <created>1623774734933</created>
@@ -408,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623948395047</updated>
     </task>
-    <option name="localTasksCounter" value="580" />
+    <task id="LOCAL-00580" summary="make some changes  in 09-vault.yml">
+      <created>1623948910669</created>
+      <option name="number" value="00580" />
+      <option name="presentableId" value="LOCAL-00580" />
+      <option name="project" value="LOCAL" />
+      <updated>1623948910669</updated>
+    </task>
+    <option name="localTasksCounter" value="581" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
